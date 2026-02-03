@@ -465,6 +465,35 @@ function renderSingleStop(line, filter, stopIndex) {
     scheduleView.innerHTML = html;
 }
 
+// Mostrar prompt de instalación
+function showInstallPrompt() {
+    const prompt = document.createElement('div');
+    prompt.className = 'install-prompt';
+    prompt.innerHTML = `
+        <p>¿Quieres instalar la app de Autobuses Lebrija?</p>
+        <button id="installPromptBtn">Instalar</button>
+        <button id="cancelPromptBtn">Cancelar</button>
+    `;
+    document.body.appendChild(prompt);
+
+    document.getElementById('installPromptBtn').addEventListener('click', () => {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then((choiceResult) => {
+                if (choiceResult.outcome === 'accepted') {
+                    console.log('Usuario aceptó la instalación');
+                }
+                deferredPrompt = null;
+                prompt.remove();
+            });
+        }
+    });
+
+    document.getElementById('cancelPromptBtn').addEventListener('click', () => {
+        prompt.remove();
+    });
+}
+
 // Instalar app manualmente
 function installApp() {
     if (deferredPrompt) {
@@ -472,20 +501,11 @@ function installApp() {
         deferredPrompt.userChoice.then((choiceResult) => {
             if (choiceResult.outcome === 'accepted') {
                 console.log('Usuario aceptó la instalación');
-                // Ocultar el botón después de instalar
-                document.getElementById('installBtn').style.display = 'none';
-            } else {
-                console.log('Usuario rechazó la instalación');
             }
             deferredPrompt = null;
         });
     } else {
-        // Verificar si ya está instalada
-        if (window.matchMedia('(display-mode: standalone)').matches) {
-            alert('✅ La aplicación ya está instalada en tu dispositivo.\n\nPuedes encontrarla en tu pantalla de inicio o en tus aplicaciones instaladas.');
-        } else {
-            alert('📱 Para instalar la aplicación:\n\n1. Abre el menú del navegador (⋮ o ...)\n2. Selecciona "Añadir a pantalla de inicio" o "Instalar aplicación"\n3. Confirma la instalación\n\nLa app funcionará como una aplicación nativa con acceso offline.');
-        }
+        alert('La app ya está instalada o no está disponible para instalar');
     }
 }
 
