@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Horarios de autobuses de Lebrija - Consulta rápida por paradas">
+    <title>Autobuses Lebrija</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">🚌</div>
+                <h1>Autobuses Lebrija</h1>
+            </div>
+            <div class="date-display" id="currentDate"></div>
+        </header>
+
+        <main class="main-content">
+            <div class="line-selector" id="lineSelector">
+                <button class="line-btn active" data-line="urbana">
+                    <span class="line-icon">🏙️</span>
+                    <span class="line-name">Línea Urbana</span>
+                </button>
+                <button class="line-btn" data-line="renfe">
+                    <span class="line-icon">🚆</span>
+                    <span class="line-name">Línea Renfe</span>
+                </button>
+                <button class="line-btn" data-line="sevilla">
+                    <span class="line-icon">🛣️</span>
+                    <span class="line-name">Lebrija-Sevilla-Chipiona</span>
+                </button>
+            </div>
+
+            <div class="schedule-container" id="scheduleContainer">
+                <div class="schedule-header">
+                    <h2 id="scheduleTitle">Línea Urbana</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="laborables">Laborables</button>
+                        <button class="filter-btn" data-filter="sabados">Sábados</button>
+                        <button class="filter-btn" data-filter="domingos">Domingos</button>
+                    </div>
+                </div>
+
+                <!-- Selector de sentido (solo para línea Sevilla-Chipiona) -->
+                <div class="direction-selector" id="directionSelector" style="display:none;">
+                    <label for="directionSelect">Sentido:</label>
+                    <select id="directionSelect" class="direction-select">
+                        <option value="ida">Chipiona → Lebrija → Sevilla</option>
+                        <option value="vuelta">Sevilla → Lebrija → Chipiona</option>
+                    </select>
+                </div>
+
+                <!-- Selector de parada -->
+                <div class="stop-selector">
+                    <label for="stopSelect">Selecciona una parada:</label>
+                    <select id="stopSelect" class="stop-select">
+                        <option value="">Todas las paradas</option>
+                    </select>
+                </div>
+
+                <!-- Vista de horarios -->
+                <div class="schedule-view" id="scheduleView">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Cargando horarios...</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Información actualizada desde e.lebrija.es</p>
+            <button class="install-btn" id="installBtn">➕ Instalar App</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
