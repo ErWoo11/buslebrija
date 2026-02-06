@@ -1,12 +1,12 @@
-const CACHE_NAME = 'autobuses-lebrija-v1';
+const CACHE_NAME = 'autobuses-lebrija-v2';
 const urlsToCache = [
     '/buslebrija/',
     '/buslebrija/index.html',
     '/buslebrija/styles.css',
     '/buslebrija/script.js',
     '/buslebrija/manifest.json',
-    '/buslebrija/logo.png',
-    '/buslebrija/logo-512.png'
+    '/buslebrija/logo1.png',
+    '/buslebrija/logo-5121.png'
 ];
 
 // Instalación
