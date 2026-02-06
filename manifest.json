@@ -2,20 +2,31 @@
     "name": "Autobuses Lebrija",
     "short_name": "Autobuses Lebrija",
     "description": "Consulta rápida y sencilla de horarios de autobuses de Lebrija",
-    "start_url": "/buslebrija/index.html",
+    "start_url": "/buslebrija/",
     "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#284e88",
-  "icons": [
-    {
-      "src": "/farmapp/logo1.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/farmapp/logo-5121.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/buslebrija/logo1.png?v=2",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/buslebrija/logo-5121.png?v=2",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["travel", "utilities", "productivity"],
+    "screenshots": [
+        {
+            "src": "/buslebrija/logo1.png?v=2",
+            "sizes": "1280x720",
+            "type": "image/png"
+        }
+    ]
 }
