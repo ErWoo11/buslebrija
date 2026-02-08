@@ -4,8 +4,8 @@
     "description": "Consulta rápida y sencilla de horarios de autobuses de Lebrija",
     "start_url": "/buslebrija/",
     "display": "standalone",
-    "background_color": "#000000",
-    "theme_color": "#000000",
+    "background_color": "#F8F6F2",
+    "theme_color": "#A8C5B5",
     "orientation": "portrait",
     "icons": [
         {
@@ -19,15 +19,6 @@
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
-        }
-    ],
-    "categories": ["travel", "utilities", "productivity"],
-    "screenshots": [
-        {
-            "src": "/buslebrija/logo.png",
-            "sizes": "1280x720",
-            "type": "image/png",
-            "platform": "wide"
         }
     ]
 }
