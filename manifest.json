@@ -1,6 +1,6 @@
 {
     "name": "prueba",
-    "short_name": "Autobuses Lebrija",
+    "short_name": "prueba2",
     "description": "Consulta rápida y sencilla de horarios de autobuses de Lebrija",
     "start_url": "/buslebrija/",
     "display": "standalone",
