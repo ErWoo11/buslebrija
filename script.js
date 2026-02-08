@@ -33,7 +33,7 @@ const demo = initDemo();
         navigator.serviceWorker.getRegistrations().then(registrations => {
             registrations.forEach(registration => {
                 registration.unregister().then(() => {
-                    console.log('Service Worker desregistrado y caché eliminado');
+                    console.log('Service Worker desregistrado');
                     // Eliminar todos los cachés
                     if (window.caches) {
                         caches.keys().then(cacheNames => {
@@ -42,9 +42,9 @@ const demo = initDemo();
                             });
                         });
                     }
-                });
+                }).catch(err => console.error('Error desregistrando SW:', err));
             });
-        }).catch(err => console.error('Error desregistrando SW:', err));
+        }).catch(err => console.error('Error obteniendo registros SW:', err));
     }
 
     // Verificar conexión a internet al cargar
@@ -127,7 +127,7 @@ const demo = initDemo();
     // Verificar al cargar la página
     window.addEventListener('load', () => {
         if (!checkConnection()) {
-            console.warn('App iniciada sin conexión a internet');
+            console.warn('App iniciada sin conexión - inicialización detenida');
         }
     });
 
@@ -138,15 +138,11 @@ const demo = initDemo();
     window.addEventListener('online', () => {
         console.log('Conexión restablecida');
         checkConnection();
-        if (confirm('✅ ¡Conexión restablecida!\n\n¿Quieres recargar la página para actualizar los datos?')) {
-            location.reload();
-        }
     });
 
     window.addEventListener('offline', () => {
         console.warn('Conexión perdida');
         checkConnection();
-        alert('⚠️ Se ha perdido la conexión a internet.\n\nLa aplicación no funcionará hasta que se restablezca la conexión.');
     });
 })();
 
@@ -159,16 +155,136 @@ function resetStopSelection() {
     }
 }
 
-// Datos de horarios de todas las líneas
+// Datos de horarios de todas las líneas - ¡COMPLETOS!
 const busSchedules = {
-    // ... (LOS DATOS DE HORARIOS PERMANECEN IGUALES - NO CAMBIAN) ...
-    // [Mantén exactamente el mismo contenido de busSchedules que tenías]
-    urbana: { /* ... */ },
-    renfe: { /* ... */ },
-    sevilla: { /* ... */ }
+    urbana: {
+        laborables: {
+            stops: [
+                { name: 'Hospital', times: ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00'] },
+                { name: 'Plaza de Abastos', times: ['8:03', '9:03', '10:03', '11:03', '12:03', '13:03'] },
+                { name: 'José Fernández Ruiz - Cantarería', times: ['8:05', '9:05', '10:05', '11:05', '12:05', '13:05'] },
+                { name: 'José Fernández Ruiz C/Roma', times: ['8:07', '9:07', '10:07', '11:07', '12:07', '13:07'] },
+                { name: 'Glorieta María Auxiliadora', times: ['8:08', '9:08', '10:08', '11:08', '12:08', '13:08'] },
+                { name: 'Avenida Canga C/Francia', times: ['8:11', '9:11', '10:11', '11:11', '12:11', '13:11'] },
+                { name: 'Avenida Canga C/Hijas Caridad', times: ['8:13', '9:13', '10:13', '11:13', '12:13', '13:13'] },
+                { name: 'Avenida Canga Pza Campiña', times: ['8:15', '9:15', '10:15', '11:15', '12:15', '13:15'] },
+                { name: 'Venta Renaul', times: ['8:16', '9:16', '10:16', '11:16', '12:16', '13:16'] },
+                { name: 'A. Calvo Ruiz Sta Brígida', times: ['8:17', '9:17', '10:17', '11:17', '12:17', '13:17'] },
+                { name: 'Plaza Manuela Murube', times: ['8:20', '9:20', '10:20', '11:20', '12:20', '13:20'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['8:21', '9:21', '10:21', '11:21', '12:21', '13:21'] },
+                { name: 'Tetuán - Veracruz', times: ['8:22', '9:22', '10:22', '11:22', '12:22', '13:22'] },
+                { name: 'Zancarrón - Jazmín', times: ['8:23', '9:23', '10:23', '11:23', '12:23', '13:23'] },
+                { name: 'Reyes Católicos', times: ['8:24', '9:24', '10:24', '11:24', '12:24', '13:24'] },
+                { name: 'Miguel Unamuno-Hta Macenas 1ª parada', times: ['8:25', '9:25', '10:25', '11:25', '12:25', '13:25'] },
+                { name: 'Miguel Unamuno-Hta Macenas 2ª parada', times: ['8:26', '9:26', '10:26', '11:26', '12:26', '13:26'] },
+                { name: 'Miguel Unamuno-Hta Macenas 3ª parada', times: ['8:27', '9:27', '10:27', '11:27', '12:27', '13:27'] },
+                { name: 'Cañada Lebrija-Trebujena', times: ['8:30', '9:30', '10:30', '11:30', '12:30', '13:30'] },
+                { name: 'Dr. José Viel (antiguo Lidl)', times: ['8:32', '9:32', '10:32', '11:32', '12:32', '13:32'] },
+                { name: 'Avenida Andalucía', times: ['8:33', '9:33', '10:33', '11:33', '12:33', '13:33'] },
+                { name: 'Ambulatorio', times: ['8:34', '9:34', '10:34', '11:34', '12:34', '13:34'] },
+                { name: 'Plaza Manuela Murube', times: ['8:35', '9:35', '10:35', '11:35', '12:35', '13:35'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['8:36', '9:36', '10:36', '11:36', '12:36', '13:36'] },
+                { name: 'Esquina Tetuán-Veracruz', times: ['8:37', '9:37', '10:37', '11:37', '12:37', '13:37'] },
+                { name: 'Camino del Aceituno (Mercadona)', times: ['8:38', '9:38', '10:38', '11:38', '12:38', '13:38'] },
+                { name: 'Hospital', times: ['8:40', '9:40', '10:40', '11:40', '12:40', '13:40'] }
+            ]
+        },
+        sabados: {
+            stops: [
+                { name: 'Hospital', times: ['10:00', '11:00', '12:00'] },
+                { name: 'Plaza de Abastos', times: ['10:03', '11:03', '12:03'] },
+                { name: 'José Fernández Ruiz - Cantarería', times: ['10:05', '11:05', '12:05'] },
+                { name: 'José Fernández Ruiz - C/Roma', times: ['10:07', '11:07', '12:07'] },
+                { name: 'Glorieta María Auxiliadora', times: ['10:08', '11:08', '12:08'] },
+                { name: 'Avda Canga - C/Francia', times: ['10:11', '11:11', '12:11'] },
+                { name: 'Avda Canga - Hijas Caridad', times: ['10:13', '11:13', '12:13'] },
+                { name: 'Avda Canga - Plaza Campiña', times: ['10:15', '11:15', '12:15'] },
+                { name: 'Venta Renaul', times: ['10:16', '11:16', '12:16'] },
+                { name: 'Antonio Calvo Ruiz - Sta Brigida', times: ['10:17', '11:17', '12:17'] },
+                { name: 'Plaza Manuela Murube', times: ['10:20', '11:20', '12:20'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['10:21', '11:21', '12:21'] },
+                { name: 'Tetuán - Veracruz', times: ['10:22', '11:22', '12:22'] },
+                { name: 'Zancarrón - Jazmín', times: ['10:23', '11:23', '12:23'] },
+                { name: 'Reyes Católicos', times: ['10:24', '11:24', '12:24'] },
+                { name: 'Miguel Unamuno-Hta Macenas 1ª parada', times: ['10:25', '11:25', '12:25'] },
+                { name: 'Miguel Unamuno-Hta Macenas 2ª parada', times: ['10:26', '11:26', '12:26'] },
+                { name: 'Miguel Unamuno-Hta Macenas 3ª parada', times: ['10:27', '11:27', '12:27'] },
+                { name: 'Cañada Lebrija-Trebujena', times: ['10:30', '11:30', '12:30'] },
+                { name: 'Avda José Viel (Lidl)', times: ['10:32', '11:32', '12:32'] },
+                { name: 'Avenida Andalucía', times: ['10:33', '11:33', '12:33'] },
+                { name: 'Ambulatorio', times: ['10:34', '11:34', '12:34'] },
+                { name: 'Plaza Manuela Murube', times: ['10:35', '11:35', '12:35'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['10:36', '11:36', '12:36'] },
+                { name: 'Esquina Tetuán-Veracruz', times: ['10:37', '11:37', '12:37'] },
+                { name: 'Camino del Aceituno (Mercadona)', times: ['10:38', '11:38', '12:38'] },
+                { name: 'Hospital', times: ['10:40', '11:40', '12:40'] }
+            ]
+        },
+        domingos: {
+            stops: []
+        }
+    },
+    renfe: {
+        laborables: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['6:00', '6:50', '8:15', '9:00', '10:15', '11:30', '13:15', '15:10', '15:55', '16:20', '17:15', '18:00', '19:15', '20:00', '21:00'] },
+                { name: 'Estación de Renfe', times: ['6:40', '7:45', '8:35', '9:35', '11:02', '12:00', '13:40', '15:20', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45', '21:35'] }
+            ]
+        },
+        sabados: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['9:00', '10:15', '11:30', '15:10', '16:20', '17:15', '18:00', '19:15', '20:00'] },
+                { name: 'Estación de Renfe', times: ['9:35', '11:02', '12:00', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45'] }
+            ]
+        },
+        domingos: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['9:00', '10:15', '11:30', '15:10', '16:20', '17:15', '18:00', '19:15', '20:00'] },
+                { name: 'Estación de Renfe', times: ['9:35', '11:02', '12:00', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45'] }
+            ]
+        }
+    },
+    sevilla: {
+        laborables: {
+            ida: [
+                { name: 'Chipiona', times: ['06:45', '09:00', '11:00', '13:00', '15:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['07:45', '10:00', '12:00', '14:00', '16:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['09:00', '11:15', '13:15', '15:15', '17:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['06:00', '07:00', '09:00', '11:00', '13:00', '13:45', '15:00', '17:00', '19:00'] },
+                { name: 'Lebrija', times: ['07:15', '08:15', '10:15', '12:15', '14:15', '15:00', '16:15', '18:15', '20:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['08:15', '09:15', '11:15', '13:15', '15:15', '16:00', '17:15', '19:15', '21:15'], destination: true }
+            ]
+        },
+        sabados: {
+            ida: [
+                { name: 'Chipiona', times: ['08:00', '10:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['09:00', '11:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['10:15', '12:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['08:00', '10:00', '12:00', '16:00', '20:00'] },
+                { name: 'Lebrija', times: ['09:15', '11:15', '13:15', '17:15', '21:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['10:15', '12:15', '14:15', '18:15', '22:15'], destination: true }
+            ]
+        },
+        domingos: {
+            ida: [
+                { name: 'Chipiona', times: ['08:00', '10:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['09:00', '11:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['10:15', '12:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['08:00', '10:00', '12:00', '16:00', '20:00'] },
+                { name: 'Lebrija', times: ['09:15', '11:15', '13:15', '17:15', '21:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['10:15', '12:15', '14:15', '18:15', '22:15'], destination: true }
+            ]
+        }
+    }
 };
 
-// Variables globales
+// Variables globales - ¡DEFINIDAS!
 let currentLine = 'urbana';
 let currentFilter = 'laborables';
 let currentStop = '';
@@ -183,25 +299,27 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
     
-    // Inicializar demo banner
-    initDemoBanner();
+    // Inicializar demo banner (con fallback si no existe)
+    try {
+        initDemoBanner();
+    } catch (e) {
+        console.warn('Banner DEMO no encontrado, continuando sin él');
+    }
     
     initDateDisplay();
     initEventListeners();
     loadStopsToSelect();
     loadSchedule(currentLine, currentFilter);
-    
-    // Eliminar cualquier Service Worker residual
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.getRegistrations().then(registrations => {
-            registrations.forEach(reg => reg.unregister());
-        });
-    }
 });
 
 // Inicializar banner DEMO
 function initDemoBanner() {
     const demoBanner = document.getElementById('demo-banner');
+    
+    if (!demoBanner) {
+        console.warn('Elemento #demo-banner no encontrado en el DOM');
+        return;
+    }
     
     if (DEMO_ENABLED) {
         if (demo && demo.isActive) {
@@ -220,6 +338,8 @@ function initDemoBanner() {
 // Mostrar fecha actual
 function initDateDisplay() {
     const dateElement = document.getElementById('currentDate');
+    if (!dateElement) return;
+    
     const now = new Date();
     const options = { 
         weekday: 'long', 
@@ -259,9 +379,9 @@ function initEventListeners() {
             // Mostrar/ocultar selector de sentido
             const directionSelector = document.getElementById('directionSelector');
             if (currentLine === 'sevilla') {
-                directionSelector.style.display = 'block';
+                if (directionSelector) directionSelector.style.display = 'block';
             } else {
-                directionSelector.style.display = 'none';
+                if (directionSelector) directionSelector.style.display = 'none';
             }
             
             loadStopsToSelect();
@@ -296,46 +416,55 @@ function initEventListeners() {
     });
 
     // Cambiar parada
-    document.getElementById('stopSelect').addEventListener('change', (e) => {
-        // Verificar conexión primero
-        if (!navigator.onLine) {
-            alert('⚠️ Necesitas conexión a internet para usar esta función');
-            return;
-        }
-        
-        if (DEMO_ENABLED && demo && !demo.isActive) {
-            showDemoExpiredAlert();
-            return;
-        }
-        
-        currentStop = e.target.value;
-        loadSchedule(currentLine, currentFilter);
-    });
+    const stopSelect = document.getElementById('stopSelect');
+    if (stopSelect) {
+        stopSelect.addEventListener('change', (e) => {
+            // Verificar conexión primero
+            if (!navigator.onLine) {
+                alert('⚠️ Necesitas conexión a internet para usar esta función');
+                return;
+            }
+            
+            if (DEMO_ENABLED && demo && !demo.isActive) {
+                showDemoExpiredAlert();
+                return;
+            }
+            
+            currentStop = e.target.value;
+            loadSchedule(currentLine, currentFilter);
+        });
+    }
 
     // Cambiar sentido (solo para línea Sevilla)
-    document.getElementById('directionSelect')?.addEventListener('change', (e) => {
-        // Verificar conexión primero
-        if (!navigator.onLine) {
-            alert('⚠️ Necesitas conexión a internet para usar esta función');
-            return;
-        }
-        
-        if (DEMO_ENABLED && demo && !demo.isActive) {
-            showDemoExpiredAlert();
-            return;
-        }
-        
-        currentDirection = e.target.value;
-        
-        // ✅ REINICIAR SELECCIÓN DE PARADA AL CAMBIAR DE DIRECCIÓN
-        resetStopSelection();
-        
-        loadStopsToSelect();
-        loadSchedule(currentLine, currentFilter);
-    });
+    const directionSelect = document.getElementById('directionSelect');
+    if (directionSelect) {
+        directionSelect.addEventListener('change', (e) => {
+            // Verificar conexión primero
+            if (!navigator.onLine) {
+                alert('⚠️ Necesitas conexión a internet para usar esta función');
+                return;
+            }
+            
+            if (DEMO_ENABLED && demo && !demo.isActive) {
+                showDemoExpiredAlert();
+                return;
+            }
+            
+            currentDirection = e.target.value;
+            
+            // ✅ REINICIAR SELECCIÓN DE PARADA AL CAMBIAR DE DIRECCIÓN
+            resetStopSelection();
+            
+            loadStopsToSelect();
+            loadSchedule(currentLine, currentFilter);
+        });
+    }
 
     // Botón de instalación
-    document.getElementById('installBtn').addEventListener('click', installApp);
+    const installBtn = document.getElementById('installBtn');
+    if (installBtn) {
+        installBtn.addEventListener('click', installApp);
+    }
 }
 
 // Obtener nombre de la línea
@@ -357,6 +486,8 @@ function loadStopsToSelect() {
     }
     
     const select = document.getElementById('stopSelect');
+    if (!select) return;
+    
     select.innerHTML = '<option value="">Todas las paradas</option>';
     
     if (busSchedules[currentLine] && busSchedules[currentLine][currentFilter]) {
@@ -385,18 +516,23 @@ function loadSchedule(line, filter) {
     // Verificar conexión primero
     if (!navigator.onLine) {
         console.warn('Carga de horarios cancelada: sin conexión');
-        document.getElementById('scheduleView').innerHTML = `
-            <div class="no-schedules">
-                <p>⚠️ Conexión a internet requerida para ver los horarios</p>
-                <button onclick="location.reload()" class="install-btn" style="margin-top: 15px;">
-                    Recargar página
-                </button>
-            </div>
-        `;
+        const scheduleView = document.getElementById('scheduleView');
+        if (scheduleView) {
+            scheduleView.innerHTML = `
+                <div class="no-schedules">
+                    <p>⚠️ Conexión a internet requerida para ver los horarios</p>
+                    <button onclick="location.reload()" class="install-btn" style="margin-top: 15px;">
+                        Recargar página
+                    </button>
+                </div>
+            `;
+        }
         return;
     }
     
     const scheduleView = document.getElementById('scheduleView');
+    if (!scheduleView) return;
+    
     scheduleView.innerHTML = '<div class="loading"><div class="spinner"></div><p>Cargando horarios...</p></div>';
 
     setTimeout(() => {
@@ -408,7 +544,188 @@ function loadSchedule(line, filter) {
     }, 500);
 }
 
-// [RESTO DE LAS FUNCIONES PERMANECEN IGUALES: getNextTimeIndex, renderFullRoute, renderRouteSection, renderStopCard, renderSingleStop]
+// Obtener el próximo horario de una parada
+function getNextTimeIndex(times) {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    for (let i = 0; i < times.length; i++) {
+        const [h, m] = times[i].split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        if (scheduleTime > currentTime) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+// Renderizar ruta completa
+function renderFullRoute(line, filter) {
+    const scheduleView = document.getElementById('scheduleView');
+    if (!scheduleView) return;
+    
+    if (!busSchedules[line] || !busSchedules[line][filter]) {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para esta línea</p></div>';
+        return;
+    }
+    
+    const data = busSchedules[line][filter];
+    let html = '';
+    
+    // Para la línea Sevilla-Chipiona, mostrar ida y vuelta separadamente
+    if (line === 'sevilla' && data.ida && data.vuelta) {
+        html += '<div class="route-direction"><h3>Ida: Chipiona → Lebrija → Sevilla</h3>';
+        html += renderRouteSection(data.ida, 'ida');
+        html += '</div>';
+        
+        html += '<div class="route-direction"><h3>Vuelta: Sevilla → Lebrija → Chipiona</h3>';
+        html += renderRouteSection(data.vuelta, 'vuelta');
+        html += '</div>';
+    } else if (data.stops) {
+        html += '<div class="full-route">';
+        data.stops.forEach(stop => {
+            html += renderStopCard(stop);
+        });
+        html += '</div>';
+    } else {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para este día</p></div>';
+        return;
+    }
+    
+    scheduleView.innerHTML = html;
+}
+
+// Renderizar sección de ruta
+function renderRouteSection(stops, direction) {
+    let html = '<div class="full-route">';
+    stops.forEach(stop => {
+        html += renderStopCard(stop, direction);
+    });
+    html += '</div>';
+    return html;
+}
+
+// Renderizar tarjeta de parada
+function renderStopCard(stop, direction = null) {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    const isOrigin = (direction === 'ida' && (stop.name === 'Chipiona' || stop.name === 'Lebrija')) ||
+                     (direction === 'vuelta' && (stop.name === 'Sevilla' || stop.name === 'Lebrija'));
+    
+    const nextTimeIndex = getNextTimeIndex(stop.times);
+    
+    let html = `
+        <div class="stop-card">
+            <div class="stop-name">
+                ${stop.name}
+                ${stop.origin ? '<span class="origin-label">Origen</span>' : ''}
+                ${stop.destination ? '<span class="destination-label">Destino</span>' : ''}
+            </div>
+            <div class="stop-times">
+    `;
+    
+    stop.times.forEach((time, index) => {
+        const [h, m] = time.split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        
+        let isNext = false;
+        
+        if (stop.highlightOnly) {
+            isNext = (index === nextTimeIndex);
+        } else if (currentLine === 'renfe') {
+            isNext = (index === nextTimeIndex);
+        } else if (currentLine === 'sevilla') {
+            isNext = false;
+        } else {
+            isNext = isOrigin && scheduleTime > currentTime && scheduleTime <= currentTime + 60;
+        }
+        
+        html += `<span class="time-badge ${isNext ? 'highlight' : ''}">${time}</span>`;
+    });
+    
+    html += `
+            </div>
+        </div>
+    `;
+    
+    return html;
+}
+
+// Renderizar vista de parada única
+function renderSingleStop(line, filter, stopIndex) {
+    const scheduleView = document.getElementById('scheduleView');
+    if (!scheduleView) return;
+    
+    if (!busSchedules[line] || !busSchedules[line][filter]) {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para esta línea</p></div>';
+        return;
+    }
+    
+    const data = busSchedules[line][filter];
+    let stop;
+    
+    if (line === 'sevilla' && data.ida && data.vuelta) {
+        const directionData = data[currentDirection];
+        stop = directionData[stopIndex];
+    } else if (data.stops && stopIndex < data.stops.length) {
+        stop = data.stops[stopIndex];
+    } else {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>Parada no encontrada</p></div>';
+        return;
+    }
+    
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    const nextTimeIndex = getNextTimeIndex(stop.times);
+    
+    let html = `
+        <div class="single-stop-view">
+            <div class="single-stop-name">📍 ${stop.name}</div>
+            <div class="times-grid">
+    `;
+    
+    stop.times.forEach((time, index) => {
+        const [h, m] = time.split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        const isPast = scheduleTime < currentTime;
+        
+        let isNext = false;
+        let status = '';
+        
+        if (stop.highlightOnly || currentLine === 'renfe') {
+            isNext = (index === nextTimeIndex);
+            status = isNext ? 'Próximo' : (isPast ? 'Pasado' : 'Hoy');
+        } else if (currentLine === 'sevilla') {
+            isNext = false;
+            status = isPast ? 'Pasado' : 'Hoy';
+        } else {
+            isNext = scheduleTime > currentTime && scheduleTime <= currentTime + 60;
+            status = isNext ? 'Próximo' : (isPast ? 'Pasado' : 'Hoy');
+        }
+        
+        html += `
+            <div class="time-card ${isNext ? 'highlight' : ''}">
+                <div class="time">${time}</div>
+                <div class="status">${status}</div>
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+        </div>
+    `;
+    
+    scheduleView.innerHTML = html;
+}
 
 // Instalar app manualmente
 function installApp() {
@@ -425,13 +742,14 @@ function installApp() {
     
     if (deferredPrompt) {
         // Mostrar confirmación antes de instalar (SIN mencionar offline)
-        if (confirm('¿Quieres instalar la aplicación de Autobuses Lebrija?\n\n✅ Acceso rápido desde tu pantalla de inicio\n✅ Notificaciones de próximos autobuses\n✅ Interfaz optimizada para móvil')) {
+        if (confirm('¿Quieres instalar la aplicación de Autobuses Lebrija?\n\n✅ Acceso rápido desde tu pantalla de inicio\n✅ Notificaciones de próximos autobuses\n✅ Interfaz optimizada para móvil\n\n⚠️ IMPORTANTE: Requiere conexión a internet para funcionar')) {
             deferredPrompt.prompt();
             deferredPrompt.userChoice.then((choiceResult) => {
                 if (choiceResult.outcome === 'accepted') {
                     alert('✅ ¡App instalada correctamente!\n\n⚠️ IMPORTANTE: Esta aplicación requiere conexión a internet para funcionar.');
                     // Ocultar botón después de instalar
-                    document.getElementById('installBtn').style.display = 'none';
+                    const installBtn = document.getElementById('installBtn');
+                    if (installBtn) installBtn.style.display = 'none';
                 } else {
                     alert('❌ Instalación cancelada');
                 }
@@ -572,12 +890,14 @@ setInterval(() => {
         const daysLeft = Math.max(0, DEMO_DAYS - elapsed);
         
         const demoBanner = document.getElementById('demo-banner');
-        if (daysLeft > 0) {
-            demoBanner.textContent = `🔷 DEMO — Quedan ${daysLeft} día${daysLeft !== 1 ? 's' : ''} de prueba`;
-            demoBanner.className = 'demo-banner';
-        } else {
-            demoBanner.textContent = '🔶 DEMO EXPIRADA — Funcionalidad limitada. Contacta para versión completa.';
-            demoBanner.className = 'demo-banner expired';
+        if (demoBanner) {
+            if (daysLeft > 0) {
+                demoBanner.textContent = `🔷 DEMO — Quedan ${daysLeft} día${daysLeft !== 1 ? 's' : ''} de prueba`;
+                demoBanner.className = 'demo-banner';
+            } else {
+                demoBanner.textContent = '🔶 DEMO EXPIRADA — Funcionalidad limitada. Contacta para versión completa.';
+                demoBanner.className = 'demo-banner expired';
+            }
         }
     }
 }, 60000);
