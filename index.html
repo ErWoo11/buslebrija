@@ -1,4 +1,4 @@
-.<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,9 +10,9 @@
 
   <!-- PWA Manifest -->
   <link rel="manifest" href="manifest.json">
-  
+
   <!-- Icons -->
-  <link rel="apple-touch-icon" href="/buslebrija/logo.png">
+  <link rel="apple-touch-icon" href="/buslebrija/logo-512.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/buslebrija/logo.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/buslebrija/logo-512.png">
   
@@ -95,17 +95,5 @@
     </div>
 
     <script src="script.js"></script>
-    
-    <script>
-        // Registrar Service Worker
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('service-worker.js')
-                    .then(reg => console.log('Service Worker registrado'))
-                    .catch(err => console.log('Error al registrar SW:', err));
-            });
-        }
-    </script>
-
 </body>
 </html>
