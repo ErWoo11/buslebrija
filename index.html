@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#A8C5B5">
-    <meta name="description" content="Horarios de autobuses de Lebrija - Consulta rápida por paradas">
+    <meta name="description" content="Horarios de autobuses de Lebrija">
     <title>Autobuses Lebrija</title>
     
-    <!-- ✅ FAVICON OBLIGATORIO (sin esto falla en muchos navegadores) -->
+    <!-- Favicon OBLIGATORIO -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
     
-    <!-- ✅ MANIFEST (debe ser el primero después de favicons) -->
+    <!-- Manifest -->
     <link rel="manifest" href="manifest.json">
     
-    <!-- ✅ APPLE TOUCH ICON (¡OBLIGATORIO! 180x180, fondo sólido, SIN transparencia) -->
-    <link rel="apple-touch-icon" href="logo-180.png">
+    <!-- Apple Touch Icon (¡CRÍTICO!) -->
+    <link rel="apple-touch-icon" href="logo.192.png">
     
-    <!-- ✅ META TAGS PARA iOS -->
+    <!-- iOS Meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Autobuses Lebrija">
     
-    <!-- ✅ OPEN GRAPH PARA COMPARTIR -->
-    <meta property="og:image" content="https://tu-usuario.github.io/buslebrija/logo-512.png">
-    <meta property="og:image:width" content="512">
-    <meta property="og:image:height" content="512">
-    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- ✅ BANNER DEMO OBLIGATORIO (NO ELIMINAR) -->
     <div id="demo-banner" class="demo-banner"></div>
-
     <div class="container">
         <header class="header">
             <div class="logo">
@@ -42,7 +33,6 @@
             </div>
             <div class="date-display" id="currentDate"></div>
         </header>
-
         <main class="main-content">
             <div class="line-selector" id="lineSelector">
                 <button class="line-btn active" data-line="urbana">
@@ -58,7 +48,6 @@
                     <span class="line-name">Lebrija-Sevilla-Chipiona</span>
                 </button>
             </div>
-
             <div class="schedule-container" id="scheduleContainer">
                 <div class="schedule-header">
                     <h2 id="scheduleTitle">Línea Urbana</h2>
@@ -68,8 +57,6 @@
                         <button class="filter-btn" data-filter="domingos">Domingos</button>
                     </div>
                 </div>
-
-                <!-- Selector de sentido (solo para línea Sevilla-Chipiona) -->
                 <div class="direction-selector" id="directionSelector" style="display:none;">
                     <label for="directionSelect">Sentido:</label>
                     <select id="directionSelect" class="direction-select">
@@ -77,16 +64,12 @@
                         <option value="vuelta">Sevilla → Lebrija → Chipiona</option>
                     </select>
                 </div>
-
-                <!-- Selector de parada -->
                 <div class="stop-selector">
                     <label for="stopSelect">Selecciona una parada:</label>
                     <select id="stopSelect" class="stop-select">
                         <option value="">Todas las paradas</option>
                     </select>
                 </div>
-
-                <!-- Vista de horarios -->
                 <div class="schedule-view" id="scheduleView">
                     <div class="loading">
                         <div class="spinner"></div>
@@ -95,13 +78,11 @@
                 </div>
             </div>
         </main>
-
         <footer class="footer">
             <p>Información actualizada desde e.lebrija.es</p>
             <button class="install-btn" id="installBtn">➕ Instalar App</button>
         </footer>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
