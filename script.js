@@ -1,1 +1,709 @@
-const a7=h;(function(a,b){const R=h,d=a();while(!![]){try{const e=-parseInt(R(0x3db))/0x1+parseInt(R(0x3e6))/0x2*(-parseInt(R(0x3ae))/0x3)+parseInt(R(0x41f))/0x4*(-parseInt(R(0x385))/0x5)+-parseInt(R(0x266))/0x6+-parseInt(R(0x1e3))/0x7+-parseInt(R(0x2a3))/0x8*(-parseInt(R(0x382))/0x9)+parseInt(R(0x220))/0xa;if(e===b)break;else d['push'](d['shift']());}catch(f){d['push'](d['shift']());}}}(g,0x5d57b));const DEMO_ENABLED=!![],DEMO_DAYS=0x7;function g(){const aV=['uNjRAfm','tgHqC1G','mti6mdC','zNvUy3rPB24GkLWOicPCkq','tLHsreG','sM9Wy2u','wLv6Cgy','BuDMrfa','rxzlAKC','mte6mJy','swDIDNK','Bwf0y2HLCW','otOWma','vM1ptfi','u25oCeu','mti6mJy','z2jus2K','DLvwExe','wvnNCMW','A2XHAKi','Eg1MBge','zgvTBY1Iyw5Uzxi','odOYnG','iJ4kicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPBwuIpG','reLLChu','qwD1qu8','odOWnW','DgvZDa','wfngzNe','t1PRzwC','zMXVB3i','mti6mty','tgDmz0O','AeTfwM0','s290uxK','sgjJDKu','AuDuzKW','vhDHvfe','sM9ZW6KGrMvYBSoHBMrLEIbsDwL6ic0Gq2fUDgfYzxldRwe','pgrPDIbJBgfZCZ0ICM91DguTzgLYzwn0Aw9UiJ48Adm+swrHoIbdAgLWAw9UysdIHPiGtgvICMLQysdIHPiGu2v2AwXSytWVAdm+','mtq6mda','sNveELC','zLD1Ew4','twLNDwvSifvUyw11BM8TshrHie1Hy2vUyxmGmCkQihbHCMfKyq','mI1KAwDPDa','q09ZDuq','ug1wBLe','otOZoa','mdC6mda','tufXBNu','otOWnq','s3LRCNe','tmoTBMvHifjLBMzL','ww1sAwq','DuLst2G','B3jPz2LU','mtC6mtu','s1vjAxe','ntrYrLv0Dgy','otOZmW','z3zVrNa','ndq1yxPQD3Dq','mtm6mJC','AvfduvG','v2fiAe8','C2nOzwr1BgvwAwv3','mti6mZC','mtm6mtm','mti6mZu','cIaGicaGicaGicaGicaGica','u0XqC0m','twHvrwK','ExfIuuC','z1HqDwO','AKDVsfy','qxzKysbdyw5NysaTieHPAMfZienHCMLKywq','Aw5ZDhj1y3rPB25ZlwLVCW','BNHouM4','mta6mda','CgHfDg0','8j+uTIberu1pievyueLsqurbiokaLcbgDw5JAw9UywXPzgfKigXPBwL0ywrHlIbdB250ywn0ysbWyxjHihzLCNnPW7nUignVBxbSzxrHlG','EejLBeC','mtu6ntu','kgrPC3bSyxKTBw9KztOGC3rHBMrHBg9UzsK','mdK6mda','mta6mZy','q2hdSwfKysbmzwjYAwPHlvrYzwj1AMvUyq','v2XHBNG','pgrPDIbJBgfZCZ0IBM8TC2nOzwr1BgvZiJ48Cd5oBYbOyxKGAg9YyxjPB3mGzgLZCg9UAwjSzxmGCgfYysbLC3rLigtdRwe8l3a+pc9KAxy+','B29muwO','yvfby2S','otOZna','uhv4wuC','z2v0sg91CNm','mta6mtC','tMvSsem','mJe6mtu','EgzODNK','swDit1O','mte6mJa','mta6mJu','odOYmW','mJq5m1vVsuDlrG','DgfIBgu','otOXmq','BwfW','zK9dwvC','sM9QsLO','D1zZsvu','phnWyw4Gy2XHC3m9iNrPBwuTyMfKz2uG','4P2mieLUC3rHBgfJACoZBIbJyw5JzwXHzge','zgLYzwn0Aw9Uu2vSzwn0','Aw5MBW','odOYma','yuDLwuS','mtq6mtu','mdC6ndu','nJOWma','ExHUzvu','BMfgz3e','uhldS3HPBw8','mtm6mZG','yMvMB3jLAw5ZDgfSBhbYB21WDa','wNrYwhK','mdy6mda','zgf5C0XLzNq','wwjTrhm','Aunwu0i','wMP2A0u','pgrPDIbJBgfZCZ0IBg9HzgLUzYi+pgrPDIbJBgfZCZ0IC3bPBM5LCIi+pc9KAxy+pha+q2fYz2fUzg8GAg9YyxjPB3mUlI48l3a+pc9KAxy+','y2HHBMDL','DxvlCgq','q1vAs2C','u0nUBvO','mti6nda','Aw5PDa','BMfTzq','C2z2z1K','AgnSAfy','ywrK','EMniC0q','ywnJzxb0zwq','otOYnG','Bg9N','yK5mtvy','otOYnq','mti6mdm','mtGZnZK4vfvgCuzo','CfnMtMW','BgfIB3jHyMXLCW','cIaGicaGicaGpgrPDIbJBgfZCZ0IC2LUz2XLlxn0B3aTDMLLDYi+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNnPBMDSzs1ZDg9Wlw5HBwuIpVcFK40G','mti6mZa','tgrezxO','y29UC29Szq','zxjYB3i','tKXWtey','wxPZyNu','mtu6mta','mtCYnKLSzLDWra','tgvICMLQyq','C2nOzwr1BgvuAxrSzq','C3rVCfnLBgvJDa','we9kC0C','mtm6mJe','yw1pB2q','cIaGicaGicaGpgrPDIbJBgfZCZ0IC3rVCc1JyxjKiJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0IC3rVCc1Uyw1LiJ4kicaGicaGicaGicaGicaGia','zxDUBgy','mte6mda','r3D3ueu','uLrJu1y','A05vsKm','mtm6mZu','odOYna','B2HbCgG','sfLqC2e','z1HLy2O','ChjVDg90ExbL','otO0ma','ywrKrxzLBNrmAxn0zw5LCG','DKP1ugy','mta6mZq','zgH6wuu','wLPHv0y','sxHvuKK','sM9ZW6KGrMvYBSoHBMrLEIbsDwL6iemVuM9Tyq','vfPctKu','DwvJr28','BLLsquy','mte6mdi','mtC6mZu','qMLOuvO','DhPMr1u','vhPmzgm','mta6mdG','EgfZrxq','DNvLBhrH','CffWtKq','mtm6mZC','z25iCvK','vgv0DCoHBIaTifzLCMfJCNv6','CMvTB3zL','yMLUza','z3LQANm','pc9KAxy+','C3v4q2u','t2riBfm','mtm6mZa','svjdExG','mtm6mZi','mtm6mty','zgLYzwn0Aw9Uu2vSzwn0B3i','qxzKysbdyw5NysaTifbSyxPHienHBxbPW7fH','qu5MDxK','ww5vz2C','otOYna','mtuYvwTgt2TL','otOXmW','CfHLuNa','EvbYwwi','mJa6mtu','zMHTDfm','Bwf4','zunPsxy','pgrPDIbJBgfZCZ0IBM8TC2nOzwr1BgvZiJ48Cd5oBYbOyxKGAg9YyxjPB3mGzgLZCg9UAwjSzxmGCgfYysbLC3rHigZdRw5LytWVCd48l2rPDJ4','zMTUBfO','q3bIzLC','C0PHExC','otOYnW','s0LKEKO','C2vHCMnO','mty6mtu','mta6mZG','mta6mtm','AKPbqwm','mtG6mda','BgLUzq','odOYnq','txDJywS','mte6mdC','vNvwCKC','mtm6mJq','yM5vBMS','veLgEfy','tfj3EwK','qwnpr3O','DxjIyw5H','wLbWD2C','ELH0rvy','ENfuvK4','mtG6mtu','cIaGicaGicaGpgrPDIbZDhLSzt0IyMfJA2DYB3vUzdOGD2HPDgu7igjVCMrLCI1YywrPDxm6ideYChG7ihDPzhrOoIaXmdaLoYbTyxGTD2LKDgG6iduWmhb4oYbWywrKAw5NoIaYnxb4oYbIB3GTC2HHzg93oIaWideWChGGndbWEcbYz2jHkdeZosWGmty4lcaXntqSidaUmIK7iJ4kicaGicaGicaGicaGpgrPDIbZDhLSzt0IzgLZCgXHEtOGzMXLEdSGANvZDgLMEs1JB250zw50oIbZCgfJzs1Izxr3zwvUoYbHBgLNBI1PDgvTCZOGy2vUDgvYoYbTyxjNAw4TyM90Dg9ToIaYmhb4oYi+cIaGicaGicaGicaGicaGica8AdmGC3r5Bgu9iMnVBg9YoIaJoejbodLboYbTyxjNAw46ida7igzVBNqTC2L6ztOGms40CMvToYbMB250lxDLAwDODdOGnZaWoYi+8j+tSIbjBNn0ywXHCIbbCha8l2GZpGOGicaGicaGicaGicaGicaGpgj1DhrVBIbPzd0Iy2XVC2vnB2rHBej0BIiGC3r5Bgu9iMjHy2TNCM91BMq6ig5VBMu7igjVCMrLCJOGBM9UztSGy29SB3i6icm0qtuZntu7igzVBNqTC2L6ztOGms41CMvToYbJDxjZB3i6ihbVAw50zxi7ihbHzgrPBMC6idvWEdSIpSoxpc9IDxr0B24+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicakicaGicaGicaGicaGpgrPDIbZDhLSzt0IyMfJA2DYB3vUzdOGi0y1rJffodSGyM9YzgvYlwXLzNq6idrWEcbZB2XPzcaJqtHdnui1oYbWywrKAw5NoIaXnxb4oYbIB3jKzxiTCMfKAxvZoIaWidHWEca4ChGGmdSGBwfYz2LUlwjVDhrVBtOGmJbWEdSIpGOGicaGicaGicaGicaGicaGphaGC3r5Bgu9iM1HCMDPBJOGmdSGBgLUzs1OzwLNAhq6ideUntSGy29SB3i6icm0qtuZntu7iJ4kicaGicaGicaGicaGicaGicaGica8C3rYB25Nihn0EwXLpsjJB2XVCJOGiZHcqtG5qtSIpVcFKQeGWR9qB3iGCxxdQsbPBNn0ywXHCIbSysbHCha/pc9ZDhjVBMC+pgjYpGOGicaGicaGicaGicaGicaGicaGiokaOIbgDw5JAw9UysbZAw4GAw50zxjUzxq8yNi+cIaGicaGicaGicaGicaGicaGicaG4OcIiefJy2vZBYbYW6fWAwrVigrLC2rLihr1ihbHBNrHBgXHigrLigLUAwnPBZXICJ4kicaGicaGicaGicaGicaGicaGicdIGkiGtM90AwzPy2fJAw9UzxmGzguGChldS3HPBw9Zigf1Dg9IDxnLCZXICJ4kicaGicaGicaGicaGicaGicaGicdIGkiGrxHWzxjPzw5JAweGy29TBYbHChaGBMf0AxzHcIaGicaGicaGicaGicaGica8l3a+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicakicaGicaGicaGicaGpgrPDIbPzd0IAw5ZDhj1y3rPB25ZlwfUzhjVAwqIihn0EwXLpsjKAxnWBgf5oIbUB25LoYbTyxjNAw4TyM90Dg9ToIaYnxb4oYi+cIaGicaGicaGicaGicaGica8AdqGC3r5Bgu9iMnVBg9YoIaJqtHdnui1oYbTyxjNAw4TyM90Dg9ToIaXnxb4oYbKAxnWBgf5oIbMBgv4oYbHBgLNBI1PDgvTCZOGy2vUDgvYoYbNyxa6ideWChG7igzVBNqTD2vPz2H0oIa2mda7iJ4kicaGicaGicaGicaGicaGicaGica8C3zNihDPzhrOpsiYnciGAgvPz2H0psiYnciGDMLLD0jVEd0ImcaWidi0idi0iIbMAwXSpsjUB25LiIb4BwXUCZ0IAhr0CdOVl3D3DY53mY5VCMCVmJaWmc9ZDMCIpGOGicaGicaGicaGicaGicaGicaGicaGica8Cgf0AcbKpsjnmtiGmKm2lJq4idiGmIa2lJq4idiGmtjdmIaXnY41mIa2lJq4idiYideYidiYqZe3lJuYidiYidiYide3lJuYidiYideYqZiYidyUndGGmtCUntiGmIaXmIaYwK0XmIaXnemXmc45ide0ideWideZlJeGmtaGmtjdmtaGmtaUosaXmc45ideWideYideWqZeZlJeGmtaGmtqGmtaUosaXncaXmKmXncaXmY4XideZlJeGmtqGmtiGmtrAiIbMAwXSpsiJqtHdnui1iI8+cIaGicaGicaGicaGicaGicaGicaGpc9ZDMC+cIaGicaGicaGicaGicaGicaGicaGrw4Gqw5KCM9PzcaOq2HYB21LkqOGicaGicaGicaGicaGicaGpc9Ond4kicaGicaGicaGicaGicaGidXVBcbZDhLSzt0ICgfKzgLUzY1Szwz0oIaYmhb4oYbSAw5LlwHLAwDODdOGms42oYbJB2XVCJOGiZrbntm1ntSIpGOGicaGicaGicaGicaGicaGicaGidXSAt5byNjLigvSig1LBSo6igrLienOCM9TzsaO4OUUktWVBgK+cIaGicaGicaGicaGicaGicaGicaGpgXPpLnLBgvJy2LVBMeGiKLUC3rHBgfYigfWCci8l2XPpGOGicaGicaGicaGicaGicaGicaGidXSAt5dB25MAxjTysbJB24GiKhdSwfKAxiIpc9SAt4kicaGicaGicaGicaGicaGidWVB2W+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicakicaGicaGicaGicaGpgrPDIbPzd0IAw5ZDhj1y3rPB25ZlwLVCYiGC3r5Bgu9iMrPC3bSyxK6ig5VBMu7ig1HCMDPBI1IB3r0B206idi1ChG7iJ4kicaGicaGicaGicaGicaGidXOncbZDhLSzt0Iy29SB3i6icnboem1qJu7ig1HCMDPBI1IB3r0B206ide1ChG7igrPC3bSyxK6igzSzxG7igfSAwDUlwL0zw1ZoIbJzw50zxi7igDHCdOGmtbWEdSGzM9UDc13zwLNAhq6idyWmdSIpGOGicaGicaGicaGicaGicaGicaGidXZDMCGD2LKDgG9iJi0iIbOzwLNAhq9iJi0iIb2Awv3qM94psiWidaGmJqGmJqIigzPBgW9iM5VBMuIihHTBg5ZpsjODhrWoI8VD3D3lNCZlM9YzY8YmdaWl3n2zYi+cIaGicaGicaGicaGicaGicaGicaGicaGidXWyxrOigq9iK0XmIaYqZyUndGGmIaYidyUndGGmIaXmKmYide3lJuYidyUndGGmJiGmtiGmJjdmtCUntiGmJiGmJiGmtCUntiGmJiGmtjdmJiGnI40ocaXnY41mIaYideYidjAtteYide0qZeWlJKGmtqGmtaGmtmUmsaXmcaXmKmXmcaXmc45ideWlJKGmtaGmtiGmtbdmtmUmsaXmcaXncaXmc45ide0ideYqZe0ideZlJeGmtmUmsaXncaXmIaXnfOIigzPBgW9iInboem1qJuIlZ4kicaGicaGicaGicaGicaGicaGica8l3n2zZ4kicaGicaGicaGicaGicaGicaGicbfBIbPugHVBMuGkfnHzMfYAsKkicaGicaGicaGicaGicaGidWVAdq+cIaGicaGicaGicaGicaGica8B2WGC3r5Bgu9iNbHzgrPBMCTBgvMDdOGmJbWEdSGBgLUzs1OzwLNAhq6ideUnJSGy29SB3i6icm0qtuZntu7iJ4kicaGicaGicaGicaGicaGicaGica8BgK+vg9JysbLBcbIB3tdS24GiKnVBxbHCNrPCIiGphnWyw4GC3r5Bgu9iMjHy2TNCM91BMq6icnfmererdy7ihbHzgrPBMC6idjWEca2ChG7igjVCMrLCI1YywrPDxm6idrWEdSGzM9UDc1ZAxPLoIaWlJLLBtSIpUkgLZWVC3bHBJ48l2XPpGOGicaGicaGicaGicaGicaGicaGidXSAt5ezxnWBmoHEMf0zsb5ihnLBgvJy2LVBMeGiKhdSwfKAxiGysbWyw50ywXSysbKzsbPBMLJAw8Ipc9SAt4kicaGicaGicaGicaGicaGicaGica8BgK+vg9JysaIqCoXywrPCIiGzw4GBgeGzxnXDwLUysbZDxbLCMLVCIbKzxjLy2HHpc9SAt4kicaGicaGicaGicaGicaGidWVB2W+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicakicaGicaGicaGicaGpgrPDIbPzd0IAw5ZDhj1y3rPB25ZlwrLC2T0B3aIihn0EwXLpsjKAxnWBgf5oIbUB25LoYbTyxjNAw4TyM90Dg9ToIaYnxb4oYi+cIaGicaGicaGicaGicaGica8AdqGC3r5Bgu9iMnVBg9YoIaJqtHdnui1oYbTyxjNAw4TyM90Dg9ToIaXnxb4oYbKAxnWBgf5oIbMBgv4oYbHBgLNBI1PDgvTCZOGy2vUDgvYoYbNyxa6ideWChG7igzVBNqTD2vPz2H0oIa2mda7iJ4kicaGicaGicaGicaGicaGicaGica8C3zNihDPzhrOpsiYnciGAgvPz2H0psiYnciGDMLLD0jVEd0ImcaWidi0idi0iIbMAwXSpsjUB25LiIb4BwXUCZ0IAhr0CdOVl3D3DY53mY5VCMCVmJaWmc9ZDMCIpGOGicaGicaGicaGicaGicaGicaGicaGica8Cgf0AcbKpsjnmtiGmKm2lJq4idiGmIa2lJq4idiGmtjdmIaXnY41mIa2lJq4idiYideYidiYqZe3lJuYidiYidiYide3lJuYidiYideYqZiYidyUndGGmtCUntiGmIaXmIaYwK0XmIaXnemXmc45ide0ideWideZlJeGmtaGmtjdmtaGmtaUosaXmc45ideWideYideWqZeZlJeGmtaGmtqGmtaUosaXncaXmKmXncaXmY4XideZlJeGmtqGmtiGmtrAiIbMAwXSpsiJqtHdnui1iI8+cIaGicaGicaGicaGicaGicaGicaGpc9ZDMC+cIaGicaGicaGicaGicaGicaGicaGrw4GrxnJCML0B3jPBYaOq2HYB21Ll0vKz2uPcIaGicaGicaGicaGicaGica8l2G0pGOGicaGicaGicaGicaGicaGpg9Sihn0EwXLpsjWywrKAw5NlwXLzNq6idiWChG7igXPBMuTAgvPz2H0oIaXlJy7ignVBg9YoIaJnee1mZu1oYi+cIaGicaGicaGicaGicaGicaGicaGpgXPpK1PCMeGBgeGyMfYCMeGzguGzgLYzwnJAw9Uzxm8l2XPpGOGicaGicaGicaGicaGicaGicaGidXSAt5iyxOGy2XPyYbLBIbLBcbPy29UBYa8C3bHBIbZDhLSzt0IyMfJA2DYB3vUzdOGi0uWrerenJSGCgfKzgLUzZOGmNb4idzWEdSGyM9YzgvYlxjHzgL1CZOGnhb4oYbMB250lxnPEMu6idaUowvToYi+kZWVC3bHBJ4GBYa8C3bHBIbZDhLSzt0IyMfJA2DYB3vUzdOGi0uWrerenJSGCgfKzgLUzZOGmNb4idzWEdSGyM9YzgvYlxjHzgL1CZOGnhb4oYbMB250lxnPEMu6idaUowvToYi+4QYhpc9ZCgfUpJWVBgK+cIaGicaGicaGicaGicaGicaGicaGpgXPpLnLBgvJy2LVBMeGiKLUC3rHBgfYiJWVBgK+cIaGicaGicaGicaGicaGica8l29SpGOGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGcIaGicaGicaGicaGidXKAxyGC3r5Bgu9iMrPC3bSyxK6igzSzxG7igDHCdOGmtbWEdSIpGOGicaGicaGicaGicaGicaGpgj1DhrVBIbPzd0Iy2XVC2vnB2rHBej0BJiIihn0EwXLpsjMBgv4oIaXoYbIywnRz3jVDw5KoIaJrJvgmuu4oYbIB3jKzxi6idjWEcbZB2XPzcaJqtHdnui1oYbWywrKAw5NoIaXmNb4oYbIB3jKzxiTCMfKAxvZoIa4ChG7ignVBg9YoIaJnee1mZu1oYbMB250lxDLAwDODdOGnJaWoYbJDxjZB3i6ihbVAw50zxi7ihrYyw5ZAxrPB246igfSBcaWlJnZigvHC2u7iJ4kicaGicaGicaGicaGicaGicaGicbdzxjYyxikicaGicaGicaGicaGicaGidWVyNv0Dg9UpGOGicaGicaGicaGica8l2rPDJ4kicaGicaGica8l2rPDJ4kicaGia','z0f1DMC','txzRvvm','u2L1BKe','nJO0ma','mtm6mZq','uu1KyNu','C3r5Bgu','zgXwzg0','tLbbAMG','C21KrM0','BfDvCeu','EgPou1q','A0HPyLC','otOYmq','AujnAK0','q1fkz1K','B3zSv3K','cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPBwuTy2fYzca','mte6mtm','rvvSqxu','otOZnG','mtm6mdG','zNrUr0K','odOWnq','vKPfD2S','qxzLBMLKysbdyw5Nysbdl0HPAMfZienHCMLKywq','qxzLBMLKysbdyw5NysbqEMeGq2fTCgNdSwe','DgfYz2v0','qvbTDhi','rNPht3y','mte6mJm','u3jctfe','ueDZExu','D3rYzwG','mte6mZG','AwrH','uuThuge','mti6mdu','D3DmCeW','ChjLDMvUDerLzMf1Bhq','ugXHEMeGtwfUDwvSysbnDxj1yMuGkefZAwXVkq','zM9YrwfJAa','otOYmG','tgvICMLQys1tzxzPBgXHlunOAxbPB25H','s1boEMO','mta6mty','qxzLBMLKysbbBMrHBhvJW61H','re9nq29UDgvUDeXVywrLza','C2v2AwXSyq','mdG6mtu','mta6mdu','8j+uTYberu1piokaLcbrDwvKyw4G','C2v0sxrLBq','vur2uwW','uwD5sfi','z2TqqLy','mti6mZq','vKzIzfG','A1vcrNm','sfDYB0u','wMfUy2fYCSoZBIaTiePHEM3dRw4','BvbVy3G','mtm6ndu','wgzvwva','CMvUzMu','mtm6nda','BfHnruq','tNzNu2q','mte6mJq','swDTz2S','qxfpDey','Bg9UzW','sM9ZW6KGrMvYBSoHBMrLEIbsDwL6ic0GqY9sB21H','mtm6mtu','mhWZFdj8mxW0Fdz8nq','wNniDLm','y2fSBa','zLrqruG','zufevLC','wefiwgu','CLzQwfy','CMv0DxjUicHMDw5JDgLVBIGPia','lMzPBhrLCI1IDg4','odOZmW','v0LVs1u','D1DMEhy','z2v0rwXLBwvUDej5swq','EvngAwC','B0D5ChG','A0jSywm','mte6nda','tuP4sum','C1PfCwW','tvHztxu','mta6nda','odOZna','z0nJsxC','s1vmrNq','mJi6mtu','sg9ZCgL0ywW','twrNEuK','odO0ma','q2HPCgLVBMe','q21iBNO','rgfsz3e','zu1fwxu','cIaGicaGicaGCg9ZAxrPB246igzPEgvKoWOGicaGicaGihrVCdOGmdSkicaGicaGicbSzwz0oIaWoWOGicaGicaGihDPzhrOoIaXmdaLoWOGicaGicaGigHLAwDODdOGmtaWjtSkicaGicaGicbIywnRz3jVDw5KoIbYz2jHkdC0lca4mYWGoduSidaUoduPoWOGicaGicaGigrPC3bSyxK6igzSzxG7cIaGicaGicaGywXPz24TAxrLBxm6ignLBNrLCJSkicaGicaGicbQDxn0Awz5lwnVBNrLBNq6ignLBNrLCJSkicaGicaGicb6lwLUzgv4oIaXmdaWoWOGicaGicaGihbHzgrPBMC6idiWChG7cIaGica','ywn0Aw9U','mtm6mJu','BM5nsKu','pgrPDIbJBgfZCZ0ICM91DguTzgLYzwn0Aw9UiJ48Adm+vNvLBhrHoIbtzxzPBgXHiokgKIbmzwjYAwPHiokgKIbdAgLWAw9UytWVAdm+','mte6mtC','qLzjrKG','pc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjZDgf0DxmIpG','mti6mJi','EfrOAvq','u0XADui','rMXAtK8','mte6mJi','y3bUwKi','mte6mZq','pgrPDIbJBgfZCZ0IBM8TC2nOzwr1BgvZiJ48Cd5qyxjHzgeGBM8Gzw5JB250CMfKytWVCd48l2rPDJ4','zgLZCgXHEq','mte6mtu','ExnHywu','rgftq1e','C3rVChm','vvbhChe','A21fDLq','yxv3zxy','q3jUzue','C3bSAxq','Dgv4DenVBNrLBNq','mte6mZy','tMniBfu','C01WB3K','zxHJzxb0Aw9U','uMzRz0K','mJa6mda','q2XMtvO','zgvIDq','yMr2EwO','odOXmW','r0jwq1O','rvzUvwC','CgrbDeS','rxnXDwLUysbuzxr1W6fUlvzLCMfJCNv6','mtm6mtC','s2vRq0S','vhvNAhC','uePdqKK','otOZnW','Afzey0C','Dvr3vu0','mtG6mZa','odOXnW','r2f3BhO','y2XVC2vnB2rHBej0BJi','wenNwfq','t0rVyNy','AfDNwvu','sfvTz1q','mti6mJm','Aw5ZDhj1y3rPB25ZlwrLC2T0B3a','odOWma','r1bjBvG','zxmTrvm','Eg1Us3C','DwzPy1C','wLfKuxq','qNvnt20','otOZmG','tMX0uLu','mte6mty','mti6mtm','WR9rDwLLCMvZigLUC3rHBgfYigXHigfWBgLJywnPW7nUigrLief1Dg9IDxnLCYbmzwjYAwPHpWOk4PYfiez1BMnPB25HihnPBIbPBNrLCM5LDaRINiuGqwnJzxnVihldOxbPzg8GzgvZzguGDhuGCgfUDgfSBgeGzguGAw5Py2LVcUkCHsboB3rPzMLJywnPB25LCYbKzsbWCSoZEgLTB3mGyxv0B2j1C2vZ','quz3reu','mta6mJm','otOZma','mty6mda','uLjNuwy','qufuu2u','Aw5ZDhj1y3rPB25ZlwfUzhjVAwq','AenSr28','lMXPBMuTyNrU','phnWyw4Gy2XHC3m9iM9YAwDPBI1SywjLBci+t3jPz2vUpc9ZCgfUpG','mte6mJu','Ce1prhq','mtK6mda','v2T6Ae0','AhPlDxm','mdC6mtu','AxfjD2K','mti6mJC','DuD6sxi','z2v0sxrLBq','wejfCuO','y291BNrLCG','mti6mda','r2XVCMLLDgeGtwfYW61Hief1EgLSAwfKB3jH','mtK6nda','zu56u3m','AwvsBMK','s0fSC0W','nhWXFdv8mhWZFdi','Bwf0y2HnzwrPyq','mtm6mJy','BvHgz0q','sfHgBvG','s2nND0W','y29UC3rYDwn0B3i','y1PLrhq','twj2thy','pc9KAxy+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGia','y2XPy2S','Awjzz1a','z1noywW','EfLVBNa','zfnqBNG','mte6mZC','mZK5mZm4oeftDNDlqG','odOYmq','CfjiANG','vezovLC','qwnoExm','C3rYAw5N','odOZmG','kcGOlISPkYKRksSK','mtm6mZy','AwHwvhO','mta6mte','wuHfCuS','qKfxAxa','mte6mdG','igrLihbYDwvIyq','CfvirK4','uKjlCva','DMjluwO','Aw5Uzxjive1m','C1vUrfC','rufOqLa','EeDrz2C','CwPnCeO','whrHtgG','CgfgAg4','D2HPBguGkhrYDwuPihT9','otOZnq','AxLyEKy','Aw5WDxq','mta6mJC','EfjsEgK','t0jot1y','Axnby3rPDMu','wfLcuNK','mti6mZi','nJO1ma','tmoTBMvHifvYyMfUyq','t1Hwzvu','twLNDwvSifvUyw11BM8TshrHie1Hy2vUyxmGmSkQihbHCMfKyq','vNfHBLa','mtm6mJi','rhLYv2e','z2v0twLUDxrLCW','ENfhtNG','mtm6mdC','vhnnwNe','DxnLCKfNzw50','odOWoa','cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGica8zgL2ignSyxnZpsjZDg9WlxrPBwvZiJ4kicaGia','Dg9tDhjPBMC','mta6mZC','m3WWFdj8nhWXFdu','mtu6mtu','otOXnW','zgXdD2m','AgLNAgXPz2H0','tej2y2O','rhPzBfC','EvzWEwC','BxvdAMO','mte6mZi','mtGZnZe4odb3shDQD20','CfDRsuy','mJa6ndu','zKvpDvm','mte6mZu','BNvTzxjPyW','qs4Gq2fSDM8GuNvPEIbtDgeGqNldRwDPzge','C0PkAM8','DK10vK4','uMv5zxmGq2f0W7nSAwnVCW','sg95','txDuDNK','we1gu20','rfP0rwW','wKTwrwO','C3rHDgvpyMPLy3q','mty6ndu','EKzNz3y','q25OtNO','DMvLqvG','CwLVt2q','AgnJEKG','v3vfCLm','CNLWqK0','tePeDgq','x19WCM90B19F','wunrqxu','sgPtBw4','uunywKm','otOYma','odOZoa','t0rnv1O','sNbVy3K','A2XPtMu','BNrpuKi','vLfpzeO','B29HAfK','E30Uy29UC3rYDwn0B3iOiNjLDhvYBIb0AgLZiIKOicK','mtm6mda','yKL2suS','otOWmW','mJe6mZu','otOXnG','te5csfC','u3P0teu','uMfkse4','CwPmv0y','ugXHEMeGtwfUDwvSysbnDxj1yMu','mti6mZy','wLfrqxq','odOYnW','sg9YyxjPB3m','y0r5Agq','sLb4zKO','DgHLBG','A3z4t1q','AePdEhO','y2Teuhq','B3b0Aw9U','whDrBgy','wuHsCxy','mta6mdC','yuHiuue','qw50B25PBYbdywX2BYbsDwL6ic0Gu3rHiejYAwDPzge','yKPvvNu','z2DLCG','Bvn6rKS','DgzZwwG','Avntvxq','CxvLCNLtzwXLy3rVCKfSBa','mZC0mZC2BhflEhbp','mti6mZm','BhLfDM4','Bgjpu3q','uvbMsMi','mte6mZm','otOYmW','ywn0AxzL','mte6mte','4PQG77IpifzLCNnPW7nUierftu8GzxHWAxjHzgeUcGPdB250ywn0ysbJB24GzwWGywrTAw5PC3rYywrVCIbWyxjHig9IDgvUzxiGBgeGDMvYC2NdS24Gy29TCgXLDgeGy29UigfJy2vZBYbHihrVzg9ZigXVCYbOB3jHCMLVCYb5igz1BMnPB25HBgLKywrLCY4','vwvpqu4','D01kq0S','y2XVC2vZDa','mta6mZi','DKDcqxy','mti6mZG','rhnwsfa','vMHNDMu','DuPPDxi','mti6mJq','odOZnG','qKvyC1e','q2HRr2O','CMTmB1e','y2XVC2vnB2rHBej0BG','C3rHCNreyxrL','BeDwD3i','mJe6mda','mtm6mJa','BgLMD0i','CwjyuMq','BeL6CeO','AfDYEfG','mta6mJy','Cg1ituO','Ce5uveS','z2v0vgLTzq','sLLty0K','mti6mJa','D2Hrwva','C1PAr3G','mta6mZu','rK9NuhG','vNrSt3u','y3vYCMvUDerHDgu','BgvUz3rO','zuTHq3K','mta6mZm','qwfwB0S','v1DNyxG','qw1IDwXHDg9YAw8','4PYfimkHqxbWigLUC3rHBgfKysbJB3jYzwn0yw1LBNrLiqOkuhvLzgvZigvUy29UDhjHCMXHigvUihr1ihbHBNrHBgXHigrLigLUAwnPBYbVigvUihr1CYbHCgXPy2fJAw9UzxmGAw5ZDgfSywrHCY4','twLNDwvSifvUyw11BM8TshrHie1Hy2vUyxmGm8kQihbHCMfKyq','AwLKENq','mtm6mdu','mdy6ndu','odOXnG','qKX0v1i','ru54wum','mti6mte','mta6mJq','mta5oda4AK9UDMLt','AMTurMm','mti6mJu','mtm6mJm','mty6mJa','vMvUDgeGuMvUyxvS','D1rzueS','uffWuuO','tKj4AxC','y0nxwg0','mta6mJi','qMrmCu4','mte6mdu','D2fYBG','vNnQqLu','zgL2','zKDLzgO','zwfOEKq','sg5Suge','t3jTr08','wK9QugW','u3LeEhG','mtC6mda','pc9ZCgfUpG','otOWoa','zfLjqLa','Dg9mB2nHBgveyxrLu3rYAw5N','EMrnsee','sM5mu3i','mtm6mte','Cgftue0','Aur2vNy','AgLNAgXPz2H0t25SEq','vxHoy3u','A29Jzwm','ugXHEMeGzguGqwjHC3rVCW','y3jLyxrLrwXLBwvUDa','t2LXu3q','z05Wr0e','s2rhseG','mta6mJa','mtu6mZK','mtK6mtu','whjNtu0','EKfgy20','B3v0y29Tzq','mtm6mZm','zgvTBY1Iyw5UzxiGzxHWAxjLza','yM9KEq','z1fZBxa','D0HRDwe','u2v2AwXSyq','D0HQuue','pg9WDgLVBIb2ywX1zt0IiJ5uB2rHCYbSyxmGCgfYywrHCZWVB3b0Aw9UpG','yxv0B2j1C2vZx2XLyNjPAMfFzgvTB18Ymdi2','qxzKysbkB3pdQsbwAwvSicHmAwrSkq','mdG6mda','xcTCkYaQkd86w2eTEKeTwL8KxvSWltLHlxPblvPFjf0Qkq','BMXLt1i','odOZnW','wM5PvM0','qxzKysbdyw5NysaTiemVrNjHBMnPyq','DeTszuu','q2fTAw5VigrLBcbby2vPDhvUBYaOtwvYy2fKB25Hkq','BKTnsvm','vMzUAhq','vwvoDwq','otOWnW','vuvODhG','y2XHC3nmAxn0','uw9xwwu','DKLvq0e','BgP2tKy','qxzLBMLKysbdyw5Nysbdl0zYyw5JAwe','phnWyw4Gy2XHC3m9iMrLC3rPBMf0Aw9UlwXHyMvSiJ5ezxn0Aw5Vpc9ZCgfUpG','DhDYvha','otOXnq','y2XHC3noyw1L','q0LIteS','mtu6mJa','AgHkreq','AuvcBgu','Egfzt1K','t2vxyvO','mti6mtu','mta6mJe','wNzfweq','y2HHAw4','ufjtq0q','r2z3Dgq','rxn0ywnPW7nUigrLifjLBMzL','shDZsMO','yxbWBhK','r1LqEeu','ExDpz1y','Cw5Zvuq','zgf0yxnLDa','z1nZzNq','z3r6y2e','Bxj0wxK','y3zluu0','DgLTzxm','qMjnDhO','mte6mdm','rwftyxq','r3nUs1K','igtdRwe','8j+tSIbjBNn0ywXHCIbbCha','odOXmq','zKDnDuy','rK1KuMS','wvr2DNq','De5TB0S','mte6mJC','mdK6mtu','mta6mdm','ugfZywrV','mtm6mdm','CwLsy2m','odOZma','DMfSDwu','vgDZDNO','zgvZDgLUyxrPB24','mtu6mda','qLbQwMq','nZO0nq','yMXVy2S','pgrPDIbJBgfZCZ0IzNvSBc1YB3v0zsi+','odOWmW','ExfyCxO','cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGidWVzgL2pGOGicaG','zMLSDgvY','ANDgshC','zMLzqLm','DhjHy2u','odOZnq','BM9Uzq','tKf1EM4','mta6mtu','mti6mdG','y3nZvgv4Da','ChjVBxb0','rwDqqva','A2vmzfa','mti6mJe','mte6mJe','yxbWzw5Kq2HPBgq','yxPuEvK','Aw5ZDgfSBej0BG','BffuCwe','rxDTAvy','CfzpuhG','mta6mZa','odOYmG','DxnLCKnOB2LJzq','tgftAM4','mti6mtC','wuzYC0m','mte6mZa','q2fSysbKzsbwyxjNyxmGkefQDwrPC2XLkq','odOXnq','DvLty2S','rhiUiePVC8oPifzPzwWGkgfUDgLNDw8GtgLKBcK','seXxwwK','pc9KAxy+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPBwvZlwDYAwqIpGOGicaG'];g=function(){return aV;};return g();}function initDemo(){const S=h,i={'FMdRk':S(0x1ea),'Tgsvz':S(0x1f2),'KekCK':function(u,v){return u===v;},'pRHjx':S(0x299),'UEhtx':S(0x337),'HjSmn':S(0x32b),'Yzsbu':S(0x3fd),'aQAck':S(0x34b),'zFggv':S(0x2dc),'ODMWZ':S(0x3cf),'Gawlz':function(u,v){return u+v;},'XMFSm':S(0x2fa),'Wlanx':S(0x1ff),'NLpLF':function(u,v){return u(v);},'HXFmX':function(u){return u();},'VmOLR':S(0x244),'nYRAF':function(u,v,w){return u(v,w);},'xYonp':S(0x11f),'bdvyj':function(u,v){return u/v;},'iBMjM':function(u,v){return u*v;},'UPGpq':S(0x35d),'ENxYC':S(0x398),'WaHhO':function(u,v){return u===v;},'ZUzpf':S(0x384),'DzYlW':S(0x408),'FzGOv':S(0x324),'gyjjs':function(u,v){return u+v;},'sMpoy':S(0x158),'sJayw':S(0x245),'LJDtd':S(0x3d7),'hVDcG':S(0x2b0),'nxNRn':S(0x3b8),'ljvNF':S(0x3e2),'zqGNx':S(0x18f),'RfkgI':S(0x3af),'EVnUg':S(0x329),'ZjvkE':function(u,v,w){return u(v,w);},'GYPxE':function(u){return u();},'LaSjn':function(u){return u();},'BEXsQ':S(0x2d9),'kNUJC':function(u,v){return u!==v;},'OXVeU':S(0x356),'lyEvn':function(u,v){return u(v);},'ieRni':function(u,v){return u-v;},'auwev':function(u,v){return u*v;},'paSPM':function(u,v){return u>v;}},j=(function(){let u=!![];return function(v,w){const x=u?function(){const T=h;if(w){const y=w[T(0x2ff)](v,arguments);return w=null,y;}}:function(){};return u=![],x;};}()),k=i[S(0x3c8)](j,this,function(){const U=S;return k[U(0x214)]()[U(0x42d)](U(0x1ea))[U(0x214)]()[U(0x1d9)](k)[U(0x42d)](i[U(0x311)]);});i[S(0x300)](k);const l=(function(){const V=S,u={'FlZNO':function(w,z){return w!==z;},'UeNud':i[V(0x31c)],'rVjXV':function(w,z){const W=V;return i[W(0x19b)](w,z);}};if(V(0x17e)!==V(0x2be)){let w=!![];return function(x,y){const z=w?function(){const X=h;if(u[X(0x17c)](u[X(0x2e5)],u[X(0x2e5)]))l=k[X(0x185)][j];else{if(y){const B=y[X(0x2ff)](x,arguments);return y=null,B;}}}:function(){};return w=![],z;};}else{if(u[V(0x157)](l[V(0x122)],k))j[V(0x410)]();}}());(function(){const Y=S;i[Y(0x19b)](Y(0x244),i[Y(0x355)])?i[Y(0x403)](l,this,function(){const Z=Y,v={'ysaae':function(x,y){return x(y);},'ZKVEj':i[Z(0x1e5)],'tKReE':i[Z(0x2e7)],'YSgrl':i[Z(0x23b)]};if(Z(0x3fd)!==i[Z(0x3e4)])v[Z(0x183)](c,v[Z(0x22e)]),l[Z(0x15d)](v[Z(0x2e1)])[Z(0x449)][Z(0x181)]=v[Z(0x35a)];else{const x=new RegExp(i[Z(0x3a2)]),y=new RegExp(i[Z(0x231)],'i'),z=c(i[Z(0x23f)]);!x[Z(0x363)](i[Z(0x1a3)](z,i[Z(0x22c)]))||!y[Z(0x363)](i[Z(0x1a3)](z,i[Z(0x39f)]))?i[Z(0x3e3)](z,'0'):i[Z(0x1d7)](c);}})():m[Y(0x449)][Y(0x181)]=Y(0x321);}());const m=(function(){const a0=S,u={'RaJHN':a0(0x26a),'SrBLQ':i[a0(0x1e0)],'pQpND':function(w,z){const a1=a0;return i[a1(0x194)](w,z);},'fEOuS':function(w,z){const a2=a0;return i[a2(0x451)](w,z);},'kmEvT':i[a0(0x186)],'hclhV':i[a0(0x2a0)],'IRCyx':a0(0x2d2)};if(i[a0(0x388)](i[a0(0x34e)],i[a0(0x34e)])){let w=!![];return function(x,y){const a3=a0,z={'hhJDD':u[a3(0x24d)],'MXYMu':u[a3(0x126)]},A=w?function(){const a4=a3;if(y){if(z[a4(0x2f3)]!==z[a4(0x164)]){const C=y[a4(0x2ff)](x,arguments);return y=null,C;}else b();}}:function(){};return w=![],A;};}else{const x=new i(),y=j[a0(0x366)](u[a0(0x40c)](x-k[a0(0x27f)],u[a0(0x223)](u[a0(0x223)](0x3e8,0x3c)*0x3c,0x18))),z=l[a0(0x425)](0x0,m-y),A=n[a0(0x15d)](u[a0(0x187)]);z>0x0?(A[a0(0x18b)]=a0(0x13a)+z+a0(0x30d)+(z!==0x1?'s':'')+a0(0x1f1),A[a0(0x2f0)]=u[a0(0x187)]):(A[a0(0x18b)]=u[a0(0x3d2)],A[a0(0x2f0)]=u[a0(0x417)]);}}()),n=m(this,function(){const a5=S;if(i[a5(0x21c)]!==i[a5(0x124)]){let v;try{const y=i[a5(0x3e3)](Function,i[a5(0x412)](i[a5(0x18e)],i[a5(0x42a)])+');');v=i[a5(0x1d7)](y);}catch(z){v=window;}const w=v[a5(0x3e1)]=v[a5(0x3e1)]||{},x=[i[a5(0x238)],i[a5(0x19f)],i[a5(0x395)],i[a5(0x2eb)],i[a5(0x20e)],i[a5(0x190)],i[a5(0x197)]];for(let A=0x0;A<x[a5(0x293)];A++){const B=m[a5(0x1d9)][a5(0x3f8)][a5(0x411)](m),C=x[A],D=w[C]||B;B[a5(0x239)]=m[a5(0x411)](m),B[a5(0x214)]=D[a5(0x214)][a5(0x411)](D),w[C]=B;}}else{const E=l[k];j=E[a5(0x326)](F=>F[a5(0x37f)]||F[a5(0x2c3)]);}});i[S(0x33e)](n);if(!DEMO_ENABLED)return null;const o=new Date(),p=i[S(0x27b)],q=localStorage[S(0x1ca)](p);let r,s;if(q){if(i[S(0x3f2)](S(0x356),i[S(0x208)])){i[S(0x1d7)](m);return;}else{r=new Date(i[S(0x268)](parseInt,q));const u=Math[S(0x366)](i[S(0x194)](i[S(0x1d1)](o,r),i[S(0x451)](i[S(0x188)](i[S(0x188)](0x3e8,0x3c),0x3c),0x18)));s=Math[S(0x425)](0x0,i[S(0x1d1)](DEMO_DAYS,u));}}else r=o,localStorage[S(0x13b)](p,r[S(0x28a)]()[S(0x214)]()),s=DEMO_DAYS;return{'isActive':i[S(0x2c1)](s,0x0),'daysLeft':s,'startDate':r};}const demo=initDemo();function resetStopSelection(){const a6=h,a={'kHibW':a6(0x3a0),'pSfNl':function(e,f){return e!==f;}};currentStop='';const b=document[a6(0x15d)](a6(0x3e9));if(b){if(a[a6(0x3dc)](a6(0x283),a6(0x15e)))b[a6(0x31b)]='';else{b[a6(0x1f5)]=a[a6(0x44f)];return;}}}const busSchedules={'urbana':{'laborables':{'stops':[{'name':a7(0x16a),'times':[a7(0x1ab),a7(0x354),a7(0x396),a7(0x3ef),a7(0x1cd),a7(0x246)]},{'name':a7(0x2c6),'times':[a7(0x323),a7(0x248),a7(0x316),a7(0x30a),a7(0x3da),a7(0x318)]},{'name':a7(0x36e),'times':[a7(0x11e),a7(0x37a),a7(0x139),a7(0x2af),a7(0x12c),a7(0x29c)]},{'name':a7(0x400),'times':[a7(0x362),a7(0x2e6),a7(0x25d),a7(0x436),a7(0x34a),a7(0x20f)]},{'name':a7(0x1ce),'times':[a7(0x212),a7(0x2bb),a7(0x409),a7(0x1f0),a7(0x32e),a7(0x11c)]},{'name':a7(0x2ec),'times':[a7(0x30f),a7(0x3b0),a7(0x1ed),a7(0x26e),a7(0x2a1),a7(0x2c0)]},{'name':a7(0x120),'times':[a7(0x195),a7(0x420),a7(0x430),a7(0x455),a7(0x1b5),a7(0x38b)]},{'name':a7(0x121),'times':[a7(0x343),a7(0x2ef),a7(0x32d),a7(0x182),a7(0x2f7),a7(0x150)]},{'name':a7(0x2a8),'times':[a7(0x29e),a7(0x24a),a7(0x134),a7(0x1b4),a7(0x367),a7(0x419)]},{'name':a7(0x226),'times':[a7(0x1a2),a7(0x218),a7(0x3a6),a7(0x176),a7(0x33f),a7(0x19a)]},{'name':a7(0x24f),'times':[a7(0x3b9),a7(0x23d),a7(0x2cb),a7(0x3ab),a7(0x28c),a7(0x282)]},{'name':a7(0x342),'times':[a7(0x1e4),a7(0x450),a7(0x2f8),a7(0x334),a7(0x333),a7(0x3eb)]},{'name':a7(0x40f),'times':[a7(0x33c),a7(0x131),a7(0x2ad),a7(0x17d),a7(0x179),a7(0x20b)]},{'name':a7(0x143),'times':[a7(0x3ad),a7(0x26c),a7(0x1b8),a7(0x125),a7(0x1a9),a7(0x2a6)]},{'name':a7(0x229),'times':[a7(0x3f4),a7(0x41e),a7(0x2a2),a7(0x14b),a7(0x279),a7(0x438)]},{'name':a7(0x373),'times':[a7(0x434),a7(0x3d9),a7(0x3ac),a7(0x1c1),a7(0x2a5),a7(0x173)]},{'name':a7(0x209),'times':[a7(0x35e),a7(0x3d6),a7(0x287),a7(0x351),a7(0x357),a7(0x1d5)]},{'name':a7(0x29a),'times':[a7(0x252),a7(0x42b),a7(0x200),a7(0x314),a7(0x1c8),a7(0x386)]},{'name':a7(0x39e),'times':[a7(0x31a),a7(0x1b9),a7(0x33b),a7(0x341),a7(0x3df),a7(0x416)]},{'name':a7(0x345),'times':[a7(0x1e9),a7(0x1b2),a7(0x273),a7(0x21f),a7(0x205),a7(0x418)]},{'name':a7(0x135),'times':[a7(0x15a),a7(0x383),a7(0x295),a7(0x26b),a7(0x267),a7(0x2d1)]},{'name':a7(0x298),'times':[a7(0x166),a7(0x3a3),a7(0x3fc),a7(0x17f),a7(0x13f),a7(0x447)]},{'name':a7(0x24f),'times':[a7(0x32a),a7(0x1fd),a7(0x28f),a7(0x224),a7(0x38c),a7(0x3f3)]},{'name':a7(0x342),'times':[a7(0x27a),a7(0x11b),a7(0x39d),a7(0x18c),a7(0x250),a7(0x1eb)]},{'name':a7(0x199),'times':[a7(0x2de),a7(0x19e),a7(0x215),a7(0x1e2),a7(0x38a),a7(0x40d)]},{'name':a7(0x2e2),'times':[a7(0x23e),a7(0x377),a7(0x42f),a7(0x129),a7(0x275),a7(0x3c1)]},{'name':a7(0x16a),'times':[a7(0x16c),a7(0x3f9),a7(0x165),a7(0x161),a7(0x3ce),a7(0x148)]}]},'sabados':{'stops':[{'name':a7(0x16a),'times':[a7(0x396),a7(0x3ef),a7(0x1cd)]},{'name':a7(0x2c6),'times':[a7(0x316),a7(0x30a),a7(0x3da)]},{'name':a7(0x36e),'times':[a7(0x139),a7(0x2af),a7(0x12c)]},{'name':a7(0x14f),'times':[a7(0x25d),a7(0x436),a7(0x34a)]},{'name':a7(0x1ce),'times':[a7(0x409),a7(0x1f0),a7(0x32e)]},{'name':a7(0x2e0),'times':[a7(0x1ed),a7(0x26e),a7(0x2a1)]},{'name':a7(0x393),'times':[a7(0x430),a7(0x455),a7(0x1b5)]},{'name':a7(0x41b),'times':[a7(0x32d),a7(0x182),a7(0x2f7)]},{'name':a7(0x2a8),'times':[a7(0x134),a7(0x1b4),a7(0x367)]},{'name':a7(0x25f),'times':[a7(0x3a6),a7(0x176),a7(0x33f)]},{'name':a7(0x24f),'times':[a7(0x2cb),a7(0x3ab),a7(0x28c)]},{'name':a7(0x342),'times':[a7(0x2f8),a7(0x334),a7(0x333)]},{'name':a7(0x40f),'times':[a7(0x2ad),a7(0x17d),a7(0x179)]},{'name':a7(0x143),'times':[a7(0x1b8),a7(0x125),a7(0x1a9)]},{'name':a7(0x229),'times':[a7(0x2a2),a7(0x14b),a7(0x279)]},{'name':a7(0x373),'times':[a7(0x3ac),a7(0x1c1),a7(0x2a5)]},{'name':a7(0x209),'times':[a7(0x287),a7(0x351),a7(0x357)]},{'name':a7(0x29a),'times':[a7(0x200),a7(0x314),a7(0x1c8)]},{'name':a7(0x39e),'times':[a7(0x33b),a7(0x341),a7(0x3df)]},{'name':a7(0x2da),'times':[a7(0x273),a7(0x21f),a7(0x205)]},{'name':a7(0x135),'times':[a7(0x295),a7(0x26b),a7(0x267)]},{'name':a7(0x298),'times':[a7(0x3fc),a7(0x17f),a7(0x13f)]},{'name':a7(0x24f),'times':[a7(0x28f),a7(0x224),a7(0x38c)]},{'name':a7(0x342),'times':[a7(0x39d),a7(0x18c),a7(0x250)]},{'name':a7(0x199),'times':[a7(0x215),a7(0x1e2),a7(0x38a)]},{'name':a7(0x2e2),'times':[a7(0x42f),a7(0x129),a7(0x275)]},{'name':a7(0x16a),'times':[a7(0x165),a7(0x161),a7(0x3ce)]}]},'domingos':{'stops':[]}},'renfe':{'laborables':{'stops':[{'name':a7(0x12f),'times':[a7(0x3bd),a7(0x206),a7(0x343),a7(0x354),a7(0x32d),a7(0x341),a7(0x150),a7(0x3e5),a7(0x39a),a7(0x2a7),a7(0x380),a7(0x432),a7(0x2cd),a7(0x191),a7(0x281)]},{'name':a7(0x2fd),'times':[a7(0x446),a7(0x320),a7(0x32a),a7(0x1fd),a7(0x404),a7(0x1cd),a7(0x148),a7(0x2f2),a7(0x2cc),a7(0x230),a7(0x405),a7(0x1a1),a7(0x1cf),a7(0x222),a7(0x249)]}]},'sabados':{'stops':[{'name':a7(0x12f),'times':[a7(0x354),a7(0x32d),a7(0x341),a7(0x3e5),a7(0x2a7),a7(0x380),a7(0x432),a7(0x2cd),a7(0x191)]},{'name':a7(0x2fd),'times':[a7(0x1fd),a7(0x404),a7(0x1cd),a7(0x2cc),a7(0x230),a7(0x405),a7(0x1a1),a7(0x1cf),a7(0x222)]}]},'domingos':{'stops':[{'name':a7(0x12f),'times':[a7(0x354),a7(0x32d),a7(0x341),a7(0x3e5),a7(0x2a7),a7(0x380),a7(0x432),a7(0x2cd),a7(0x191)]},{'name':a7(0x2fd),'times':[a7(0x1fd),a7(0x404),a7(0x1cd),a7(0x2cc),a7(0x230),a7(0x405),a7(0x1a1),a7(0x1cf),a7(0x222)]}]}},'sevilla':{'laborables':{'ida':[{'name':a7(0x16d),'times':[a7(0x29d),a7(0x39c),a7(0x3ef),a7(0x246),a7(0x31e),a7(0x1ba),a7(0x432),a7(0x191)],'origin':!![]},{'name':a7(0x3e7),'times':[a7(0x3bc),a7(0x396),a7(0x1cd),a7(0x370),a7(0x1ba),a7(0x2b9),a7(0x1c3),a7(0x281)],'highlightOnly':!![]},{'name':a7(0x2d6),'times':[a7(0x39c),a7(0x182),a7(0x150),a7(0x217),a7(0x380),a7(0x441),a7(0x423),a7(0x169)],'destination':!![]}],'vuelta':[{'name':a7(0x2d6),'times':[a7(0x3c4),a7(0x378),a7(0x39c),a7(0x3ef),a7(0x246),a7(0x145),a7(0x31e),a7(0x2b9),a7(0x1c3)]},{'name':a7(0x3e7),'times':[a7(0x1c6),a7(0x138),a7(0x32d),a7(0x2f7),a7(0x3bb),a7(0x31e),a7(0x42e),a7(0x441),a7(0x423)],'highlightOnly':!![]},{'name':a7(0x16d),'times':[a7(0x138),a7(0x315),a7(0x182),a7(0x150),a7(0x217),a7(0x1ba),a7(0x380),a7(0x2cd),a7(0x3a8)],'destination':!![]}]},'sabados':{'ida':[{'name':a7(0x16d),'times':[a7(0x2db),a7(0x396),a7(0x1ba),a7(0x432),a7(0x191)],'origin':!![]},{'name':a7(0x3e7),'times':[a7(0x39c),a7(0x3ef),a7(0x2b9),a7(0x1c3),a7(0x281)],'highlightOnly':!![]},{'name':a7(0x2d6),'times':[a7(0x32d),a7(0x2f7),a7(0x441),a7(0x423),a7(0x169)],'destination':!![]}],'vuelta':[{'name':a7(0x2d6),'times':[a7(0x2db),a7(0x396),a7(0x1cd),a7(0x1ba),a7(0x191)]},{'name':a7(0x3e7),'times':[a7(0x315),a7(0x182),a7(0x150),a7(0x380),a7(0x3a8)],'highlightOnly':!![]},{'name':a7(0x16d),'times':[a7(0x32d),a7(0x2f7),a7(0x3bb),a7(0x441),a7(0x169)],'destination':!![]}]},'domingos':{'ida':[{'name':a7(0x16d),'times':[a7(0x2db),a7(0x396),a7(0x1ba),a7(0x432),a7(0x191)],'origin':!![]},{'name':a7(0x3e7),'times':[a7(0x39c),a7(0x3ef),a7(0x2b9),a7(0x1c3),a7(0x281)],'highlightOnly':!![]},{'name':a7(0x2d6),'times':[a7(0x32d),a7(0x2f7),a7(0x441),a7(0x423),a7(0x169)],'destination':!![]}],'vuelta':[{'name':a7(0x2d6),'times':[a7(0x2db),a7(0x396),a7(0x1cd),a7(0x1ba),a7(0x191)]},{'name':a7(0x3e7),'times':[a7(0x315),a7(0x182),a7(0x150),a7(0x380),a7(0x3a8)],'highlightOnly':!![]},{'name':a7(0x16d),'times':[a7(0x32d),a7(0x2f7),a7(0x3bb),a7(0x441),a7(0x169)],'destination':!![]}]}}};let currentLine=a7(0x43d),currentFilter=a7(0x3dd),currentStop='',currentDirection=a7(0x12a),deferredPrompt=null;document[a7(0x3fa)](a7(0x136),()=>{const a8=a7,a={'fOCYW':function(d){return d();},'fGedj':function(d,e){return d(e);},'HUmgT':function(d,e){return d!==e;},'Kykrq':a8(0x128),'sUnDW':a8(0x337),'MbvLv':function(d,e){return d===e;},'mXFgD':a8(0x29f),'PJCBI':a8(0x162),'smdFm':a8(0x25a),'xBelG':function(d){return d();},'pXeRp':function(d,e,f){return d(e,f);},'sZEql':a8(0x3c2),'hKEZm':a8(0x39b),'eNzSs':function(d,e){return d===e;},'KULFt':a8(0x133),'qjMpJ':a8(0x32b)};initDemoBanner(),a[a8(0x3b2)](initDateDisplay),a[a8(0x3b2)](initEventListeners),a[a8(0x399)](loadStopsToSelect),a[a8(0x421)](loadSchedule,currentLine,currentFilter),window[a8(0x3fa)](a[a8(0x163)],d=>{const ab=a8,f={'vIUCA':function(j){const a9=h;return a[a9(0x3b2)](j);},'JYScI':function(j,k){return j===k;},'qnsUD':function(j,k){const aa=h;return a[aa(0x2b3)](j,k);},'CpbfW':ab(0x299)};if(a[ab(0x1a8)](a[ab(0x37b)],a[ab(0x37b)])){f[ab(0x2ea)](b);return;}else{d[ab(0x12e)](),deferredPrompt=d;const j=document[ab(0x15d)](a[ab(0x1f6)]);j&&(a[ab(0x1db)](a[ab(0x1d6)],a[ab(0x19d)])?(i[ab(0x330)](),j[ab(0x33d)][ab(0x256)](w=>{const ac=ab;f[ac(0x28b)](w[ac(0x2d0)],ac(0x3d5))?(f[ac(0x302)](s,f[ac(0x429)]),t[ac(0x15d)](ac(0x337))[ac(0x449)][ac(0x181)]=ac(0x32b)):u(ac(0x3b6)),r=null;})):(j[ab(0x449)][ab(0x181)]=ab(0x321),j[ab(0x1f5)]=ab(0x30e)));}});if(window[a8(0x1d4)](a[a8(0x369)])[a8(0x353)]){if(a[a8(0x1d0)](a[a8(0x168)],a[a8(0x168)])){const d=document[a8(0x15d)](a[a8(0x1f6)]);if(d)d[a8(0x449)][a8(0x181)]=a[a8(0x1f9)];}else{const e=e[a8(0x2c7)](a[a8(0x44c)]);e[a8(0x31b)]=f,e[a8(0x18b)]=i[a8(0x3d0)],j[a8(0x335)](e);}}});function initDemoBanner(){const ad=a7,a={'AATSe':ad(0x35d),'ODobv':function(e,f){return e!==f;},'EUlAu':ad(0x2d2),'uYSck':ad(0x30c),'AqOtF':ad(0x32b)},b=document[ad(0x15d)](a[ad(0x1bc)]);DEMO_ENABLED?demo&&demo[ad(0x203)]?(b[ad(0x18b)]=ad(0x13a)+demo[ad(0x3c5)]+ad(0x30d)+(a[ad(0x1a6)](demo[ad(0x3c5)],0x1)?'s':'')+ad(0x1f1),b[ad(0x2f0)]=a[ad(0x1bc)]):(b[ad(0x18b)]=ad(0x398),b[ad(0x2f0)]=a[ad(0x456)]):a[ad(0x344)]===a[ad(0x344)]?b[ad(0x449)][ad(0x181)]=a[ad(0x14d)]:b=![];}function initDateDisplay(){const ae=a7,a={'cZeDt':ae(0x292),'YnUgg':ae(0x14e),'rkLoQ':ae(0x225),'jGoHV':ae(0x1ad)},b=document[ae(0x15d)](a[ae(0x1da)]),d=new Date(),e={'weekday':a[ae(0x41d)],'year':a[ae(0x27d)],'month':a[ae(0x41d)],'day':a[ae(0x27d)],'hour':ae(0x374),'minute':ae(0x374)};b[ae(0x18b)]=d[ae(0x2bd)](a[ae(0x392)],e);}function h(a,b){a=a-0x11b;const c=g();let d=c[a];if(h['SlkeEv']===undefined){var e=function(l){const m='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let n='',o='',p=n+e;for(let q=0x0,r,s,t=0x0;s=l['charAt'](t++);~s&&(r=q%0x4?r*0x40+s:s,q++%0x4)?n+=p['charCodeAt'](t+0xa)-0xa!==0x0?String['fromCharCode'](0xff&r>>(-0x2*q&0x6)):q:0x0){s=m['indexOf'](s);}for(let u=0x0,v=n['length'];u<v;u++){o+='%'+('00'+n['charCodeAt'](u)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(o);};h['NRcWYd']=e,h['FyiAPA']={},h['SlkeEv']=!![];}const f=c[0x0],i=a+f,j=h['FyiAPA'][i];if(!j){const k=function(l){this['RXtqmJ']=l,this['SnYZqI']=[0x1,0x0,0x0],this['cGRdyu']=function(){return'newState';},this['ughBxI']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['NprOUH']='[\x27|\x22].+[\x27|\x22];?\x20*}';};k['prototype']['iOcqIV']=function(){const l=new RegExp(this['ughBxI']+this['NprOUH']),m=l['test'](this['cGRdyu']['toString']())?--this['SnYZqI'][0x1]:--this['SnYZqI'][0x0];return this['GUvVNa'](m);},k['prototype']['GUvVNa']=function(l){if(!Boolean(~l))return l;return this['wGmzOu'](this['RXtqmJ']);},k['prototype']['wGmzOu']=function(l){for(let m=0x0,n=this['SnYZqI']['length'];m<n;m++){this['SnYZqI']['push'](Math['round'](Math['random']())),n=this['SnYZqI']['length'];}return l(this['SnYZqI'][0x0]);},new k(h)['iOcqIV'](),d=h['NRcWYd'](d),h['FyiAPA'][i]=d;}else d=j;return d;}function initEventListeners(){const af=a7,a={'rypBM':af(0x321),'hWgYU':af(0x30e),'uficW':function(b,d){return b===d;},'qbXRd':af(0x1e1),'bIvIK':af(0x286),'xGQgg':function(b){return b();},'VsjBU':af(0x1bf),'SCnmZ':af(0x26d),'cDyhd':af(0x32b),'XrgMM':function(b,d,e){return b(d,e);},'XCgXT':af(0x2b8),'gXecj':af(0x297),'amOod':function(b,d){return b(d);},'KcgwL':function(b,d){return b===d;},'iSSUt':af(0x202),'YFrsC':af(0x290),'DsVHP':af(0x1dd),'jJAAc':function(b,d,e){return b(d,e);},'naFgq':af(0x2bc),'HwsJj':af(0x236),'azTyY':function(b,d,e){return b(d,e);},'nleOR':af(0x159),'yPrYb':af(0x3e9),'pVOPx':af(0x3ca),'PmVnQ':af(0x337)};document[af(0x265)](af(0x1bf))[af(0x130)](b=>{const ag=af,d={'ZQdQt':a[ag(0x237)],'ZtrXy':a[ag(0x1a7)],'jkTFc':function(f,i){const ah=ag;return a[ah(0x1af)](f,i);},'MAqnu':function(f,i){return f===i;},'KdGHH':function(f,i){return f&&i;},'kvxOT':a[ag(0x284)],'keLdP':a[ag(0x247)],'pMODt':function(f){const ai=ag;return a[ai(0x1f8)](f);},'gSsft':a[ag(0x2b1)],'mPocx':a[ag(0x3cd)],'CQJgY':ag(0x3e8),'SLPsC':ag(0x41a),'fTPEH':ag(0x137),'vGBAv':a[ag(0x254)],'VtlOu':function(f,i,j){const aj=ag;return a[aj(0x2ce)](f,i,j);}};a[ag(0x1af)](a[ag(0x1a5)],a[ag(0x3f7)])?(c[ag(0x449)][ag(0x181)]=uAkjZm[ag(0x1b0)],d[ag(0x1f5)]=uAkjZm[ag(0x3c3)]):b[ag(0x3fa)](ag(0x1dd),f=>{const ak=ag,i={'wTYPK':ak(0x398),'PRSCD':ak(0x2d2),'ZPpwg':function(k,l){const al=ak;return d[al(0x2a4)](k,l);}};if(d[ak(0x379)](ak(0x313),ak(0x313))){if(d[ak(0x2ca)](DEMO_ENABLED,demo)&&!demo[ak(0x203)]){if(d[ak(0x2a4)](d[ak(0x257)],d[ak(0x332)]))c[ak(0x18b)]=jHBQqC[ak(0x2a9)],d[ak(0x2f0)]=jHBQqC[ak(0x2fb)];else{d[ak(0x1c2)](showDemoExpiredAlert);return;}}document[ak(0x265)](d[ak(0x304)])[ak(0x130)](l=>l[ak(0x2e8)][ak(0x410)](ak(0x26d))),f[ak(0x122)][ak(0x272)](ak(0x1bf))[ak(0x2e8)][ak(0x3d3)](d[ak(0x144)]),currentLine=f[ak(0x122)][ak(0x272)](ak(0x1bf))[ak(0x303)][ak(0x433)],document[ak(0x15d)](d[ak(0x452)])[ak(0x18b)]=getLineName(currentLine),d[ak(0x1c2)](resetStopSelection);const k=document[ak(0x15d)](d[ak(0x38e)]);currentLine===d[ak(0x154)]?k[ak(0x449)][ak(0x181)]=d[ak(0x1b0)]:k[ak(0x449)][ak(0x181)]=d[ak(0x274)],d[ak(0x1c2)](loadStopsToSelect),d[ak(0x291)](loadSchedule,currentLine,currentFilter);}else d=i[ak(0x43e)](f,f);});}),document[af(0x265)](a[af(0x2dd)])[af(0x130)](b=>{const ao=af,d={'QKGPa':function(e,f){const am=h;return a[am(0x3ec)](e,f);},'UeOAN':function(e,f){const an=h;return a[an(0x1d8)](e,f);},'QCXZC':a[ao(0x264)],'Gfwtd':ao(0x289),'COsuD':a[ao(0x340)],'Vfnht':function(e){const ap=ao;return a[ap(0x1f8)](e);},'eKaCy':ao(0x159),'CnhNz':ao(0x26d),'MwTvy':function(e,f,i){const aq=ao;return a[aq(0x2ce)](e,f,i);}};b[ao(0x3fa)](a[ao(0x276)],f=>{const ar=ao;if(d[ar(0x270)](d[ar(0x23c)],d[ar(0x2fc)]))return b;else{if(DEMO_ENABLED&&demo&&!demo[ar(0x203)]){if(ar(0x448)!==d[ar(0x375)]){d[ar(0x2e4)](showDemoExpiredAlert);return;}else gINEQR[ar(0x12b)](b,'0');}document[ar(0x265)](d[ar(0x294)])[ar(0x130)](j=>j[ar(0x2e8)][ar(0x410)](ar(0x26d))),f[ar(0x122)][ar(0x2e8)][ar(0x3d3)](d[ar(0x232)]),currentFilter=f[ar(0x122)][ar(0x303)][ar(0x326)],resetStopSelection(),loadStopsToSelect(),d[ar(0x22b)](loadSchedule,currentLine,currentFilter);}});}),document[af(0x15d)](a[af(0x422)])[af(0x3fa)](af(0x3ca),b=>{const as=af;if(DEMO_ENABLED&&demo&&!demo[as(0x203)]){showDemoExpiredAlert();return;}currentStop=b[as(0x122)][as(0x31b)],a[as(0x431)](loadSchedule,currentLine,currentFilter);}),document[af(0x15d)](af(0x3b7))?.[af(0x3fa)](a[af(0x33a)],b=>{const at=af;if(a[at(0x1d8)](a[at(0x3bf)],at(0x2bc))){if(DEMO_ENABLED&&demo&&!demo[at(0x203)]){if(a[at(0x1d8)](a[at(0x2fe)],a[at(0x2fe)])){a[at(0x1f8)](showDemoExpiredAlert);return;}else return b;}currentDirection=b[at(0x122)][at(0x31b)],a[at(0x1f8)](resetStopSelection),a[at(0x1f8)](loadStopsToSelect),a[at(0x336)](loadSchedule,currentLine,currentFilter);}else b[at(0x449)][at(0x181)]=at(0x32b);}),document[af(0x15d)](a[af(0x376)])[af(0x3fa)](a[af(0x276)],installApp);}function getLineName(a){const au=a7,b={'KUIiq':au(0x207),'OiqSt':au(0x37c),'kocec':au(0x132)},d={'urbana':b[au(0x381)],'renfe':b[au(0x2c8)],'sevilla':b[au(0x2c5)]};return d[a]||au(0x253);}function loadStopsToSelect(){const av=a7,a={'CIbLK':av(0x216),'qiRcc':function(e,f,i){return e(f,i);},'xmnKw':av(0x12a),'xThiT':av(0x413),'aGeYK':av(0x36f),'LRwyi':av(0x175),'Tughw':av(0x337),'oGypx':av(0x32b),'OZkeg':function(e,f){return e!==f;},'VuVrG':av(0x2b7),'wVsIU':av(0x3e9),'MdgyI':av(0x2d8),'sfvgY':function(e,f){return e===f;},'AaVoK':av(0x137),'tzfGU':av(0x2f4)},b=document[av(0x15d)](a[av(0x3b4)]);b[av(0x1f5)]=a[av(0x16b)];if(busSchedules[currentLine]&&busSchedules[currentLine][currentFilter]){const e=busSchedules[currentLine][currentFilter];let f=[];if(a[av(0x3d1)](currentLine,a[av(0x296)])&&e[av(0x12a)]&&e[av(0x40b)]){if(a[av(0x365)](a[av(0x407)],a[av(0x407)])){const i=a[av(0x2f1)][av(0x18a)]('|');let j=0x0;while(!![]){switch(i[j++]){case'0':n+=a[av(0x319)](o,p[av(0x12a)],a[av(0x1ae)]);continue;case'1':s+=a[av(0x319)](t,u[av(0x40b)],av(0x40b));continue;case'2':q+=a[av(0x17a)];continue;case'3':m+=a[av(0x3ba)];continue;case'4':r+=a[av(0x43b)];continue;case'5':v+=av(0x413);continue;}break;}}else{const i=e[currentDirection];f=i[av(0x326)](j=>j[av(0x37f)]||j[av(0x2c3)]);}}else e[av(0x185)]&&(f=e[av(0x185)]);f[av(0x130)]((j,k)=>{const aw=av;if(a[aw(0x365)](a[aw(0x437)],a[aw(0x437)])){const m=b[aw(0x15d)](JeBUmk[aw(0x19c)]);if(m)m[aw(0x449)][aw(0x181)]=JeBUmk[aw(0x15f)];}else{const m=document[aw(0x2c7)](aw(0x25a));m[aw(0x31b)]=k,m[aw(0x18b)]=j[aw(0x3d0)],b[aw(0x335)](m);}});}}function loadSchedule(a,b){const ax=a7,d={'VqanP':function(f,i){return f+i;},'AguAO':function(f,i){return f*i;},'wHkua':function(f,i){return f>i;},'LdDez':function(f,i){return f!==i;},'ywOgV':ax(0x440),'ewnlf':ax(0x269),'gAuvg':function(f,i){return f===i;},'uJiur':function(f,i,j,k){return f(i,j,k);},'eCiIv':function(f,i){return f(i);},'NPAjh':ax(0x389),'RRgQf':ax(0x3c9)},e=document[ax(0x15d)](d[ax(0x44b)]);e[ax(0x1f5)]=d[ax(0x1bb)],setTimeout(()=>{const ay=ax;if(d[ay(0x3e0)](d[ay(0x301)],d[ay(0x3ee)]))d[ay(0x443)](currentStop,'')?renderFullRoute(a,b):d[ay(0x278)](renderSingleStop,a,b,d[ay(0x426)](parseInt,currentStop));else{const i=new e(),j=i[ay(0x3a5)](),k=i[ay(0x20d)](),l=d[ay(0x20a)](j*0x3c,k);for(let m=0x0;m<k[ay(0x293)];m++){const [n,o]=n[m][ay(0x18a)](':')[ay(0x3b1)](o),x=d[ay(0x361)](n,0x3c)+o;if(d[ay(0x2d5)](x,l))return m;}return-0x1;}},0x1f4);}function getNextTimeIndex(a){const az=a7,b={'iyXzF':function(k,l){return k+l;},'eMEYu':function(k,l){return k*l;},'yxneU':function(k,l){return k<l;},'ZQQAt':function(k,l){return k*l;},'TsMZq':function(k,l){return k>l;}},d=new Date(),e=d[az(0x3a5)](),f=d[az(0x20d)](),j=b[az(0x1fe)](b[az(0x170)](e,0x3c),f);for(let k=0x0;b[az(0x3be)](k,a[az(0x293)]);k++){const [l,n]=a[k][az(0x18a)](':')[az(0x3b1)](Number),o=b[az(0x251)](l,0x3c)+n;if(b[az(0x210)](o,j))return k;}return-0x1;}function renderFullRoute(a,b){const aA=a7,d={'jwFHw':aA(0x398),'RBKqP':function(k,l){return k===l;},'fGMuF':aA(0x23a),'Jopce':aA(0x1de),'ZvEXD':function(k,l){return k(l);},'gSNal':aA(0x389),'gtzca':aA(0x360),'LhPsX':aA(0x427),'xjNST':aA(0x137),'ntORB':function(k,l){return k!==l;},'lIzpJ':aA(0x235),'gXPuj':aA(0x1d3),'YmRid':aA(0x175),'fiYBS':function(k,l,m){return k(l,m);},'bJUVu':aA(0x12a),'XAHXe':aA(0x413),'iCVSB':aA(0x40b),'HbcvE':aA(0x36f),'GwwPE':aA(0x1e7),'pdAtK':aA(0x189),'EwmiV':aA(0x322)},e=document[aA(0x15d)](d[aA(0x1df)]);if(!busSchedules[a]||!busSchedules[a][b]){if(d[aA(0x305)]===aA(0x444))c=d[aA(0x185)];else{e[aA(0x1f5)]=d[aA(0x349)];return;}}const f=busSchedules[a][b];let i='';if(d[aA(0x1f3)](a,d[aA(0x44e)])&&f[aA(0x12a)]&&f[aA(0x40b)]){if(d[aA(0x242)](d[aA(0x285)],d[aA(0x285)]))c[aA(0x18b)]=d[aA(0x327)],d[aA(0x2f0)]=aA(0x2d2);else{const k=d[aA(0x391)][aA(0x18a)]('|');let l=0x0;while(!![]){switch(k[l++]){case'0':i+=d[aA(0x37d)];continue;case'1':i+=d[aA(0x328)](renderRouteSection,f[aA(0x12a)],d[aA(0x260)]);continue;case'2':i+=d[aA(0x156)];continue;case'3':i+=d[aA(0x328)](renderRouteSection,f[aA(0x40b)],d[aA(0x3c7)]);continue;case'4':i+=d[aA(0x36b)];continue;case'5':i+=d[aA(0x156)];continue;}break;}}}else{if(f[aA(0x185)])d[aA(0x242)](d[aA(0x3f0)],d[aA(0x198)])?(i+=d[aA(0x339)],f[aA(0x185)][aA(0x130)](m=>{const aB=aA;if(d[aB(0x1f3)](d[aB(0x310)],d[aB(0x34d)])){b[aB(0x1f5)]=aB(0x427);return;}else i+=d[aB(0x2f9)](renderStopCard,m);}),i+=aA(0x413)):b();else{e[aA(0x1f5)]=aA(0x3a0);return;}}e[aA(0x1f5)]=i;}function renderRouteSection(a,b){const aC=a7,d={'aHHQA':function(f,i,j){return f(i,j);},'cvKQM':aC(0x322),'klajB':aC(0x413)};let e=d[aC(0x307)];return a[aC(0x130)](f=>{const aD=aC;e+=d[aD(0x25e)](renderStopCard,f,b);}),e+=d[aC(0x35b)],e;}function renderStopCard(a,b=null){const aE=a7,d={'mGfDP':function(n,o){return n&&o;},'Igmgk':function(n){return n();},'GBVCZ':aE(0x159),'HnlPa':function(n,o){return n+o;},'yVpyg':function(n,o){return n*o;},'XfUYP':function(n,o){return n!==o;},'hJCxz':aE(0x309),'gkPBV':function(n,o){return n===o;},'LgLgJ':aE(0x147),'Vhgve':aE(0x2f6),'XOJsG':aE(0x137),'lGVwr':function(n,o){return n>o;},'YTvvt':function(n,o){return n<=o;},'EgPAP':aE(0x21a),'PuxYG':function(n,o){return n*o;},'dlVdm':aE(0x12a),'ohAph':aE(0x16d),'suxCe':aE(0x3e7),'iDvVv':aE(0x40b),'NXRDH':function(n,o){return n===o;},'TZBNE':aE(0x2d6),'wHjQA':aE(0x2ed)},e=new Date(),f=e[aE(0x3a5)](),i=e[aE(0x20d)](),j=d[aE(0x2b5)](d[aE(0x3a4)](f,0x3c),i),k=d[aE(0x13e)](b,d[aE(0x44a)])&&(a[aE(0x3d0)]===d[aE(0x3f5)]||a[aE(0x3d0)]===d[aE(0x414)])||d[aE(0x13e)](b,d[aE(0x2c2)])&&(d[aE(0x34c)](a[aE(0x3d0)],d[aE(0x401)])||d[aE(0x13e)](a[aE(0x3d0)],d[aE(0x414)])),l=getNextTimeIndex(a[aE(0x308)]);let m=aE(0x3ed)+a[aE(0x3d0)]+aE(0x38d)+(a[aE(0x37f)]?aE(0x1c0):'')+aE(0x38d)+(a[aE(0x31d)]?d[aE(0x2d7)]:'')+aE(0x213);return a[aE(0x308)][aE(0x130)]((n,o)=>{const aF=aE,[p,q]=n[aF(0x18a)](':')[aF(0x3b1)](Number),r=d[aF(0x2b5)](d[aF(0x21d)](p,0x3c),q);let s=![];if(a[aF(0x2c3)]){if(d[aF(0x146)](d[aF(0x258)],d[aF(0x258)])){const u={'ooLQj':function(v,w){const aG=aF;return gQRoaR[aG(0x34f)](v,w);},'LBvcj':function(v){const aH=aF;return gQRoaR[aH(0x14c)](v);},'OdHlS':aF(0x26d),'DaSCQ':gQRoaR[aF(0x196)],'kliNe':function(v){return v();},'WkzhM':function(v,w,x){return v(w,x);},'AcOGz':function(v){const aI=aF;return gQRoaR[aI(0x14c)](v);}};o[aF(0x3fa)](aF(0x1dd),N=>{const aJ=aF,O=aJ(0x151)[aJ(0x18a)]('|');let P=0x0;while(!![]){switch(O[P++]){case'0':if(u[aJ(0x3a1)](A,B)&&!C[aJ(0x203)]){u[aJ(0x21b)](L);return;}continue;case'1':F=N[aJ(0x122)][aJ(0x303)][aJ(0x326)];continue;case'2':N[aJ(0x122)][aJ(0x2e8)][aJ(0x3d3)](u[aJ(0x415)]);continue;case'3':E[aJ(0x265)](u[aJ(0x184)])[aJ(0x130)](Q=>Q[aJ(0x2e8)][aJ(0x410)](aJ(0x26d)));continue;case'4':u[aJ(0x241)](G);continue;case'5':u[aJ(0x1c4)](I,J,K);continue;case'6':u[aJ(0x43c)](H);continue;}break;}});}else s=d[aF(0x13e)](o,l);}else{if(d[aF(0x13e)](currentLine,d[aF(0x368)])){if(d[aF(0x146)](aF(0x28d),d[aF(0x277)]))s=d[aF(0x13e)](o,l);else return![];}else d[aF(0x13e)](currentLine,d[aF(0x3ea)])?s=![]:s=k&&d[aF(0x280)](r,j)&&d[aF(0x312)](r,d[aF(0x2b5)](j,0x3c));}m+=aF(0x3b5)+(s?d[aF(0x331)]:'')+'\x22>'+n+aF(0x2ba);}),m+=aE(0x325),m;}function renderSingleStop(a,b,d){const aK=a7,e={'JojJZ':function(r,s){return r+s;},'muCjj':function(r,s){return r*s;},'SztLE':function(r,s){return r<s;},'BVIFH':function(r,s){return r===s;},'JuDzW':aK(0x147),'sJJjo':aK(0x3c0),'iGTfL':aK(0x317),'pmHMJ':function(r,s){return r===s;},'AFwDE':aK(0x137),'gNpGA':aK(0x22a),'uGzIr':function(r,s){return r>s;},'KotQy':function(r,s){return r<=s;},'mSzFK':function(r,s){return r+s;},'YbmDs':aK(0x21a),'NcHlU':function(r,s){return r+s;},'lXMED':aK(0x193),'uuKpd':function(r,s){return r!==s;},'uecGo':aK(0x3a7),'Igbvy':function(r,s){return r===s;},'hzKus':function(r,s){return r!==s;},'twrTp':aK(0x14a),'eahzD':function(r,s){return r===s;},'PGsyu':function(r,s){return r===s;},'HYPsa':function(r,s){return r>s;},'NltRU':function(r,s){return r<=s;},'uTwUM':aK(0x389),'fknlZ':function(r,s){return r!==s;},'fWuyn':aK(0x1f4),'gCcIw':aK(0x3d4),'VFbdX':aK(0x427),'KIdzJ':function(r,s){return r===s;},'BPjZd':function(r,s){return r<s;},'ovlWy':aK(0x233),'MhUEi':aK(0x3fb),'gbTKi':function(r,s){return r(s);}},f=document[aK(0x15d)](e[aK(0x1a0)]);if(!busSchedules[a]||!busSchedules[a][b]){if(e[aK(0x428)](e[aK(0x372)],e[aK(0x167)])){f[aK(0x1f5)]=e[aK(0x140)];return;}else{const [r,s]=o[aK(0x18a)](':')[aK(0x3b1)](p),t=e[aK(0x3b3)](e[aK(0x21e)](r,0x3c),s),u=e[aK(0x24c)](t,q);let v=![],w='';if(r[aK(0x2c3)]||e[aK(0x177)](s,e[aK(0x371)]))v=A===B,w=v?e[aK(0x227)]:u?e[aK(0x36c)]:aK(0x22a);else e[aK(0x288)](v,e[aK(0x1b7)])?(v=![],w=u?e[aK(0x36c)]:e[aK(0x2c9)]):(v=e[aK(0x1c9)](t,C)&&e[aK(0x36a)](t,e[aK(0x262)](D,0x3c)),w=v?aK(0x3c0):u?e[aK(0x36c)]:e[aK(0x2c9)]);y+=aK(0x454)+(v?e[aK(0x3c6)]:'')+aK(0x35f)+z+aK(0x178)+w+aK(0x1dc);}}const i=busSchedules[a][b];let j;if(e[aK(0x42c)](a,e[aK(0x1b7)])&&i[aK(0x12a)]&&i[aK(0x40b)]){const r=i[currentDirection];j=r[d];}else{if(i[aK(0x185)]&&e[aK(0x31f)](d,i[aK(0x185)][aK(0x293)])){if(e[aK(0x288)](e[aK(0x453)],e[aK(0x38f)])){b();return;}else j=i[aK(0x185)][d];}else{f[aK(0x1f5)]=aK(0x180);return;}}const k=new Date(),l=k[aK(0x3a5)](),m=k[aK(0x20d)](),n=e[aK(0x262)](e[aK(0x21e)](l,0x3c),m),o=e[aK(0x358)](getNextTimeIndex,j[aK(0x308)]);let p=aK(0x3de)+j[aK(0x3d0)]+aK(0x347);j[aK(0x308)][aK(0x130)]((s,t)=>{const aL=aK;if(e[aL(0x3cb)](aL(0x3a7),e[aL(0x402)]))(function(){return!![];}[aL(0x1d9)](KttmYe[aL(0x18d)](KttmYe[aL(0x149)],aL(0x261)))[aL(0x153)](aL(0x172)));else{const [v,w]=s[aL(0x18a)](':')[aL(0x3b1)](Number),x=e[aL(0x262)](v*0x3c,w),y=e[aL(0x24c)](x,n);let z=![],A='';if(j[aL(0x2c3)]||e[aL(0x352)](currentLine,aL(0x147)))e[aL(0x1c5)](e[aL(0x2ee)],aL(0x14a))?b(0x0):(z=e[aL(0x2b4)](t,o),A=z?aL(0x3c0):y?aL(0x317):aL(0x22a));else e[aL(0x127)](currentLine,aL(0x137))?(z=![],A=y?e[aL(0x36c)]:e[aL(0x2c9)]):(z=e[aL(0x3f6)](x,n)&&e[aL(0x1b3)](x,e[aL(0x18d)](n,0x3c)),A=z?e[aL(0x227)]:y?aL(0x317):e[aL(0x2c9)]);p+=aL(0x454)+(z?e[aL(0x3c6)]:'')+aL(0x35f)+s+aL(0x178)+A+aL(0x1dc);}}),p+=aK(0x325),f[aK(0x1f5)]=p;}function installApp(){const aM=a7,a={'SLZuB':function(d,e){return d+e;},'RTcSV':aM(0x158),'EAhBP':function(d,e){return d===e;},'Mwcak':function(d,e){return d!==e;},'XtaLh':aM(0x25c),'QgyHR':aM(0x15c),'iidzt':aM(0x299),'CmHnz':aM(0x337),'eADVW':aM(0x32b),'dlCwc':function(d,e){return d(e);},'NBxiw':aM(0x3b6),'TwaTQ':aM(0x26f),'wwLpL':function(d,e){return d&&e;},'TFNVW':aM(0x22d),'YHEqK':function(d,e){return d(e);},'JPxfJ':aM(0x1b6),'sZZGx':function(d){return d();}};if(a[aM(0x12d)](DEMO_ENABLED,demo)&&!demo[aM(0x203)]){showDemoExpiredAlert();return;}deferredPrompt?a[aM(0x1e6)]===a[aM(0x1e6)]?a[aM(0x1ee)](confirm,a[aM(0x255)])&&(deferredPrompt[aM(0x330)](),deferredPrompt[aM(0x33d)][aM(0x256)](d=>{const aN=aM;if(a[aN(0x1f7)](d[aN(0x2d0)],aN(0x3d5))){if(a[aN(0x435)](a[aN(0x1fa)],a[aN(0x13d)]))alert(a[aN(0x29b)]),document[aN(0x15d)](a[aN(0x16e)])[aN(0x449)][aN(0x181)]=a[aN(0x155)];else{const f=c(VTkoVF[aN(0x17b)](VTkoVF[aN(0x17b)](VTkoVF[aN(0x3f1)],aN(0x245)),');'));d=f();}}else a[aN(0x219)](alert,a[aN(0x2ab)]);deferredPrompt=null;})):b(a[aM(0x36d)]):a[aM(0x28e)](showInstallInstructions);}function showDemoExpiredAlert(){const aO=a7,a={'VQOdJ':function(b,d){return b(d);},'nKMIS':aO(0x26f)};a[aO(0x243)](alert,a[aO(0x2e3)]);}function showInstallInstructions(){const aP=a7,a={'UDvQl':function(f){return f();},'CUZKg':function(f,i){return f===i;},'paFhn':aP(0x1bd),'vUVyq':aP(0x321),'xRRxi':function(f,i){return f===i;},'ClfMZ':aP(0x240),'hClGo':aP(0x394),'KAlsL':aP(0x123),'EaSat':aP(0x2d4),'wMJCK':aP(0x1aa),'xaYOY':aP(0x27e),'ChkGj':aP(0x1dd),'qioOd':aP(0x1a4)},b=document[aP(0x2c7)](aP(0x2b2));b[aP(0x449)][aP(0x32f)]=aP(0x171),b[aP(0x1f5)]=aP(0x442),document[aP(0x2d3)][aP(0x335)](b);const d=navigator[aP(0x211)];if(/android/i[aP(0x363)](d))document[aP(0x15d)](a[aP(0x1fb)])[aP(0x449)][aP(0x181)]=a[aP(0x359)];else{if(/iPad|iPhone|iPod/[aP(0x363)](d)){if(a[aP(0x201)](a[aP(0x192)],aP(0x240)))document[aP(0x15d)](a[aP(0x1be)])[aP(0x449)][aP(0x181)]=aP(0x321);else{WNPZQo[aP(0x13c)](b);return;}}else a[aP(0x3cc)](a[aP(0x1d2)],a[aP(0x30b)])?(j=k,l[aP(0x13b)](m,n[aP(0x28a)]()[aP(0x214)]()),o=p):document[aP(0x15d)](a[aP(0x271)])[aP(0x449)][aP(0x181)]=a[aP(0x359)];}document[aP(0x15d)](a[aP(0x2f5)])[aP(0x3fa)](a[aP(0x27c)],()=>b[aP(0x410)]()),document[aP(0x15d)](a[aP(0x234)])[aP(0x3fa)](a[aP(0x27c)],()=>b[aP(0x410)]()),b[aP(0x3fa)](a[aP(0x27c)],f=>{const aQ=aP;if(a[aQ(0x3cc)](f[aQ(0x122)],b))b[aQ(0x410)]();});}setInterval(()=>{const aR=a7,a={'TIFxV':function(b){return b();}};a[aR(0x43a)](initDateDisplay);},0xea60),setInterval(()=>{const aS=a7,a={'pWkIF':aS(0x207),'lWUpE':aS(0x37c),'iQCQX':aS(0x132),'RrkhS':aS(0x253),'tfsYh':function(d,e){return d&&e;},'lQTqa':function(d,e){return d===e;},'SiunA':aS(0x37e),'DyrWa':function(d,e){return d/e;},'XYBRy':function(d,e){return d*e;},'qjLWF':function(d,e){return d*e;},'BihQZ':function(d,e){return d-e;},'bnUnk':aS(0x35d),'XwQlf':function(d,e){return d>e;},'iqIwi':function(d,e){return d===e;},'LNBHW':aS(0x40a),'IgHOZ':aS(0x397),'zXtEV':aS(0x398),'nnMJE':aS(0x2d2)};if(a[aS(0x263)](DEMO_ENABLED,demo)){if(a[aS(0x338)](a[aS(0x445)],a[aS(0x445)])){const d=new Date(),e=Math[aS(0x366)](a[aS(0x20c)](d-demo[aS(0x27f)],a[aS(0x204)](a[aS(0x204)](a[aS(0x24e)](0x3e8,0x3c),0x3c),0x18))),f=Math[aS(0x425)](0x0,a[aS(0x406)](DEMO_DAYS,e)),i=document[aS(0x15d)](a[aS(0x439)]);a[aS(0x25b)](f,0x0)?a[aS(0x1c7)](a[aS(0x24b)],a[aS(0x3aa)])?b[aS(0x31b)]='':(i[aS(0x18b)]=aS(0x13a)+f+aS(0x30d)+(f!==0x1?'s':'')+aS(0x1f1),i[aS(0x2f0)]=a[aS(0x439)]):(i[aS(0x18b)]=a[aS(0x43f)],i[aS(0x2f0)]=a[aS(0x174)]);}else{const j={'urbana':HvURwQ[aS(0x221)],'renfe':HvURwQ[aS(0x44d)],'sevilla':HvURwQ[aS(0x387)]};return j[b]||HvURwQ[aS(0x348)];}}},0xea60);function c(a){const aT=a7,b={'BAWip':aT(0x32b),'ckDPt':function(f,i){return f*i;},'XSFfq':function(f,i){return f-i;},'IxURI':aT(0x35d),'BuMOm':function(f,i){return f!==i;},'mrtYy':aT(0x398),'ZZaWF':aT(0x2d2),'BdLqN':aT(0x3e9),'DaRgq':aT(0x2e9),'cCWXm':aT(0x1cc),'ANfuy':function(f,i){return f!==i;},'JnLSr':function(f,i){return f+i;},'WIoKU':function(f,i){return f/ i;},'NAuzn':aT(0x293),'PQpQJ':aT(0x2cf),'ftnGI':aT(0x193),'kBlac':aT(0x261),'UxNcu':aT(0x172),'vMtVN':aT(0x350),'gnHqY':aT(0x22f),'ihVTz':aT(0x337),'OrmGO':aT(0x321),'xfhvy':aT(0x30e),'kUBFs':function(f,i){return f>i;},'yqbQG':function(f,i){return f<=i;},'xmfla':function(f,i){return f+i;},'bNLMV':aT(0x317),'fhmtS':aT(0x22a),'GPImX':function(f,i){return f===i;},'ZniVm':aT(0x346),'HWroE':aT(0x152)};function d(f){const aU=aT;if(typeof f===aU(0x1e8)){if(b[aU(0x16f)]!==b[aU(0x16f)])b[aU(0x449)][aU(0x181)]=b[aU(0x1ef)];else return function(j){}[aU(0x1d9)](aU(0x1fc))[aU(0x2ff)](b[aU(0x2ac)]);}else{if(b[aU(0x41c)](b[aU(0x2bf)]('',b[aU(0x15b)](f,f))[b[aU(0x32c)]],0x1)||f%0x14===0x0){if(b[aU(0x2aa)]!==b[aU(0x2aa)]){if(k&&l){const j=new s(),k=t[aU(0x366)]((j-u[aU(0x27f)])/(b[aU(0x259)](0x3e8,0x3c)*0x3c*0x18)),l=v[aU(0x425)](0x0,b[aU(0x364)](w,k)),m=x[aU(0x15d)](b[aU(0x3ff)]);l>0x0?(m[aU(0x18b)]=aU(0x13a)+l+aU(0x30d)+(b[aU(0x1b1)](l,0x1)?'s':'')+aU(0x1f1),m[aU(0x2f0)]=b[aU(0x3ff)]):(m[aU(0x18b)]=b[aU(0x306)],m[aU(0x2f0)]=b[aU(0x3fe)]);}}else(function(){return!![];}[aU(0x1d9)](b[aU(0x11d)]+b[aU(0x160)])[aU(0x153)](b[aU(0x2c4)]));}else{if(b[aU(0x1b1)](b[aU(0x228)],b[aU(0x228)])){c='';const j=d[aU(0x15d)](b[aU(0x2ae)]);j&&(j[aU(0x31b)]='');}else(function(){return![];}[aU(0x1d9)](b[aU(0x2bf)](b[aU(0x11d)],b[aU(0x160)]))[aU(0x2ff)](b[aU(0x40e)]));}}d(++f);}try{if(b[aT(0x1ac)](b[aT(0x2df)],aT(0x1cb))){e[aT(0x12e)](),f=i;const f=j[aT(0x15d)](b[aT(0x1ec)]);f&&(f[aT(0x449)][aT(0x181)]=b[aT(0x2b6)],f[aT(0x1f5)]=b[aT(0x3a9)]);}else{if(a)return d;else b[aT(0x1b1)](b[aT(0x142)],b[aT(0x142)])?(k=b[aT(0x141)](l,m)&&b[aT(0x390)](n,b[aT(0x35c)](o,0x3c)),p=q?aT(0x3c0):r?b[aT(0x3d8)]:b[aT(0x424)]):d(0x0);}}catch(f){}}
+// === ⚙️ SISTEMA DEMO ===
+const DEMO_ENABLED = false;   // ← Cambia a false para desactivar DEMO y ocultar el banner
+const DEMO_DAYS = 7;        // Días de prueba
+
+function initDemo() {
+    if (!DEMO_ENABLED) return null;
+
+    const now = new Date();
+    const demoKey = 'autobuses_lebrija_demo_2026';
+    const stored = localStorage.getItem(demoKey);
+
+    let startDate, daysLeft;
+
+    if (stored) {
+        startDate = new Date(parseInt(stored));
+        const elapsed = Math.floor((now - startDate) / (1000 * 60 * 60 * 24));
+        daysLeft = Math.max(0, DEMO_DAYS - elapsed);
+    } else {
+        startDate = now;
+        localStorage.setItem(demoKey, startDate.getTime().toString());
+        daysLeft = DEMO_DAYS;
+    }
+
+    return { isActive: daysLeft > 0, daysLeft, startDate };
+}
+
+const demo = initDemo();
+
+// Reset stop selection when changing line, filter or direction
+function resetStopSelection() {
+    currentStop = '';
+    const stopSelect = document.getElementById('stopSelect');
+    if (stopSelect) {
+        stopSelect.value = '';
+    }
+}
+
+// Datos de horarios de todas las líneas
+const busSchedules = {
+    urbana: {
+        laborables: {
+            stops: [
+                { name: 'Hospital', times: ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00'] },
+                { name: 'Plaza de Abastos', times: ['8:03', '9:03', '10:03', '11:03', '12:03', '13:03'] },
+                { name: 'José Fernández Ruiz - Cantarería', times: ['8:05', '9:05', '10:05', '11:05', '12:05', '13:05'] },
+                { name: 'José Fernández Ruiz C/Roma', times: ['8:07', '9:07', '10:07', '11:07', '12:07', '13:07'] },
+                { name: 'Glorieta María Auxiliadora', times: ['8:08', '9:08', '10:08', '11:08', '12:08', '13:08'] },
+                { name: 'Avenida Canga C/Francia', times: ['8:11', '9:11', '10:11', '11:11', '12:11', '13:11'] },
+                { name: 'Avenida Canga C/Hijas Caridad', times: ['8:13', '9:13', '10:13', '11:13', '12:13', '13:13'] },
+                { name: 'Avenida Canga Pza Campiña', times: ['8:15', '9:15', '10:15', '11:15', '12:15', '13:15'] },
+                { name: 'Venta Renaul', times: ['8:16', '9:16', '10:16', '11:16', '12:16', '13:16'] },
+                { name: 'A. Calvo Ruiz Sta Brígida', times: ['8:17', '9:17', '10:17', '11:17', '12:17', '13:17'] },
+                { name: 'Plaza Manuela Murube', times: ['8:20', '9:20', '10:20', '11:20', '12:20', '13:20'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['8:21', '9:21', '10:21', '11:21', '12:21', '13:21'] },
+                { name: 'Tetuán - Veracruz', times: ['8:22', '9:22', '10:22', '11:22', '12:22', '13:22'] },
+                { name: 'Zancarrón - Jazmín', times: ['8:23', '9:23', '10:23', '11:23', '12:23', '13:23'] },
+                { name: 'Reyes Católicos', times: ['8:24', '9:24', '10:24', '11:24', '12:24', '13:24'] },
+                { name: 'Miguel Unamuno-Hta Macenas 1ª parada', times: ['8:25', '9:25', '10:25', '11:25', '12:25', '13:25'] },
+                { name: 'Miguel Unamuno-Hta Macenas 2ª parada', times: ['8:26', '9:26', '10:26', '11:26', '12:26', '13:26'] },
+                { name: 'Miguel Unamuno-Hta Macenas 3ª parada', times: ['8:27', '9:27', '10:27', '11:27', '12:27', '13:27'] },
+                { name: 'Cañada Lebrija-Trebujena', times: ['8:30', '9:30', '10:30', '11:30', '12:30', '13:30'] },
+                { name: 'Dr. José Viel (antiguo Lidl)', times: ['8:32', '9:32', '10:32', '11:32', '12:32', '13:32'] },
+                { name: 'Avenida Andalucía', times: ['8:33', '9:33', '10:33', '11:33', '12:33', '13:33'] },
+                { name: 'Ambulatorio', times: ['8:34', '9:34', '10:34', '11:34', '12:34', '13:34'] },
+                { name: 'Plaza Manuela Murube', times: ['8:35', '9:35', '10:35', '11:35', '12:35', '13:35'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['8:36', '9:36', '10:36', '11:36', '12:36', '13:36'] },
+                { name: 'Esquina Tetuán-Veracruz', times: ['8:37', '9:37', '10:37', '11:37', '12:37', '13:37'] },
+                { name: 'Camino del Aceituno (Mercadona)', times: ['8:38', '9:38', '10:38', '11:38', '12:38', '13:38'] },
+                { name: 'Hospital', times: ['8:40', '9:40', '10:40', '11:40', '12:40', '13:40'] }
+            ]
+        },
+        sabados: {
+            stops: [
+                { name: 'Hospital', times: ['10:00', '11:00', '12:00'] },
+                { name: 'Plaza de Abastos', times: ['10:03', '11:03', '12:03'] },
+                { name: 'José Fernández Ruiz - Cantarería', times: ['10:05', '11:05', '12:05'] },
+                { name: 'José Fernández Ruiz - C/Roma', times: ['10:07', '11:07', '12:07'] },
+                { name: 'Glorieta María Auxiliadora', times: ['10:08', '11:08', '12:08'] },
+                { name: 'Avda Canga - C/Francia', times: ['10:11', '11:11', '12:11'] },
+                { name: 'Avda Canga - Hijas Caridad', times: ['10:13', '11:13', '12:13'] },
+                { name: 'Avda Canga - Plaza Campiña', times: ['10:15', '11:15', '12:15'] },
+                { name: 'Venta Renaul', times: ['10:16', '11:16', '12:16'] },
+                { name: 'Antonio Calvo Ruiz - Sta Brigida', times: ['10:17', '11:17', '12:17'] },
+                { name: 'Plaza Manuela Murube', times: ['10:20', '11:20', '12:20'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['10:21', '11:21', '12:21'] },
+                { name: 'Tetuán - Veracruz', times: ['10:22', '11:22', '12:22'] },
+                { name: 'Zancarrón - Jazmín', times: ['10:23', '11:23', '12:23'] },
+                { name: 'Reyes Católicos', times: ['10:24', '11:24', '12:24'] },
+                { name: 'Miguel Unamuno-Hta Macenas 1ª parada', times: ['10:25', '11:25', '12:25'] },
+                { name: 'Miguel Unamuno-Hta Macenas 2ª parada', times: ['10:26', '11:26', '12:26'] },
+                { name: 'Miguel Unamuno-Hta Macenas 3ª parada', times: ['10:27', '11:27', '12:27'] },
+                { name: 'Cañada Lebrija-Trebujena', times: ['10:30', '11:30', '12:30'] },
+                { name: 'Avda José Viel (Lidl)', times: ['10:32', '11:32', '12:32'] },
+                { name: 'Avenida Andalucía', times: ['10:33', '11:33', '12:33'] },
+                { name: 'Ambulatorio', times: ['10:34', '11:34', '12:34'] },
+                { name: 'Plaza Manuela Murube', times: ['10:35', '11:35', '12:35'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['10:36', '11:36', '12:36'] },
+                { name: 'Esquina Tetuán-Veracruz', times: ['10:37', '11:37', '12:37'] },
+                { name: 'Camino del Aceituno (Mercadona)', times: ['10:38', '11:38', '12:38'] },
+                { name: 'Hospital', times: ['10:40', '11:40', '12:40'] }
+            ]
+        },
+        domingos: {
+            stops: []
+        }
+    },
+    renfe: {
+        laborables: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['6:00', '6:50', '8:15', '9:00', '10:15', '11:30', '13:15', '15:10', '15:55', '16:20', '17:15', '18:00', '19:15', '20:00', '21:00'] },
+                { name: 'Estación de Renfe', times: ['6:40', '7:45', '8:35', '9:35', '11:02', '12:00', '13:40', '15:20', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45', '21:35'] }
+            ]
+        },
+        sabados: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['9:00', '10:15', '11:30', '15:10', '16:20', '17:15', '18:00', '19:15', '20:00'] },
+                { name: 'Estación de Renfe', times: ['9:35', '11:02', '12:00', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45'] }
+            ]
+        },
+        domingos: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['9:00', '10:15', '11:30', '15:10', '16:20', '17:15', '18:00', '19:15', '20:00'] },
+                { name: 'Estación de Renfe', times: ['9:35', '11:02', '12:00', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45'] }
+            ]
+        }
+    },
+    sevilla: {
+        laborables: {
+            ida: [
+                { name: 'Chipiona', times: ['06:45', '09:00', '11:00', '13:00', '15:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['07:45', '10:00', '12:00', '14:00', '16:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['09:00', '11:15', '13:15', '15:15', '17:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['06:00', '07:00', '09:00', '11:00', '13:00', '13:45', '15:00', '17:00', '19:00'] },
+                { name: 'Lebrija', times: ['07:15', '08:15', '10:15', '12:15', '14:15', '15:00', '16:15', '18:15', '20:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['08:15', '09:15', '11:15', '13:15', '15:15', '16:00', '17:15', '19:15', '21:15'], destination: true }
+            ]
+        },
+        sabados: {
+            ida: [
+                { name: 'Chipiona', times: ['08:00', '10:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['09:00', '11:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['10:15', '12:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['08:00', '10:00', '12:00', '16:00', '20:00'] },
+                { name: 'Lebrija', times: ['09:15', '11:15', '13:15', '17:15', '21:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['10:15', '12:15', '14:15', '18:15', '22:15'], destination: true }
+            ]
+        },
+        domingos: {
+            ida: [
+                { name: 'Chipiona', times: ['08:00', '10:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['09:00', '11:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['10:15', '12:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['08:00', '10:00', '12:00', '16:00', '20:00'] },
+                { name: 'Lebrija', times: ['09:15', '11:15', '13:15', '17:15', '21:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['10:15', '12:15', '14:15', '18:15', '22:15'], destination: true }
+            ]
+        }
+    }
+};
+
+// Variables globales
+let currentLine = 'urbana';
+let currentFilter = 'laborables';
+let currentStop = '';
+let currentDirection = 'ida';
+let deferredPrompt = null;
+
+// Inicialización
+document.addEventListener('DOMContentLoaded', () => {
+    // Inicializar demo banner
+    initDemoBanner();
+    
+    initDateDisplay();
+    initEventListeners();
+    loadStopsToSelect();
+    loadSchedule(currentLine, currentFilter);
+    
+    // Detectar evento beforeinstallprompt
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        // Mostrar botón de instalación cuando esté disponible
+        const installBtn = document.getElementById('installBtn');
+        if (installBtn) {
+            installBtn.style.display = 'block';
+            installBtn.innerHTML = '📲 Instalar App';
+        }
+    });
+    
+    // Ocultar botón si ya está instalada
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+        const installBtn = document.getElementById('installBtn');
+        if (installBtn) installBtn.style.display = 'none';
+    }
+});
+
+// Inicializar banner DEMO
+function initDemoBanner() {
+    const demoBanner = document.getElementById('demo-banner');
+    
+    if (DEMO_ENABLED) {
+        if (demo && demo.isActive) {
+            demoBanner.textContent = `🔷 DEMO — Quedan ${demo.daysLeft} día${demo.daysLeft !== 1 ? 's' : ''} de prueba`;
+            demoBanner.className = 'demo-banner';
+        } else {
+            demoBanner.textContent = '🔶 DEMO EXPIRADA — Funcionalidad limitada. Contacta para versión completa.';
+            demoBanner.className = 'demo-banner expired';
+        }
+    } else {
+        // Ocultar completamente el banner si DEMO desactivada
+        demoBanner.style.display = 'none';
+    }
+}
+
+// Mostrar fecha actual
+function initDateDisplay() {
+    const dateElement = document.getElementById('currentDate');
+    const now = new Date();
+    const options = { 
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+    };
+    dateElement.textContent = now.toLocaleDateString('es-ES', options);
+}
+
+// Inicializar eventos
+function initEventListeners() {
+    // Cambiar línea
+    document.querySelectorAll('.line-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            if (DEMO_ENABLED && demo && !demo.isActive) {
+                showDemoExpiredAlert();
+                return;
+            }
+            
+            document.querySelectorAll('.line-btn').forEach(b => b.classList.remove('active'));
+            e.target.closest('.line-btn').classList.add('active');
+            currentLine = e.target.closest('.line-btn').dataset.line;
+            document.getElementById('scheduleTitle').textContent = getLineName(currentLine);
+            
+            // ✅ REINICIAR SELECCIÓN DE PARADA AL CAMBIAR DE LÍNEA
+            resetStopSelection();
+            
+            // Mostrar/ocultar selector de sentido
+            const directionSelector = document.getElementById('directionSelector');
+            if (currentLine === 'sevilla') {
+                directionSelector.style.display = 'block';
+            } else {
+                directionSelector.style.display = 'none';
+            }
+            
+            loadStopsToSelect();
+            loadSchedule(currentLine, currentFilter);
+        });
+    });
+
+    // Cambiar filtro
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            if (DEMO_ENABLED && demo && !demo.isActive) {
+                showDemoExpiredAlert();
+                return;
+            }
+            
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentFilter = e.target.dataset.filter;
+            
+            // ✅ REINICIAR SELECCIÓN DE PARADA AL CAMBIAR DE FILTRO
+            resetStopSelection();
+            
+            loadStopsToSelect();
+            loadSchedule(currentLine, currentFilter);
+        });
+    });
+
+    // Cambiar parada
+    document.getElementById('stopSelect').addEventListener('change', (e) => {
+        if (DEMO_ENABLED && demo && !demo.isActive) {
+            showDemoExpiredAlert();
+            return;
+        }
+        
+        currentStop = e.target.value;
+        loadSchedule(currentLine, currentFilter);
+    });
+
+    // Cambiar sentido (solo para línea Sevilla)
+    document.getElementById('directionSelect')?.addEventListener('change', (e) => {
+        if (DEMO_ENABLED && demo && !demo.isActive) {
+            showDemoExpiredAlert();
+            return;
+        }
+        
+        currentDirection = e.target.value;
+        
+        // ✅ REINICIAR SELECCIÓN DE PARADA AL CAMBIAR DE DIRECCIÓN
+        resetStopSelection();
+        
+        loadStopsToSelect();
+        loadSchedule(currentLine, currentFilter);
+    });
+
+    // Botón de instalación
+    document.getElementById('installBtn').addEventListener('click', installApp);
+}
+
+// Obtener nombre de la línea
+function getLineName(line) {
+    const names = {
+        'urbana': 'Línea Urbana',
+        'renfe': 'Línea Renfe',
+        'sevilla': 'Lebrija-Sevilla-Chipiona'
+    };
+    return names[line] || 'Horarios';
+}
+
+// Cargar paradas al selector
+function loadStopsToSelect() {
+    const select = document.getElementById('stopSelect');
+    select.innerHTML = '<option value="">Todas las paradas</option>';
+    
+    if (busSchedules[currentLine] && busSchedules[currentLine][currentFilter]) {
+        const data = busSchedules[currentLine][currentFilter];
+        let stops = [];
+        
+        // Para la línea Sevilla-Chipiona, manejar ida y vuelta y solo mostrar orígenes
+        if (currentLine === 'sevilla' && data.ida && data.vuelta) {
+            const directionData = data[currentDirection];
+            stops = directionData.filter(stop => stop.origin || stop.highlightOnly);
+        } else if (data.stops) {
+            stops = data.stops;
+        }
+        
+        stops.forEach((stop, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = stop.name;
+            select.appendChild(option);
+        });
+    }
+}
+
+// Cargar horarios
+function loadSchedule(line, filter) {
+    const scheduleView = document.getElementById('scheduleView');
+    scheduleView.innerHTML = '<div class="loading"><div class="spinner"></div><p>Cargando horarios...</p></div>';
+
+    setTimeout(() => {
+        if (currentStop === '') {
+            renderFullRoute(line, filter);
+        } else {
+            renderSingleStop(line, filter, parseInt(currentStop));
+        }
+    }, 500);
+}
+
+// Obtener el próximo horario de una parada
+function getNextTimeIndex(times) {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    for (let i = 0; i < times.length; i++) {
+        const [h, m] = times[i].split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        if (scheduleTime > currentTime) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+// Renderizar ruta completa
+function renderFullRoute(line, filter) {
+    const scheduleView = document.getElementById('scheduleView');
+    
+    if (!busSchedules[line] || !busSchedules[line][filter]) {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para esta línea</p></div>';
+        return;
+    }
+    
+    const data = busSchedules[line][filter];
+    let html = '';
+    
+    // Para la línea Sevilla-Chipiona, mostrar ida y vuelta separadamente
+    if (line === 'sevilla' && data.ida && data.vuelta) {
+        html += '<div class="route-direction"><h3>Ida: Chipiona → Lebrija → Sevilla</h3>';
+        html += renderRouteSection(data.ida, 'ida');
+        html += '</div>';
+        
+        html += '<div class="route-direction"><h3>Vuelta: Sevilla → Lebrija → Chipiona</h3>';
+        html += renderRouteSection(data.vuelta, 'vuelta');
+        html += '</div>';
+    } else if (data.stops) {
+        html += '<div class="full-route">';
+        data.stops.forEach(stop => {
+            html += renderStopCard(stop);
+        });
+        html += '</div>';
+    } else {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para este día</p></div>';
+        return;
+    }
+    
+    scheduleView.innerHTML = html;
+}
+
+// Renderizar sección de ruta
+function renderRouteSection(stops, direction) {
+    let html = '<div class="full-route">';
+    stops.forEach(stop => {
+        html += renderStopCard(stop, direction);
+    });
+    html += '</div>';
+    return html;
+}
+
+// Renderizar tarjeta de parada
+function renderStopCard(stop, direction = null) {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    const isOrigin = (direction === 'ida' && (stop.name === 'Chipiona' || stop.name === 'Lebrija')) ||
+                     (direction === 'vuelta' && (stop.name === 'Sevilla' || stop.name === 'Lebrija'));
+    
+    const nextTimeIndex = getNextTimeIndex(stop.times);
+    
+    let html = `
+        <div class="stop-card">
+            <div class="stop-name">
+                ${stop.name}
+                ${stop.origin ? '<span class="origin-label">Origen</span>' : ''}
+                ${stop.destination ? '<span class="destination-label">Destino</span>' : ''}
+            </div>
+            <div class="stop-times">
+    `;
+    
+    stop.times.forEach((time, index) => {
+        const [h, m] = time.split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        
+        let isNext = false;
+        
+        if (stop.highlightOnly) {
+            isNext = (index === nextTimeIndex);
+        } else if (currentLine === 'renfe') {
+            isNext = (index === nextTimeIndex);
+        } else if (currentLine === 'sevilla') {
+            isNext = false;
+        } else {
+            isNext = isOrigin && scheduleTime > currentTime && scheduleTime <= currentTime + 60;
+        }
+        
+        html += `<span class="time-badge ${isNext ? 'highlight' : ''}">${time}</span>`;
+    });
+    
+    html += `
+            </div>
+        </div>
+    `;
+    
+    return html;
+}
+
+// Renderizar vista de parada única
+function renderSingleStop(line, filter, stopIndex) {
+    const scheduleView = document.getElementById('scheduleView');
+    
+    if (!busSchedules[line] || !busSchedules[line][filter]) {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para esta línea</p></div>';
+        return;
+    }
+    
+    const data = busSchedules[line][filter];
+    let stop;
+    
+    if (line === 'sevilla' && data.ida && data.vuelta) {
+        const directionData = data[currentDirection];
+        stop = directionData[stopIndex];
+    } else if (data.stops && stopIndex < data.stops.length) {
+        stop = data.stops[stopIndex];
+    } else {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>Parada no encontrada</p></div>';
+        return;
+    }
+    
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    const nextTimeIndex = getNextTimeIndex(stop.times);
+    
+    let html = `
+        <div class="single-stop-view">
+            <div class="single-stop-name">📍 ${stop.name}</div>
+            <div class="times-grid">
+    `;
+    
+    stop.times.forEach((time, index) => {
+        const [h, m] = time.split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        const isPast = scheduleTime < currentTime;
+        
+        let isNext = false;
+        let status = '';
+        
+        if (stop.highlightOnly || currentLine === 'renfe') {
+            isNext = (index === nextTimeIndex);
+            status = isNext ? 'Próximo' : (isPast ? 'Pasado' : 'Hoy');
+        } else if (currentLine === 'sevilla') {
+            isNext = false;
+            status = isPast ? 'Pasado' : 'Hoy';
+        } else {
+            isNext = scheduleTime > currentTime && scheduleTime <= currentTime + 60;
+            status = isNext ? 'Próximo' : (isPast ? 'Pasado' : 'Hoy');
+        }
+        
+        html += `
+            <div class="time-card ${isNext ? 'highlight' : ''}">
+                <div class="time">${time}</div>
+                <div class="status">${status}</div>
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+        </div>
+    `;
+    
+    scheduleView.innerHTML = html;
+}
+
+// Instalar app manualmente
+function installApp() {
+    if (DEMO_ENABLED && demo && !demo.isActive) {
+        showDemoExpiredAlert();
+        return;
+    }
+    
+    if (deferredPrompt) {
+        // Mostrar confirmación antes de instalar
+        if (confirm('¿Quieres instalar la aplicación de Autobuses Lebrija?\n\n✅ Funciona sin internet\n✅ Acceso rápido desde tu pantalla de inicio\n✅ Notificaciones de próximos autobuses')) {
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then((choiceResult) => {
+                if (choiceResult.outcome === 'accepted') {
+                    alert('✅ ¡App instalada correctamente!\n\nPuedes encontrarla en tu pantalla de inicio o en tus aplicaciones instaladas.');
+                    // Ocultar botón después de instalar
+                    document.getElementById('installBtn').style.display = 'none';
+                } else {
+                    alert('❌ Instalación cancelada');
+                }
+                deferredPrompt = null;
+            });
+        }
+    } else {
+        // Mostrar instrucciones detalladas
+        showInstallInstructions();
+    }
+}
+
+// Mostrar alerta de demo expirada
+function showDemoExpiredAlert() {
+    alert('⚠️ Versión DEMO expirada.\n\nContacta con el administrador para obtener la versión completa con acceso a todos los horarios y funcionalidades.');
+}
+
+// Mostrar instrucciones detalladas para instalar manualmente
+function showInstallInstructions() {
+    const modal = document.createElement('div');
+    modal.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(74, 83, 85, 0.85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        padding: 20px;
+    `;
+    
+    modal.innerHTML = `
+        <div style="background: white; border-radius: 12px; width: 100%; max-width: 500px; padding: 25px; box-shadow: 0 10px 40px rgba(139, 168, 154, 0.2);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h3 style="color: #8BA89A; margin: 0; font-size: 1.4rem; font-weight: 700;">📲 Instalar App</h3>
+                <button id="closeModalBtn" style="background: none; border: none; color: #4A5355; font-size: 1.5rem; cursor: pointer; padding: 5px;">×</button>
+            </div>
+            
+            <div style="background: #F5F1E8; border-left: 4px solid #A8C5B5; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 20px;">
+                <p style="margin: 0; line-height: 1.5; color: #4A5355;">
+                    <strong style="color: #8BA89A;">💡 ¿Por qué instalar la app?</strong><br>
+                    • Funciona sin internet<br>
+                    • Acceso rápido desde tu pantalla de inicio<br>
+                    • Notificaciones de próximos autobuses<br>
+                    • Experiencia como app nativa
+                </p>
+            </div>
+            
+            <div id="instructions-android" style="display: none; margin-bottom: 25px;">
+                <h4 style="color: #A8C5B5; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-weight: 600;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14Z" fill="#A8C5B5"/>
+                    </svg>
+                    En Android (Chrome)
+                </h4>
+                <ol style="padding-left: 20px; line-height: 1.6; color: #4A5355;">
+                    <li>Abre el menú de Chrome (⋮)</li>
+                    <li>Selecciona "Instalar app"</li>
+                    <li>Confirma con "Añadir"</li>
+                </ol>
+            </div>
+            
+            <div id="instructions-ios" style="display: none; margin-bottom: 25px;">
+                <h4 style="color: #A8C5B5; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-weight: 600;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14Z" fill="#A8C5B5"/>
+                    </svg>
+                    En iPhone (Safari)
+                </h4>
+                <ol style="padding-left: 20px; line-height: 1.6; color: #4A5355;">
+                    <li>Toca el botón "Compartir" <span style="background: #E0DDD6; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">↗</span></li>
+                    <li>Desplázate y selecciona "Añadir a pantalla de inicio"</li>
+                    <li>Toca "Añadir" en la esquina superior derecha</li>
+                </ol>
+            </div>
+            
+            <div id="instructions-desktop" style="display: none; margin-bottom: 25px;">
+                <h4 style="color: #A8C5B5; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-weight: 600;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14Z" fill="#A8C5B5"/>
+                    </svg>
+                    En Escritorio (Chrome/Edge)
+                </h4>
+                <ol style="padding-left: 20px; line-height: 1.6; color: #4A5355;">
+                    <li>Mira la barra de direcciones</li>
+                    <li>Haz clic en el icono <span style="background: #E0DDD6; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">+</span> o <span style="background: #E0DDD6; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">⬇</span></li>
+                    <li>Selecciona "Instalar"</li>
+                </ol>
+            </div>
+            
+            <div style="display: flex; gap: 10px;">
+                <button id="closeModalBtn2" style="flex: 1; background: #F5F1E8; border: 2px solid #A8C5B5; padding: 12px; border-radius: 8px; color: #4A5355; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
+                    Cerrar
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    // Detectar sistema operativo
+    const ua = navigator.userAgent;
+    if (/android/i.test(ua)) {
+        document.getElementById('instructions-android').style.display = 'block';
+    } else if (/iPad|iPhone|iPod/.test(ua)) {
+        document.getElementById('instructions-ios').style.display = 'block';
+    } else {
+        document.getElementById('instructions-desktop').style.display = 'block';
+    }
+    
+    // Event listeners para cerrar modal
+    document.getElementById('closeModalBtn').addEventListener('click', () => modal.remove());
+    document.getElementById('closeModalBtn2').addEventListener('click', () => modal.remove());
+    
+    // Cerrar al hacer clic fuera del modal
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.remove();
+    });
+}
+
+// Actualizar fecha cada minuto
+setInterval(() => {
+    initDateDisplay();
+}, 60000);
+
+// Actualizar banner DEMO cada minuto
+setInterval(() => {
+    if (DEMO_ENABLED && demo) {
+        const now = new Date();
+        const elapsed = Math.floor((now - demo.startDate) / (1000 * 60 * 60 * 24));
+        const daysLeft = Math.max(0, DEMO_DAYS - elapsed);
+        
+        const demoBanner = document.getElementById('demo-banner');
+        if (daysLeft > 0) {
+            demoBanner.textContent = `🔷 DEMO — Quedan ${daysLeft} día${daysLeft !== 1 ? 's' : ''} de prueba`;
+            demoBanner.className = 'demo-banner';
+        } else {
+            demoBanner.textContent = '🔶 DEMO EXPIRADA — Funcionalidad limitada. Contacta para versión completa.';
+            demoBanner.className = 'demo-banner expired';
+        }
+    }
+}, 60000);

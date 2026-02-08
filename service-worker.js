@@ -1,10 +1,27 @@
-// Service Worker sin caché offline - App requiere conexión a internet
 const CACHE_NAME = 'autobuses-lebrija-v1';
+const urlsToCache = [
+    '/buslebrija/',
+    '/buslebrija/index.html',
+    '/buslebrija/styles.css',
+    '/buslebrija/script.js',
+    '/buslebrija/manifest.json',
+    '/buslebrija/logo.png',
+    '/buslebrija/logo-512.png'
+];
 
+// Instalación
 self.addEventListener('install', event => {
+    event.waitUntil(
+        caches.open(CACHE_NAME)
+            .then(cache => {
+                console.log('Cache abierto');
+                return cache.addAll(urlsToCache);
+            })
+    );
     self.skipWaiting();
 });
 
+// Activación
 self.addEventListener('activate', event => {
     event.waitUntil(
         caches.keys().then(cacheNames => {
@@ -20,31 +37,15 @@ self.addEventListener('activate', event => {
     self.clients.claim();
 });
 
-// Intercepta peticiones pero NO cachea
+// Interceptación de peticiones
 self.addEventListener('fetch', event => {
-    // Solo cachear assets estáticos básicos
-    if (event.request.url.includes('/buslebrija/styles.css') || 
-        event.request.url.includes('/buslebrija/script.js') ||
-        event.request.url.includes('/buslebrija/favicon.ico')) {
-        event.respondWith(
-            fetch(event.request).catch(() => {
-                // Si falla, mostrar error
-                return new Response('Error de conexión', { status: 503 });
+    event.respondWith(
+        caches.match(event.request)
+            .then(response => {
+                if (response) {
+                    return response;
+                }
+                return fetch(event.request);
             })
-        );
-    } else {
-        // Para todo lo demás, NO usar caché
-        event.respondWith(
-            fetch(event.request).catch(() => {
-                // Si no hay conexión, mostrar error
-                return new Response(
-                    '<h1>⚠️ Sin conexión a internet</h1><p>Esta aplicación requiere conexión a internet para funcionar.</p>',
-                    { 
-                        headers: { 'Content-Type': 'text/html' },
-                        status: 503 
-                    }
-                );
-            })
-        );
-    }
+    );
 });
