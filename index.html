@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,20 @@
     <meta name="description" content="Horarios de autobuses de Lebrija - Consulta rápida por paradas">
     <title>Autobuses Lebrija</title>
     <link rel="stylesheet" href="styles.css">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- Icons -->
+  <link rel="apple-touch-icon" href="/buslebrija/logo.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/buslebrija/logo.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/buslebrija/logo-512.png">
+  
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Bus Lebrija">
+
 </head>
 <body>
     <!-- ✅ BANNER DEMO OBLIGATORIO (NO ELIMINAR) -->
@@ -81,5 +95,17 @@
     </div>
 
     <script src="script.js"></script>
+    
+    <script>
+        // Registrar Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(reg => console.log('Service Worker registrado'))
+                    .catch(err => console.log('Error al registrar SW:', err));
+            });
+        }
+    </script>
+
 </body>
 </html>
