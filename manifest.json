@@ -1,7 +1,7 @@
 {
-    "name": "prueba",
-    "short_name": "prueba2",
-    "description": "Consulta rápida y sencilla de horarios de autobuses de Lebrija",
+    "name": "Autobuses Lebrija",
+    "short_name": "Autobuses Lebrija",
+    "description": "Consulta rápida de horarios de autobuses de Lebrija",
     "start_url": "/buslebrija/",
     "display": "standalone",
     "background_color": "#F8F6F2",
@@ -11,14 +11,13 @@
         {
             "src": "logo.png",
             "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "any maskable"
+            "type": "image/png"
         },
         {
             "src": "logo-512.png",
             "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "any maskable"
+            "type": "image/png"
         }
-    ]
+    ],
+    "categories": ["travel", "utilities"]
 }
