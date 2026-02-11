@@ -1,5 +1,5 @@
 // service-worker.js - Versión: 2026.02.11 (¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!)
-const CACHE_VERSION = 'v2026.02.11'; // ⚠️ CAMBIA ESTA FECHA EN CADA ACTUALIZACIÓN
+const CACHE_VERSION = 'v2026.02.12'; // ⚠️ CAMBIA ESTA FECHA EN CADA ACTUALIZACIÓN
 const CACHE_NAME = `autobuses-lebrija-${CACHE_VERSION}`;
 
 // Archivos esenciales para precachear (solo los básicos)
