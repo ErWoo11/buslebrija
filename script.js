@@ -1,5 +1,5 @@
 // === 🔄 SISTEMA DE ACTUALIZACIÓN AUTOMÁTICA ===
-const APP_VERSION = '2026.02.11'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!
+const APP_VERSION = '2026.02.12'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!
 (function() {
     // Verificar versión al cargar
     const storedVersion = localStorage.getItem('app_version');
