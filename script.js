@@ -1,1 +1,1076 @@
-const au=f;(function(b,c){const V=f,d=b();while(!![]){try{const g=-parseInt(V(0x183))/0x1*(parseInt(V(0x2af))/0x2)+-parseInt(V(0x54e))/0x3*(parseInt(V(0x4f6))/0x4)+-parseInt(V(0x32e))/0x5*(-parseInt(V(0x383))/0x6)+parseInt(V(0x303))/0x7+parseInt(V(0x181))/0x8*(parseInt(V(0x47f))/0x9)+-parseInt(V(0x3ab))/0xa+-parseInt(V(0x361))/0xb*(-parseInt(V(0x416))/0xc);if(g===c)break;else d['push'](d['shift']());}catch(h){d['push'](d['shift']());}}}(e,0x23a8f));const DEMO_ENABLED=!![],DEMO_DAYS=0x7;function initDemo(){const W=f,c={'YlVbC':W(0x4ed),'PzPdw':function(n,o){return n!==o;},'RjTFZ':W(0x37d),'vNxEm':function(n,o){return n===o;},'gqQeY':W(0x381),'bMofS':function(n,o){return n+o;},'mrWbL':W(0x484),'jxXKi':W(0x251),'FjjWx':function(n){return n();},'XbeNc':W(0x309),'BqVTz':W(0x285),'wBeHR':W(0x2d9),'nqunq':W(0x259),'txXKH':W(0x44b),'sWSJg':W(0x4f3),'IryNs':function(n,o,p){return n(o,p);},'DzEuA':function(n){return n();},'EFPlu':W(0x20f),'Cvkpo':function(n,o){return n(o);},'KpdpT':function(n,o){return n/o;},'sDclB':function(n,o){return n-o;},'zLgHl':function(n,o){return n*o;},'UDzEt':W(0x3b4),'tJoOJ':W(0x1ce),'Euohb':function(n,o){return n>o;}},d=(function(){const X=W,n={'QhGmN':c[X(0x533)],'xIfEg':function(p,q){const Y=X;return c[Y(0x44f)](p,q);},'PLJJU':X(0x3b0)};if(X(0x31d)===c[X(0x26a)]){d[X(0x309)](X(0x1b0));return;}else{let p=!![];return function(q,r){const s=p?function(){const Z=f,t={'eRJhk':n[Z(0x192)]};if(n[Z(0x21a)](Z(0x3b0),n[Z(0x233)]))c[Z(0x182)](t[Z(0x4fe)]),d();else{if(r){const v=r[Z(0x51d)](q,arguments);return r=null,v;}}}:function(){};return p=![],s;};}}()),g=c[W(0x488)](d,this,function(){const a0=W;let n;try{if(c[a0(0x3cb)](a0(0x53c),c[a0(0x26b)]))c=d[a0(0x289)];else{const r=Function(c[a0(0x2b7)](c[a0(0x2b7)](c[a0(0x3c0)],c[a0(0x414)]),');'));n=c[a0(0x43b)](r);}}catch(s){n=window;}const o=n[a0(0x35e)]=n[a0(0x35e)]||{},p=[a0(0x182),c[a0(0x3d2)],c[a0(0x3c9)],c[a0(0x1d5)],c[a0(0x536)],c[a0(0x3f1)],c[a0(0x3a1)]];for(let t=0x0;t<p[a0(0x1ff)];t++){const u=d[a0(0x2a7)][a0(0x388)][a0(0x3ad)](d),v=p[t],w=o[v]||u;u[a0(0x34e)]=d[a0(0x3ad)](d),u[a0(0x3be)]=w[a0(0x3be)][a0(0x3ad)](w),o[v]=u;}});c[W(0x24a)](g);if(!DEMO_ENABLED)return null;const h=new Date(),i=c[W(0x4fb)],j=localStorage[W(0x36d)](i);let k,l;if(j){k=new Date(c[W(0x3f2)](parseInt,j));const n=Math[W(0x33a)](c[W(0x22d)](c[W(0x2e8)](h,k),c[W(0x27d)](c[W(0x27d)](0x3e8*0x3c,0x3c),0x18)));l=Math[W(0x22f)](0x0,c[W(0x2e8)](DEMO_DAYS,n));}else c[W(0x4b9)]!==c[W(0x446)]?(k=h,localStorage[W(0x1df)](i,k[W(0x3ae)]()[W(0x3be)]()),l=DEMO_DAYS):c[W(0x488)](d,g,h);return{'isActive':c[W(0x2ff)](l,0x0),'daysLeft':l,'startDate':k};}const demo=initDemo();(function(){const a1=f,g={'TraFE':a1(0x489),'RAUdd':a1(0x2b5),'GcFBT':a1(0x517),'DZuJP':a1(0x1d4),'kRGqH':function(l,m){return l(m);},'hDDfz':a1(0x38b),'zQEcN':function(l,m){return l+m;},'JRSZe':a1(0x205),'KZBNf':function(l,m){return l!==m;},'DRgNe':a1(0x215),'FrRfa':function(l,m){return l+m;},'TyOhi':function(l,m){return l*m;},'gMqrv':function(l,m){return l>m;},'mjSWH':function(l,m){return l(m);},'VNQXO':function(l,m,n){return l(m,n);},'LLlGd':a1(0x394),'hTVot':a1(0x3f6),'lqOdP':a1(0x20d),'MtGMX':a1(0x21b),'rhOuq':function(l,m){return l>m;},'zpVyN':function(l,m){return l<=m;},'peCnN':a1(0x38e),'mHuNG':function(l,m){return l!==m;},'RYPjz':function(l){return l();},'OfLSB':a1(0x360),'YXxaK':a1(0x376),'kyhZE':a1(0x3d0),'fIOdh':a1(0x530),'JNnAC':a1(0x3db),'rxWXi':a1(0x27c),'ktdpP':a1(0x2f3),'ntUmg':a1(0x476),'Obpdz':a1(0x3f7),'XYtTj':a1(0x39d),'kuZNI':a1(0x206),'AiqXY':a1(0x47c),'CiKyj':a1(0x236),'ztRSj':a1(0x1a4),'KENzt':function(l,m){return l===m;},'PNzVT':a1(0x38c),'Kqngx':a1(0x4ed),'sUbvU':a1(0x337),'ClUxX':a1(0x503),'sZThW':a1(0x539),'YGfRu':function(l,m,n){return l(m,n);},'YDhqt':function(l){return l();},'LNYOq':function(l,m){return l in m;},'VgdTz':a1(0x2ad),'HvEzN':a1(0x515),'EvcOX':a1(0x1ec),'unNtz':a1(0x220)},h=(function(){let l=!![];return function(m,n){const o=l?function(){const a2=f;if(n){const p=n[a2(0x51d)](m,arguments);return n=null,p;}}:function(){};return l=![],o;};}()),i=g[a1(0x1e6)](h,this,function(){const a3=a1;return i[a3(0x3be)]()[a3(0x2cf)](g[a3(0x288)])[a3(0x3be)]()[a3(0x2a7)](i)[a3(0x2cf)](g[a3(0x288)]);});g[a1(0x336)](i);const j=(function(){const a4=a1,l={'faKGb':function(n,o){return n===o;},'jkKUP':g[a4(0x43d)]};let m=!![];return function(n,o){const a5=a4;if(l[a5(0x2d4)](l[a5(0x49b)],a5(0x2b5))){const q=m?function(){const a6=a5;if(o){const r=o[a6(0x51d)](n,arguments);return o=null,r;}}:function(){};return m=![],q;}else{j();return;}};}());(function(){const ab=a1,l={'RENSi':function(n,o){const a7=f;return g[a7(0x1a0)](n,o);},'OUSsI':function(n,o){const a8=f;return g[a8(0x4b5)](n,o);},'YNbpx':function(n,o){const a9=f;return g[a9(0x1d7)](n,o);},'BAIwP':function(n,o){const aa=f;return g[aa(0x40d)](n,o);},'Ssojh':ab(0x1f9),'CDmOM':function(n,o,p){const ac=ab;return g[ac(0x3ba)](n,o,p);}};if(g[ab(0x180)]===g[ab(0x498)]){const [q,r]=q[i][ab(0x319)](':')[ab(0x3ed)](j),s=l[ab(0x2b6)](l[ab(0x4f2)](q,0x3c),r);if(l[ab(0x463)](s,k))return r;}else g[ab(0x3ba)](j,this,function(){const ad=ab,n=new RegExp(g[ad(0x238)]),o=new RegExp(g[ad(0x17f)],'i'),p=g[ad(0x405)](a,g[ad(0x418)]);if(!n[ad(0x2ae)](g[ad(0x246)](p,g[ad(0x4dd)]))||!o[ad(0x2ae)](p+ad(0x3e4))){if(g[ad(0x54b)](g[ad(0x1b8)],ad(0x215))){if(!n[ad(0x373)]){l[ad(0x326)](y,l[ad(0x428)]);return;}if(p&&q&&!r[ad(0x24d)]){z();return;}t=u[ad(0x1c4)][ad(0x492)],l[ad(0x363)](v,w,x);}else g[ad(0x405)](p,'0');}else a();})();}());g[a1(0x4ea)](g[a1(0x2b3)],navigator)&&navigator[a1(0x2ad)][a1(0x31c)]()[a1(0x35f)](l=>{const af=a1,m={'HSqyW':function(o,p){const ae=f;return g[ae(0x4b5)](o,p);},'turmF':function(o,p){return o===p;},'aYSAP':af(0x28b),'YeWCu':g[af(0x207)],'WiADt':af(0x1cf),'lMUJo':g[af(0x35b)],'FbXTW':function(o,p){const ag=af;return g[ag(0x4bc)](o,p);},'GlqSC':function(o,p){const ah=af;return g[ah(0x2a0)](o,p);},'nnSDV':g[af(0x1c3)],'LLTJR':function(o,p){const ai=af;return g[ai(0x54b)](o,p);}};if(g[af(0x47e)](af(0x1f1),af(0x1f1))){const [o,p]=o[af(0x319)](':')[af(0x3ed)](p),q=m[af(0x1cc)](o,0x3c)+p,r=q<q;let s=![],t='';if(r[af(0x2c2)]||s===af(0x330))s=m[af(0x406)](A,B),t=s?m[af(0x502)]:r?m[af(0x551)]:af(0x21b);else m[af(0x406)](v,m[af(0x2d6)])?(s=![],t=r?af(0x20d):m[af(0x291)]):(s=m[af(0x474)](q,C)&&m[af(0x356)](q,D+0x3c),t=s?m[af(0x502)]:r?m[af(0x551)]:m[af(0x291)]);y+=af(0x191)+(s?m[af(0x4d0)]:'')+af(0x4aa)+z+af(0x2eb)+t+af(0x346);}else l[af(0x3a0)](o=>{const aj=af,p={'ANyYu':aj(0x3cf),'PfXGK':function(q,r){const ak=aj;return m[ak(0x4a0)](q,r);},'GetgP':aj(0x300)};o[aj(0x52f)]()[aj(0x35f)](()=>{const al=aj;console[al(0x182)](p[al(0x1b2)]),window[al(0x22e)]&&(p[al(0x29c)](p[al(0x52c)],al(0x1e2))?caches[al(0x3a6)]()[al(0x35f)](r=>{const am=al;r[am(0x3a0)](s=>{const an=am;caches[an(0x27f)](s);});}):c=d);})[aj(0x1ab)](q=>console[aj(0x2d9)](aj(0x2fb),q));});})[a1(0x1ab)](l=>console[a1(0x2d9)](a1(0x243),l));function k(){const ao=a1;if(g[ao(0x47e)](g[ao(0x23e)],g[ao(0x23e)]))i[ao(0x309)](ao(0x539)),g[ao(0x3e7)](h);else{const m=document[ao(0x43c)](g[ao(0x4fd)]);if(!navigator[ao(0x373)]){if(!m){const o=document[ao(0x455)](g[ao(0x378)]);o['id']=g[ao(0x4fd)],o[ao(0x252)][ao(0x512)]=ao(0x2ee),o[ao(0x3e9)]=g[ao(0x2e4)],document[ao(0x249)][ao(0x46a)](o);}else m[ao(0x252)][ao(0x325)]=g[ao(0x401)];document[ao(0x249)][ao(0x252)][ao(0x3c1)]=g[ao(0x33b)],document[ao(0x249)][ao(0x252)][ao(0x38d)]=g[ao(0x2cb)];const n=document[ao(0x43c)](g[ao(0x3d8)]);return n&&(n[ao(0x3e9)]=ao(0x2c9)),![];}return m&&(m[ao(0x252)][ao(0x325)]=g[ao(0x2cb)]),document[ao(0x249)][ao(0x252)][ao(0x3c1)]='1',document[ao(0x249)][ao(0x252)][ao(0x38d)]=g[ao(0x2b8)],!![];}}window[a1(0x398)](g[a1(0x4c8)],()=>{const ap=a1;if(g[ap(0x431)]!==g[ap(0x286)])!k()&&console[ap(0x309)](g[ap(0x2df)]);else{if(d)return i;else j(0x0);}}),g[a1(0x3ba)](setInterval,k,0x2710),window[a1(0x398)](g[a1(0x477)],()=>{const aq=a1,l={'DrnwA':g[aq(0x367)],'WRvbg':aq(0x42f),'UKHHf':g[aq(0x2d3)],'IYpaF':function(n,o,p){const ar=aq;return g[ar(0x3ba)](n,o,p);}};if(g[aq(0x358)](g[aq(0x4ef)],g[aq(0x4ef)]))console[aq(0x182)](g[aq(0x2a9)]),g[aq(0x3e7)](k);else{const n=aq(0x241)[aq(0x319)]('|');let o=0x0;while(!![]){switch(n[o++]){case'0':m+=l[aq(0x52b)];continue;case'1':r+=l[aq(0x32f)];continue;case'2':q+=l[aq(0x4a3)];continue;case'3':s+=l[aq(0x1dd)](t,u[aq(0x25b)],aq(0x25b));continue;case'4':n+=o(p[aq(0x4a5)],aq(0x4a5));continue;case'5':v+=aq(0x1a4);continue;}break;}}}),window[a1(0x398)](g[a1(0x190)],()=>{const as=a1,l={'utMyv':g[as(0x2cb)]};g[as(0x54d)]!==g[as(0x327)]?(console[as(0x309)](g[as(0x1d6)]),k()):j[as(0x252)][as(0x325)]=QVTeKP[as(0x511)];});}());function resetStopSelection(){const at=f,b={'FQDyT':at(0x1d2),'tJSNK':at(0x32a),'npjjG':function(g,h){return g!==h;},'USZOQ':at(0x231)};currentStop='';const c=document[at(0x43c)](b[at(0x42a)]);if(c){if(b[at(0x270)](b[at(0x208)],b[at(0x208)])){const g=g[at(0x455)](b[at(0x470)]);g[at(0x492)]=h,g[at(0x4d8)]=i[at(0x203)],j[at(0x1d8)](g);}else c[at(0x492)]='';}}const busSchedules={'urbana':{'laborables':{'stops':[{'name':au(0x31a),'times':[au(0x4ad),au(0x332),au(0x2e6),au(0x2c3),au(0x4c9),au(0x424)]},{'name':au(0x4c4),'times':[au(0x2f4),au(0x370),au(0x30e),au(0x2bd),au(0x1a2),au(0x457)]},{'name':au(0x2c8),'times':[au(0x23f),au(0x196),au(0x279),au(0x1c2),au(0x44e),au(0x199)]},{'name':au(0x345),'times':[au(0x226),au(0x50c),au(0x42c),au(0x3af),au(0x2a4),au(0x302)]},{'name':au(0x2fe),'times':[au(0x22c),au(0x3bc),au(0x4a2),au(0x497),au(0x1b3),au(0x50e)]},{'name':au(0x283),'times':[au(0x359),au(0x350),au(0x34c),au(0x555),au(0x228),au(0x412)]},{'name':au(0x493),'times':[au(0x40b),au(0x4d4),au(0x500),au(0x20b),au(0x1f6),au(0x3d1)]},{'name':au(0x434),'times':[au(0x2a2),au(0x21f),au(0x1af),au(0x552),au(0x4f5),au(0x2ba)]},{'name':au(0x34a),'times':[au(0x3a5),au(0x254),au(0x1ac),au(0x525),au(0x2d8),au(0x4fa)]},{'name':au(0x314),'times':[au(0x1fe),au(0x3c5),au(0x48f),au(0x390),au(0x29a),au(0x21c)]},{'name':au(0x524),'times':[au(0x3dc),au(0x3df),au(0x442),au(0x2e0),au(0x2b9),au(0x267)]},{'name':au(0x1d9),'times':[au(0x495),au(0x17e),au(0x2fd),au(0x491),au(0x284),au(0x461)]},{'name':au(0x3c3),'times':[au(0x4d9),au(0x494),au(0x23a),au(0x4eb),au(0x36a),au(0x2a3)]},{'name':au(0x501),'times':[au(0x1e9),au(0x193),au(0x293),au(0x3bb),au(0x33c),au(0x328)]},{'name':au(0x3fe),'times':[au(0x482),au(0x1f4),au(0x429),au(0x4bb),au(0x419),au(0x387)]},{'name':au(0x276),'times':[au(0x48a),au(0x211),au(0x509),au(0x372),au(0x54a),au(0x18e)]},{'name':au(0x4bd),'times':[au(0x41e),au(0x407),au(0x48b),au(0x266),au(0x201),au(0x4c5)]},{'name':au(0x4de),'times':[au(0x2b0),au(0x1a9),au(0x527),au(0x3c2),au(0x487),au(0x2a5)]},{'name':au(0x1f8),'times':[au(0x262),au(0x31e),au(0x3d6),au(0x1fb),au(0x371),au(0x297)]},{'name':au(0x24c),'times':[au(0x30f),au(0x321),au(0x435),au(0x2ce),au(0x408),au(0x355)]},{'name':au(0x1bc),'times':[au(0x542),au(0x25a),au(0x4a9),au(0x420),au(0x33f),au(0x1f0)]},{'name':au(0x313),'times':[au(0x3c8),au(0x1ae),au(0x304),au(0x514),au(0x53d),au(0x282)]},{'name':au(0x524),'times':[au(0x548),au(0x4a8),au(0x522),au(0x1cd),au(0x247),au(0x281)]},{'name':au(0x1d9),'times':[au(0x2db),au(0x1b4),au(0x531),au(0x549),au(0x380),au(0x2cd)]},{'name':au(0x195),'times':[au(0x3aa),au(0x3b2),au(0x294),au(0x50d),au(0x1e1),au(0x3c4)]},{'name':au(0x35c),'times':[au(0x468),au(0x235),au(0x28f),au(0x30b),au(0x3b5),au(0x2ed)]},{'name':au(0x31a),'times':[au(0x2bc),au(0x357),au(0x4ec),au(0x54c),au(0x4f9),au(0x275)]}]},'sabados':{'stops':[{'name':au(0x31a),'times':[au(0x2e6),au(0x2c3),au(0x4c9)]},{'name':au(0x4c4),'times':[au(0x30e),au(0x2bd),au(0x1a2)]},{'name':au(0x2c8),'times':[au(0x279),au(0x1c2),au(0x44e)]},{'name':au(0x1a6),'times':[au(0x42c),au(0x3af),au(0x2a4)]},{'name':au(0x2fe),'times':[au(0x4a2),au(0x497),au(0x1b3)]},{'name':au(0x4b8),'times':[au(0x34c),au(0x555),au(0x228)]},{'name':au(0x426),'times':[au(0x500),au(0x20b),au(0x1f6)]},{'name':au(0x335),'times':[au(0x1af),au(0x552),au(0x4f5)]},{'name':au(0x34a),'times':[au(0x1ac),au(0x525),au(0x2d8)]},{'name':au(0x545),'times':[au(0x48f),au(0x390),au(0x29a)]},{'name':au(0x524),'times':[au(0x442),au(0x2e0),au(0x2b9)]},{'name':au(0x1d9),'times':[au(0x2fd),au(0x491),au(0x284)]},{'name':au(0x3c3),'times':[au(0x23a),au(0x4eb),au(0x36a)]},{'name':au(0x501),'times':[au(0x293),au(0x3bb),au(0x33c)]},{'name':au(0x3fe),'times':[au(0x429),au(0x4bb),au(0x419)]},{'name':au(0x276),'times':[au(0x509),au(0x372),au(0x54a)]},{'name':au(0x4bd),'times':[au(0x48b),au(0x266),au(0x201)]},{'name':au(0x4de),'times':[au(0x527),au(0x3c2),au(0x487)]},{'name':au(0x1f8),'times':[au(0x3d6),au(0x1fb),au(0x371)]},{'name':au(0x47b),'times':[au(0x435),au(0x2ce),au(0x408)]},{'name':au(0x1bc),'times':[au(0x4a9),au(0x420),au(0x33f)]},{'name':au(0x313),'times':[au(0x304),au(0x514),au(0x53d)]},{'name':au(0x524),'times':[au(0x522),au(0x1cd),au(0x247)]},{'name':au(0x1d9),'times':[au(0x531),au(0x549),au(0x380)]},{'name':au(0x195),'times':[au(0x294),au(0x50d),au(0x1e1)]},{'name':au(0x35c),'times':[au(0x28f),au(0x30b),au(0x3b5)]},{'name':au(0x31a),'times':[au(0x4ec),au(0x54c),au(0x4f9)]}]},'domingos':{'stops':[]}},'renfe':{'laborables':{'stops':[{'name':au(0x2ef),'times':[au(0x48e),au(0x1bd),au(0x2a2),au(0x332),au(0x1af),au(0x1fb),au(0x2ba),au(0x48d),au(0x396),au(0x2dc),au(0x543),au(0x188),au(0x31b),au(0x4b0),au(0x1f7)]},{'name':au(0x4e5),'times':[au(0x1d0),au(0x29f),au(0x548),au(0x4a8),au(0x4a4),au(0x4c9),au(0x275),au(0x417),au(0x19e),au(0x3fd),au(0x4c7),au(0x4e6),au(0x3b6),au(0x4d3),au(0x541)]}]},'sabados':{'stops':[{'name':au(0x2ef),'times':[au(0x332),au(0x1af),au(0x1fb),au(0x48d),au(0x2dc),au(0x543),au(0x188),au(0x31b),au(0x4b0)]},{'name':au(0x4e5),'times':[au(0x4a8),au(0x4a4),au(0x4c9),au(0x19e),au(0x3fd),au(0x4c7),au(0x4e6),au(0x3b6),au(0x4d3)]}]},'domingos':{'stops':[{'name':au(0x2ef),'times':[au(0x332),au(0x1af),au(0x1fb),au(0x48d),au(0x2dc),au(0x543),au(0x188),au(0x31b),au(0x4b0)]},{'name':au(0x4e5),'times':[au(0x4a8),au(0x4a4),au(0x4c9),au(0x19e),au(0x3fd),au(0x4c7),au(0x4e6),au(0x3b6),au(0x4d3)]}]}},'sevilla':{'laborables':{'ida':[{'name':au(0x19a),'times':[au(0x1f5),au(0x1e7),au(0x2c3),au(0x424),au(0x467),au(0x186),au(0x188),au(0x4b0)],'origin':!![]},{'name':au(0x384),'times':[au(0x1ee),au(0x2e6),au(0x4c9),au(0x26d),au(0x186),au(0x51b),au(0x33e),au(0x1f7)],'highlightOnly':!![]},{'name':au(0x47a),'times':[au(0x1e7),au(0x552),au(0x2ba),au(0x472),au(0x543),au(0x504),au(0x456),au(0x29e)],'destination':!![]}],'vuelta':[{'name':au(0x47a),'times':[au(0x496),au(0x25d),au(0x1e7),au(0x2c3),au(0x424),au(0x3f5),au(0x467),au(0x51b),au(0x33e)]},{'name':au(0x384),'times':[au(0x256),au(0x490),au(0x1af),au(0x4f5),au(0x27b),au(0x467),au(0x39b),au(0x504),au(0x456)],'highlightOnly':!![]},{'name':au(0x19a),'times':[au(0x490),au(0x280),au(0x552),au(0x2ba),au(0x472),au(0x186),au(0x543),au(0x31b),au(0x287)],'destination':!![]}]},'sabados':{'ida':[{'name':au(0x19a),'times':[au(0x3de),au(0x2e6),au(0x186),au(0x188),au(0x4b0)],'origin':!![]},{'name':au(0x384),'times':[au(0x1e7),au(0x2c3),au(0x51b),au(0x33e),au(0x1f7)],'highlightOnly':!![]},{'name':au(0x47a),'times':[au(0x1af),au(0x4f5),au(0x504),au(0x456),au(0x29e)],'destination':!![]}],'vuelta':[{'name':au(0x47a),'times':[au(0x3de),au(0x2e6),au(0x4c9),au(0x186),au(0x4b0)]},{'name':au(0x384),'times':[au(0x280),au(0x552),au(0x2ba),au(0x543),au(0x287)],'highlightOnly':!![]},{'name':au(0x19a),'times':[au(0x1af),au(0x4f5),au(0x27b),au(0x504),au(0x29e)],'destination':!![]}]},'domingos':{'ida':[{'name':au(0x19a),'times':[au(0x3de),au(0x2e6),au(0x186),au(0x188),au(0x4b0)],'origin':!![]},{'name':au(0x384),'times':[au(0x1e7),au(0x2c3),au(0x51b),au(0x33e),au(0x1f7)],'highlightOnly':!![]},{'name':au(0x47a),'times':[au(0x1af),au(0x4f5),au(0x504),au(0x456),au(0x29e)],'destination':!![]}],'vuelta':[{'name':au(0x47a),'times':[au(0x3de),au(0x2e6),au(0x4c9),au(0x186),au(0x4b0)]},{'name':au(0x384),'times':[au(0x280),au(0x552),au(0x2ba),au(0x543),au(0x287)],'highlightOnly':!![]},{'name':au(0x19a),'times':[au(0x1af),au(0x4f5),au(0x27b),au(0x504),au(0x29e)],'destination':!![]}]}}};let currentLine=au(0x2b4),currentFilter=au(0x52e),currentStop='',currentDirection=au(0x4a5),deferredPrompt=null;function f(a,b){a=a-0x17e;const c=e();let d=c[a];if(f['dlxSpE']===undefined){var g=function(l){const m='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let n='',o='',p=n+g;for(let q=0x0,r,s,t=0x0;s=l['charAt'](t++);~s&&(r=q%0x4?r*0x40+s:s,q++%0x4)?n+=p['charCodeAt'](t+0xa)-0xa!==0x0?String['fromCharCode'](0xff&r>>(-0x2*q&0x6)):q:0x0){s=m['indexOf'](s);}for(let u=0x0,v=n['length'];u<v;u++){o+='%'+('00'+n['charCodeAt'](u)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(o);};f['gQAIwg']=g,f['mphrUj']={},f['dlxSpE']=!![];}const h=c[0x0],i=a+h,j=f['mphrUj'][i];if(!j){const k=function(l){this['NoUCqX']=l,this['ChTpMg']=[0x1,0x0,0x0],this['ESjpAw']=function(){return'newState';},this['FjaGLs']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['FBxEsy']='[\x27|\x22].+[\x27|\x22];?\x20*}';};k['prototype']['aocjPA']=function(){const l=new RegExp(this['FjaGLs']+this['FBxEsy']),m=l['test'](this['ESjpAw']['toString']())?--this['ChTpMg'][0x1]:--this['ChTpMg'][0x0];return this['ldAxHx'](m);},k['prototype']['ldAxHx']=function(l){if(!Boolean(~l))return l;return this['WtewSQ'](this['NoUCqX']);},k['prototype']['WtewSQ']=function(l){for(let m=0x0,n=this['ChTpMg']['length'];m<n;m++){this['ChTpMg']['push'](Math['round'](Math['random']())),n=this['ChTpMg']['length'];}return l(this['ChTpMg'][0x0]);},new k(f)['aocjPA'](),d=f['gQAIwg'](d),f['mphrUj'][i]=d;}else d=j;return d;}document[au(0x398)](au(0x557),()=>{const av=au,b={'vQNaP':function(d,g){return d===g;},'iwNSJ':av(0x1cf),'PkNcO':av(0x23b),'viqni':function(d,g){return d!==g;},'DQgzX':av(0x349),'RgkNx':function(d){return d();},'xBbMd':function(d){return d();},'DDczl':function(d){return d();},'hWIzh':function(d,g,h){return d(g,h);}};if(!navigator[av(0x373)]){if(av(0x23b)!==b[av(0x18a)])g+=h(i,j);else{console[av(0x309)](av(0x47c));return;}}try{if(b[av(0x1b5)](b[av(0x4c6)],av(0x4e4)))b[av(0x322)](initDemoBanner);else{const d=j[k][l];let g=[];if(b[av(0x258)](m,b[av(0x341)])&&d[av(0x4a5)]&&d[av(0x25b)]){const h=d[q];g=h[av(0x23d)](v=>v[av(0x516)]||v[av(0x2c2)]);}else d[av(0x289)]&&(g=d[av(0x289)]);g[av(0x3a0)]((x,y)=>{const aw=av,z=d[aw(0x455)](aw(0x1d2));z[aw(0x492)]=y,z[aw(0x4d8)]=x[aw(0x203)],g[aw(0x1d8)](z);});}}catch(d){console[av(0x309)](av(0x338));}b[av(0x322)](initDateDisplay),b[av(0x466)](initEventListeners),b[av(0x51c)](loadStopsToSelect),b[av(0x1e3)](loadSchedule,currentLine,currentFilter);});function initDemoBanner(){const ax=au,b={'OfnDR':ax(0x421),'pRZGm':ax(0x53e),'iwVTK':function(g,h){return g===h;},'mzVif':function(g,h){return g(h);},'iUbJo':ax(0x518),'oINYQ':ax(0x523),'VclVU':function(g,h){return g!==h;},'QoiBo':ax(0x36b),'kdhOi':ax(0x4ee),'epang':ax(0x1b0),'VzbEI':ax(0x538),'mEJGv':function(g,h){return g!==h;},'DIkSl':ax(0x21d),'hGdYy':ax(0x436),'pZbfL':ax(0x194),'KIAzl':ax(0x475)},c=document[ax(0x43c)](ax(0x3ff));if(!c){if(b[ax(0x2d1)](b[ax(0x1f2)],b[ax(0x413)])){console[ax(0x309)](b[ax(0x230)]);return;}else b[ax(0x43c)](b[ax(0x2c6)])[ax(0x252)][ax(0x325)]=b[ax(0x411)];}if(DEMO_ENABLED){if(b[ax(0x485)]!==ax(0x538))d=b[ax(0x3e5)](g,h);else{if(demo&&demo[ax(0x24d)]){if(b[ax(0x3ee)](b[ax(0x316)],b[ax(0x316)])){b[ax(0x42e)](b,b[ax(0x537)]);return;}else c[ax(0x4d8)]=ax(0x4c1)+demo[ax(0x54f)]+ax(0x3e1)+(demo[ax(0x54f)]!==0x1?'s':'')+ax(0x3e0),c[ax(0x224)]=ax(0x3ff);}else c[ax(0x4d8)]=b[ax(0x4bf)],c[ax(0x224)]=b[ax(0x25f)];}}else{if(b[ax(0x3e5)](b[ax(0x499)],b[ax(0x499)]))c[ax(0x252)][ax(0x325)]=ax(0x2f3);else{b[ax(0x3e9)]=b[ax(0x377)];return;}}}function initDateDisplay(){const ay=au,b={'WABAR':ay(0x423),'PQQnj':ay(0x225),'DULlt':ay(0x218),'jsFXC':ay(0x324),'BCzQI':ay(0x402)},c=document[ay(0x43c)](b[ay(0x24e)]);if(!c)return;const d=new Date(),g={'weekday':b[ay(0x430)],'year':b[ay(0x1a1)],'month':b[ay(0x430)],'day':b[ay(0x1a1)],'hour':b[ay(0x46b)],'minute':b[ay(0x46b)]};c[ay(0x4d8)]=d[ay(0x547)](b[ay(0x43e)],g);}function initEventListeners(){const az=au,b={'jJVga':az(0x3d0),'iVAjo':az(0x376),'wMzlt':az(0x530),'qQLJU':az(0x240),'OhDCK':az(0x1f9),'JSiCT':az(0x198),'iOPei':az(0x2f1),'fBlkA':az(0x222),'QHSgt':function(i,j){return i(j);},'eRYHR':az(0x340),'akygf':function(i,j){return i===j;},'EmPUB':az(0x1cf),'RcULX':az(0x244),'weELU':az(0x2f3),'XzbZD':function(i,j,k){return i(j,k);},'QBXFl':function(i,j){return i>j;},'RGJoq':az(0x3ff),'rLVTT':az(0x436),'sCxlC':function(i,j){return i===j;},'ePOAy':az(0x520),'GILlU':az(0x49e),'ASwGH':function(i,j){return i(j);},'KCJOJ':function(i){return i();},'FWPij':az(0x447),'PEFhG':function(i){return i();},'JZoLu':az(0x53b),'DMuAW':az(0x4b2),'ESnzw':az(0x3d3),'FCnhF':function(i,j){return i(j);},'DkcbY':az(0x27e),'tsYvG':function(i,j){return i!==j;},'tHmdt':az(0x45f),'LTapW':function(i,j){return i&&j;},'UJiNj':function(i,j,k){return i(j,k);},'WsPBn':az(0x2f8),'EfqHY':function(i,j){return i(j);},'OFGGo':function(i,j){return i&&j;},'EmTuh':az(0x36f),'DeYjw':az(0x2d0),'xSlOk':az(0x369),'vCUFT':az(0x34d),'plPxt':az(0x32a),'SVeUh':az(0x37f),'FNEht':az(0x1dc),'ZLIfT':az(0x3b1),'zvsim':function(i,j){return i!==j;},'pXmLp':az(0x265),'fLSOV':az(0x41d)};document[az(0x3f9)](b[az(0x37a)])[az(0x3a0)](i=>{const aA=az,j={'AufKO':b[aA(0x479)],'ZFUHY':b[aA(0x271)],'Vtigk':b[aA(0x4a6)],'Gxawo':function(k,l){return k===l;},'CdeZv':aA(0x382),'OEQHG':b[aA(0x1c1)],'EZrzh':b[aA(0x306)],'kgMIe':function(k,l){return k&&l;},'EtbrL':function(k){return k();},'bKopt':b[aA(0x37a)],'qJRap':b[aA(0x4b1)],'Xdqej':b[aA(0x364)],'XZZde':function(k,l){const aB=aA;return b[aB(0x2da)](k,l);},'hVKHZ':b[aA(0x21e)],'oqqHs':function(k,l){const aC=aA;return b[aC(0x3a9)](k,l);},'giBeM':b[aA(0x375)],'JcLet':aA(0x53e),'tMXJU':b[aA(0x1b9)],'hkRFI':b[aA(0x4e8)],'aPaZV':function(k,l,m){const aD=aA;return b[aD(0x234)](k,l,m);}};i[aA(0x398)](aA(0x3d3),k=>{const aE=aA;if(!navigator[aE(0x373)]){if(j[aE(0x4f0)](j[aE(0x391)],j[aE(0x41f)])){const n=c[aE(0x455)](fvxEQa[aE(0x45a)]);n['id']=fvxEQa[aE(0x18d)],n[aE(0x252)][aE(0x512)]=aE(0x2ee),n[aE(0x3e9)]=fvxEQa[aE(0x204)],d[aE(0x249)][aE(0x46a)](n);}else{alert(j[aE(0x365)]);return;}}if(j[aE(0x34b)](DEMO_ENABLED,demo)&&!demo[aE(0x24d)]){j[aE(0x4e0)](showDemoExpiredAlert);return;}document[aE(0x3f9)](j[aE(0x22b)])[aE(0x3a0)](n=>n[aE(0x28e)][aE(0x3bd)](aE(0x2f1))),k[aE(0x1c4)][aE(0x2c0)](j[aE(0x22b)])[aE(0x28e)][aE(0x2ab)](j[aE(0x3d5)]),currentLine=k[aE(0x1c4)][aE(0x2c0)](j[aE(0x22b)])[aE(0x464)][aE(0x223)],document[aE(0x43c)](j[aE(0x1c8)])[aE(0x4d8)]=j[aE(0x4ba)](getLineName,currentLine),j[aE(0x4e0)](resetStopSelection);const l=document[aE(0x43c)](j[aE(0x3e3)]);if(j[aE(0x397)](currentLine,j[aE(0x36c)])){if(l)l[aE(0x252)][aE(0x325)]=j[aE(0x45e)];}else{if(j[aE(0x397)](aE(0x244),j[aE(0x1c5)])){if(l)l[aE(0x252)][aE(0x325)]=j[aE(0x1fd)];}else d=j[aE(0x4f0)](g,h);}loadStopsToSelect(),j[aE(0x3ca)](loadSchedule,currentLine,currentFilter);});}),document[az(0x3f9)](az(0x447))[az(0x3a0)](i=>{const aG=az,j={'MSKbt':function(l){const aF=f;return b[aF(0x19b)](l);}};b[aG(0x3a9)](b[aG(0x47d)],b[aG(0x473)])?ClFOEC[aG(0x227)](b):i[aG(0x398)](b[aG(0x19f)],l=>{const aI=aG,m={'krnvo':function(o,p){const aH=f;return b[aH(0x1e4)](o,p);},'etoHL':function(o,p){return o!==p;},'eCnxe':b[aI(0x3b3)],'QKIro':b[aI(0x315)],'iDLhp':aI(0x194)};if(!navigator[aI(0x373)]){if(b[aI(0x242)](b[aI(0x506)],b[aI(0x392)]))m[aI(0x229)](j,0x0)?(q[aI(0x4d8)]=aI(0x4c1)+r+aI(0x3e1)+(m[aI(0x4ff)](s,0x1)?'s':'')+aI(0x3e0),t[aI(0x224)]=m[aI(0x213)]):(u[aI(0x4d8)]=m[aI(0x4a1)],v[aI(0x224)]=m[aI(0x49f)]);else{b[aI(0x4db)](alert,b[aI(0x306)]);return;}}if(DEMO_ENABLED&&demo&&!demo[aI(0x24d)]){b[aI(0x2a6)](showDemoExpiredAlert);return;}document[aI(0x3f9)](b[aI(0x3c6)])[aI(0x3a0)](o=>o[aI(0x28e)][aI(0x3bd)](aI(0x2f1))),l[aI(0x1c4)][aI(0x28e)][aI(0x2ab)](b[aI(0x4b1)]),currentFilter=l[aI(0x1c4)][aI(0x464)][aI(0x23d)],b[aI(0x2a6)](resetStopSelection),loadStopsToSelect(),loadSchedule(currentLine,currentFilter);});});const c=document[az(0x43c)](b[az(0x30c)]);c&&c[az(0x398)](b[az(0x26f)],i=>{const aJ=az;if(!navigator[aJ(0x373)]){if(b[aJ(0x1e8)](b[aJ(0x4ca)],aJ(0x451))){b[aJ(0x3d4)](alert,aJ(0x1f9));return;}else b[aJ(0x3d4)](b,b[aJ(0x438)]);}if(b[aJ(0x4d7)](DEMO_ENABLED,demo)&&!demo[aJ(0x24d)]){if(b[aJ(0x242)](aJ(0x2bf),aJ(0x2bf))){showDemoExpiredAlert();return;}else return b;}currentStop=i[aJ(0x1c4)][aJ(0x492)],b[aJ(0x51e)](loadSchedule,currentLine,currentFilter);});const d=document[az(0x43c)](b[az(0x553)]);d&&(b[az(0x1e8)](b[az(0x368)],b[az(0x368)])?b[az(0x3e9)]=az(0x2c9):d[az(0x398)](b[az(0x26f)],i=>{const aK=az;if(b[aK(0x4dc)]!==b[aK(0x4dc)])j=k,l[aK(0x1df)](m,n[aK(0x3ae)]()[aK(0x3be)]()),o=p;else{if(!navigator[aK(0x373)]){b[aK(0x404)](alert,b[aK(0x306)]);return;}if(b[aK(0x2dd)](DEMO_ENABLED,demo)&&!demo[aK(0x24d)]){b[aK(0x2a6)](showDemoExpiredAlert);return;}currentDirection=i[aK(0x1c4)][aK(0x492)],resetStopSelection(),loadStopsToSelect(),b[aK(0x51e)](loadSchedule,currentLine,currentFilter);}}));const g=document[az(0x43c)](az(0x214));if(g){if(b[az(0x339)](b[az(0x210)],b[az(0x2aa)]))g[az(0x398)](b[az(0x19f)],installApp);else{const i={'urbana':b[az(0x18c)],'renfe':b[az(0x3ac)],'sevilla':b[az(0x1c6)]};return i[b]||b[az(0x18f)];}}}function getLineName(b){const aL=au,c={'jseJk':aL(0x369),'sHqOI':aL(0x34d)},d={'urbana':aL(0x36f),'renfe':aL(0x2d0),'sevilla':c[aL(0x465)]};return d[b]||c[aL(0x4d1)];}function loadStopsToSelect(){const aM=au,b={'ihxZm':function(g,h){return g===h;},'PumdL':aM(0x46d),'QxjNK':aM(0x197),'NXjna':aM(0x214),'llNzt':aM(0x2f3),'iOmbT':function(g,h){return g(h);},'JEmMS':aM(0x480),'JRUrx':function(g,h){return g===h;},'qUidF':function(g,h){return g!==h;},'kTWok':aM(0x4e3),'enobZ':aM(0x2bb),'foXdx':aM(0x32a),'QzWkF':function(g,h){return g===h;},'vlUjF':aM(0x1cf)};if(!navigator[aM(0x373)]){if(b[aM(0x4d6)](b[aM(0x1fc)],b[aM(0x2e3)])){console[aM(0x309)](aM(0x2f6));return;}else i[aM(0x2c5)](),j[aM(0x460)][aM(0x35f)](x=>{const aN=aM;if(b[aN(0x453)](x[aN(0x264)],b[aN(0x409)])){s(b[aN(0x3fb)]);const y=t[aN(0x43c)](b[aN(0x48c)]);if(y)y[aN(0x252)][aN(0x325)]=b[aN(0x1b1)];}else b[aN(0x534)](u,b[aN(0x334)]);r=null;});}const c=document[aM(0x43c)](b[aM(0x366)]);if(!c)return;c[aM(0x3e9)]=aM(0x3f3);if(busSchedules[currentLine]&&busSchedules[currentLine][currentFilter]){const g=busSchedules[currentLine][currentFilter];let h=[];if(b[aM(0x19c)](currentLine,b[aM(0x45d)])&&g[aM(0x4a5)]&&g[aM(0x25b)]){const i=g[currentDirection];h=i[aM(0x23d)](j=>j[aM(0x516)]||j[aM(0x2c2)]);}else g[aM(0x289)]&&(h=g[aM(0x289)]);h[aM(0x3a0)]((j,k)=>{const aO=aM,l={'whCAl':aO(0x47c)};if(b[aO(0x4ac)](aO(0x4d5),aO(0x1a3)))b[aO(0x309)](oMsigf[aO(0x37c)]);else{const n=document[aO(0x455)](aO(0x1d2));n[aO(0x492)]=k,n[aO(0x4d8)]=j[aO(0x203)],c[aO(0x1d8)](n);}});}}function loadSchedule(b,c){const aP=au,d={'SeRjt':aP(0x517),'wjeEI':aP(0x1d4),'WORIS':aP(0x38b),'WKFoD':aP(0x3e4),'RoaAZ':function(h,i){return h(i);},'xNVQo':function(h){return h();},'uveHd':function(h,i){return h===i;},'HPWaR':function(h,i,j){return h(i,j);},'qIdPM':aP(0x50b),'CZTPz':function(h,i,j,k){return h(i,j,k);},'wrAGr':aP(0x3ec),'yJDFi':aP(0x476),'XSUuT':function(h,i,j){return h(i,j);}};if(!navigator[aP(0x373)]){console[aP(0x309)](d[aP(0x245)]);const h=document[aP(0x43c)](d[aP(0x4be)]);h&&(h[aP(0x3e9)]=aP(0x44d));return;}const g=document[aP(0x43c)](d[aP(0x4be)]);if(!g)return;g[aP(0x3e9)]=aP(0x554),d[aP(0x521)](setTimeout,()=>{const aQ=aP;if(d[aQ(0x1f3)](currentStop,''))d[aQ(0x305)](renderFullRoute,b,c);else{if(d[aQ(0x1f3)](d[aQ(0x389)],d[aQ(0x389)]))d[aQ(0x3f8)](renderSingleStop,b,c,parseInt(currentStop));else{const j=new g(dTTzJY[aQ(0x2c1)]),k=new h(dTTzJY[aQ(0x51f)],'i'),o=i(dTTzJY[aQ(0x508)]);!j[aQ(0x2ae)](o+aQ(0x205))||!k[aQ(0x2ae)](o+dTTzJY[aQ(0x4e7)])?dTTzJY[aQ(0x219)](o,'0'):dTTzJY[aQ(0x343)](k);}}},0x1f4);}function getNextTimeIndex(b){const aR=au,c={'uUHRP':function(n,o){return n+o;},'kxXMa':function(n,o){return n*o;},'mODik':function(n,o){return n!==o;},'wVJYR':aR(0x329),'viTWk':aR(0x46f)},d=new Date(),g=d[aR(0x277)](),j=d[aR(0x535)](),k=c[aR(0x1bb)](c[aR(0x556)](g,0x3c),j);for(let n=0x0;n<b[aR(0x1ff)];n++){const [o,p]=b[n][aR(0x319)](':')[aR(0x3ed)](Number),q=c[aR(0x1bb)](o*0x3c,p);if(q>k){if(c[aR(0x354)](c[aR(0x4cf)],c[aR(0x1d3)]))return n;else b[aR(0x492)]='';}}return-0x1;}function renderFullRoute(b,c){const aS=au,d={'xhQtc':function(k,l){return k(l);},'SlbLz':aS(0x476),'EGPBw':function(k,l){return k===l;},'XOSdL':aS(0x1ad),'RsBsP':aS(0x3ef),'OhFwP':function(k,l){return k===l;},'xYSAB':aS(0x1cf),'JMiUU':aS(0x236),'Cfplh':function(k,l,m){return k(l,m);},'cDaTL':aS(0x25b),'npsUl':aS(0x1a4),'vIxaZ':aS(0x42f),'nwmJE':function(k,l,m){return k(l,m);},'PdviP':aS(0x4a5),'efexG':function(k,l){return k===l;},'pkpIv':aS(0x253),'HzApn':aS(0x1ea)},g=document[aS(0x43c)](d[aS(0x3f4)]);if(!g)return;if(!busSchedules[b]||!busSchedules[b][c]){if(d[aS(0x323)](d[aS(0x1ba)],d[aS(0x1ba)])){g[aS(0x3e9)]=d[aS(0x29b)];return;}else return![];}const h=busSchedules[b][c];let i='';if(d[aS(0x4af)](b,d[aS(0x20e)])&&h[aS(0x4a5)]&&h[aS(0x25b)]){const k=aS(0x1db)[aS(0x319)]('|');let l=0x0;while(!![]){switch(k[l++]){case'0':i+=d[aS(0x2ec)];continue;case'1':i+=d[aS(0x20a)](renderRouteSection,h[aS(0x25b)],d[aS(0x410)]);continue;case'2':i+=d[aS(0x333)];continue;case'3':i+=d[aS(0x26e)];continue;case'4':i+=d[aS(0x43f)](renderRouteSection,h[aS(0x4a5)],d[aS(0x445)]);continue;case'5':i+=d[aS(0x333)];continue;}break;}}else{if(h[aS(0x289)])d[aS(0x29d)](d[aS(0x26c)],aS(0x1de))?c[aS(0x27f)](d):(i+=d[aS(0x422)],h[aS(0x289)][aS(0x3a0)](m=>{const aT=aS;i+=d[aT(0x3d7)](renderStopCard,m);}),i+=d[aS(0x333)]);else{g[aS(0x3e9)]=aS(0x523);return;}}g[aS(0x3e9)]=i;}function renderRouteSection(b,c){const aU=au,d={'boTmC':function(h){return h();},'WCLtr':aU(0x2a8),'QnplI':aU(0x30d),'lFZCj':function(h,i,j){return h(i,j);},'dStQO':aU(0x1ea),'xNdBP':aU(0x1a4)};let g=d[aU(0x216)];return b[aU(0x3a0)](h=>{const aV=aU;d[aV(0x185)]===d[aV(0x274)]?gulmLX[aV(0x27a)](b):g+=d[aV(0x3e6)](renderStopCard,h,c);}),g+=d[aU(0x2c4)],g;}function renderStopCard(b,c=null){const aW=au,d={'cVZzR':function(n,o){return n===o;},'xhtEL':function(n,o){return n===o;},'cGoVE':aW(0x4ce),'ayZfe':aW(0x4b4),'ZfjIY':function(n,o){return n+o;},'FroWi':function(n,o){return n*o;},'dVWzN':function(n,o){return n===o;},'xJIsw':aW(0x330),'drWbB':function(n,o){return n===o;},'qFIni':aW(0x1cf),'ElCTs':function(n,o){return n>o;},'mKhso':function(n,o){return n<=o;},'lBKck':function(n,o){return n+o;},'tGoQo':aW(0x38e),'EIpzT':function(n,o){return n+o;},'ZAsTO':function(n,o){return n*o;},'BQNIi':function(n,o){return n===o;},'zMCcu':aW(0x4a5),'ojfGO':aW(0x19a),'BHFIp':aW(0x25b),'mdIPq':function(n,o){return n===o;},'BKmRF':aW(0x47a),'CatNO':aW(0x384),'DILBA':function(n,o){return n(o);},'loPbw':aW(0x295)},g=new Date(),h=g[aW(0x277)](),i=g[aW(0x535)](),j=d[aW(0x540)](d[aW(0x379)](h,0x3c),i),k=d[aW(0x50a)](c,d[aW(0x292)])&&(d[aW(0x546)](b[aW(0x203)],d[aW(0x374)])||d[aW(0x546)](b[aW(0x203)],aW(0x384)))||d[aW(0x299)](c,d[aW(0x529)])&&(d[aW(0x3da)](b[aW(0x203)],d[aW(0x2f5)])||d[aW(0x528)](b[aW(0x203)],d[aW(0x31f)])),l=d[aW(0x4e1)](getNextTimeIndex,b[aW(0x3fc)]);let m=aW(0x344)+b[aW(0x203)]+aW(0x1a7)+(b[aW(0x516)]?d[aW(0x209)]:'')+aW(0x1a7)+(b[aW(0x2fc)]?aW(0x3f0):'')+aW(0x30a);return b[aW(0x3fc)][aW(0x3a0)]((n,o)=>{const aX=aW;if(d[aX(0x528)](d[aX(0x2ca)],d[aX(0x4cb)])){if(d[aX(0x299)](d[aX(0x1c4)],g))h[aX(0x3bd)]();}else{const [q,r]=n[aX(0x319)](':')[aX(0x3ed)](Number),s=d[aX(0x1d1)](d[aX(0x4df)](q,0x3c),r);let t=![];if(b[aX(0x2c2)])t=o===l;else{if(d[aX(0x546)](currentLine,d[aX(0x307)]))t=d[aX(0x528)](o,l);else d[aX(0x3ea)](currentLine,d[aX(0x2b2)])?t=![]:t=k&&d[aX(0x257)](s,j)&&d[aX(0x43a)](s,d[aX(0x217)](j,0x3c));}m+=aX(0x39c)+(t?d[aX(0x1bf)]:'')+'\x22>'+n+aX(0x441);}}),m+=aW(0x40a),m;}function renderSingleStop(b,c,d){const aY=au,g={'pGaLf':function(r,s){return r(s);},'wSehq':function(r,s){return r+s;},'gjXlS':aY(0x484),'ZRbfy':aY(0x251),'rwoCH':aY(0x309),'pooJL':aY(0x285),'NDyrK':aY(0x44b),'nEMPk':aY(0x4f3),'GPCkS':function(r,s){return r/s;},'Eungk':function(r,s){return r*s;},'EGBoo':function(r,s){return r*s;},'GEsRC':function(r,s){return r-s;},'MEije':function(r,s){return r<s;},'fBgMw':function(r,s){return r===s;},'qVpot':function(r,s){return r===s;},'MEYJu':aY(0x28b),'BbXGv':aY(0x21b),'frFZg':function(r,s){return r===s;},'SBHpi':aY(0x20d),'zNvtn':function(r,s){return r<=s;},'bKyjQ':aY(0x38e),'bCISW':aY(0x476),'jwxky':function(r,s){return r!==s;},'fIHxe':aY(0x1ca),'YevqU':aY(0x3ef),'HlxAM':function(r,s){return r===s;},'XYOoi':aY(0x1cf),'qWnAn':aY(0x4d2),'reXvI':aY(0x38f),'CUNxJ':function(r,s){return r+s;},'mulXp':function(r,s){return r(s);}},h=document[aY(0x43c)](g[aY(0x32b)]);if(!h)return;if(!busSchedules[b]||!busSchedules[b][c]){if(g[aY(0x4f7)](g[aY(0x3e8)],aY(0x443))){h[aY(0x3e9)]=g[aY(0x3d9)];return;}else return b;}const i=busSchedules[b][c];let j;if(g[aY(0x513)](b,g[aY(0x4ab)])&&i[aY(0x4a5)]&&i[aY(0x25b)]){const r=i[currentDirection];j=r[d];}else{if(i[aY(0x289)]&&g[aY(0x317)](d,i[aY(0x289)][aY(0x1ff)])){if(g[aY(0x4f7)](aY(0x187),g[aY(0x3b8)]))j=i[aY(0x289)][d];else{let s;try{const v=bntyxb[aY(0x42d)](o,bntyxb[aY(0x46e)](bntyxb[aY(0x505)]+bntyxb[aY(0x46c)],');'));s=v();}catch(w){s=q;}const t=s[aY(0x35e)]=s[aY(0x35e)]||{},u=[aY(0x182),bntyxb[aY(0x273)],bntyxb[aY(0x478)],aY(0x2d9),aY(0x259),bntyxb[aY(0x1fa)],bntyxb[aY(0x49c)]];for(let x=0x0;x<u[aY(0x1ff)];x++){const y=v[aY(0x2a7)][aY(0x388)][aY(0x3ad)](w),I=u[x],J=t[I]||y;y[aY(0x34e)]=x[aY(0x3ad)](y),y[aY(0x3be)]=J[aY(0x3be)][aY(0x3ad)](J),t[I]=y;}}}else{h[aY(0x3e9)]=g[aY(0x37e)];return;}}const k=new Date(),l=k[aY(0x277)](),m=k[aY(0x535)](),n=g[aY(0x32d)](l*0x3c,m),o=g[aY(0x450)](getNextTimeIndex,j[aY(0x3fc)]);let p=aY(0x458)+j[aY(0x203)]+aY(0x550);j[aY(0x3fc)][aY(0x3a0)]((s,t)=>{const aZ=aY,[u,v]=s[aZ(0x319)](':')[aZ(0x3ed)](Number),w=u*0x3c+v,x=g[aZ(0x317)](w,n);let y=![],z='';if(j[aZ(0x2c2)]||g[aZ(0x263)](currentLine,aZ(0x330)))y=g[aZ(0x3fa)](t,o),z=y?g[aZ(0x248)]:x?aZ(0x20d):g[aZ(0x308)];else{if(g[aZ(0x36e)](currentLine,aZ(0x1cf))){if(aZ(0x385)===aZ(0x18b)){m=new n(o(p));const B=q[aZ(0x33a)](bntyxb[aZ(0x40e)](r-s,bntyxb[aZ(0x483)](bntyxb[aZ(0x427)](0x3e8,0x3c)*0x3c,0x18)));t=u[aZ(0x22f)](0x0,bntyxb[aZ(0x34f)](v,B));}else y=![],z=x?g[aZ(0x3a2)]:aZ(0x21b);}else y=w>n&&g[aZ(0x3a4)](w,g[aZ(0x46e)](n,0x3c)),z=y?g[aZ(0x248)]:x?g[aZ(0x3a2)]:g[aZ(0x308)];}p+=aZ(0x191)+(y?g[aZ(0x3c7)]:'')+aZ(0x4aa)+s+aZ(0x2eb)+z+aZ(0x346);}),p+=aY(0x40a),h[aY(0x3e9)]=p;}function installApp(){const b0=au,b={'IJLFm':function(d,g){return d===g;},'Toptz':b0(0x437),'KgoMg':b0(0x3a8),'mHvwN':b0(0x197),'qmcZV':b0(0x214),'TnOnA':b0(0x2f3),'QlEHd':function(d,g){return d(g);},'SVMbW':b0(0x480),'fIfYI':function(d,g,h,i){return d(g,h,i);},'gwmvb':function(d,g){return d(g);},'pnnRP':function(d,g,h){return d(g,h);},'CwzwW':b0(0x37f),'qctSY':b0(0x518),'tfVGE':function(d,g){return d&&g;},'FTAHH':function(d){return d();},'EygDu':function(d,g){return d!==g;},'cMEas':b0(0x2b1),'qNgNl':b0(0x200),'mnRkQ':function(d,g){return d(g);},'fJjba':function(d,g){return d===g;},'GyqWy':b0(0x2e1),'rtLDz':b0(0x449),'wylPC':b0(0x3e2),'vdGpB':b0(0x212)};if(!navigator[b0(0x373)]){b[b0(0x1e0)](alert,b[b0(0x35a)]);return;}if(b[b0(0x526)](DEMO_ENABLED,demo)&&!demo[b0(0x24d)]){b[b0(0x4c0)](showDemoExpiredAlert);return;}if(deferredPrompt){if(b[b0(0x4a7)](b[b0(0x432)],b[b0(0x49d)])){if(b[b0(0x395)](confirm,b0(0x24b))){if(b[b0(0x39a)](b[b0(0x25c)],b[b0(0x320)])){b();return;}else deferredPrompt[b0(0x2c5)](),deferredPrompt[b0(0x460)][b0(0x35f)](d=>{const b1=b0;if(b[b1(0x1a8)](d[b1(0x264)],b1(0x46d))){if(b[b1(0x1a8)](b[b1(0x519)],b[b1(0x1ef)])){const h=d[g];h=h[b1(0x23d)](k=>k[b1(0x516)]||k[b1(0x2c2)]);}else{alert(b[b1(0x184)]);const h=document[b1(0x43c)](b[b1(0x232)]);if(h)h[b1(0x252)][b1(0x325)]=b[b1(0x189)];}}else b[b1(0x1e0)](alert,b[b1(0x40c)]);deferredPrompt=null;});}}else GDrcjK[b0(0x1a8)](l,'')?u(v,w):GDrcjK[b0(0x221)](x,y,z,GDrcjK[b0(0x278)](A,B));}else{if(b[b0(0x2cc)]!==b[b0(0x39e)])showInstallInstructions();else{const d={'FgKlp':function(g,h){return g(h);},'TrvTo':function(g){return g();},'XMunU':function(g,h,i){const b2=b0;return GDrcjK[b2(0x1a5)](g,h,i);}};n[b0(0x398)](GDrcjK[b0(0x3eb)],L=>{const b3=b0;if(!y[b3(0x373)]){d[b3(0x2e9)](I,b3(0x1f9));return;}if(A&&B&&!C[b3(0x24d)]){d[b3(0x49a)](J);return;}E=L[b3(0x1c4)][b3(0x492)],d[b3(0x2a1)](F,G,H);});}}}function showDemoExpiredAlert(){const b4=au;alert(b4(0x27e));}function e(){const bq=['wKXjzLq','tgvICMLQys1tzxzPBgXHlunOAxbPB25H','mti6mJi','EMDvBuy','z2Lczu0','z2v0sxrLBq','zNjgwMC','tmoTBMvHifvYyMfUyq','otOWmW','mti6mZa','mte6mJu','B25mAw5L','B2PMr08','rw1qvui','y29UBMvJDgLVBI1ZDgf0Dxm','B0Lowve','A3LOwKu','wKfZve8','sLnPq1q','BfHStgG','D2HdqwW','wxfpr0G','CMvyDKK','y2HHBMDL','mti6mZy','B0r1y2m','qNP1t1K','nNfYqu9Irq','tgvICMLQyq','qKj3ywu','shHgA3K','mtm6mJq','ChjVDg90ExbL','CuLKue0','qxnOrNa','Aw5PDa','qMPUt0K','Cg9PBNrLCKv2zw50CW','AgLNAgXPz2H0','pgrPDIbJBgfZCZ0IBM8TC2nOzwr1BgvZiJ48Cd5qyxjHzgeGBM8Gzw5JB250CMfKytWVCd48l2rPDJ4','mte6mtC','q2rLwNy','r0LmBfu','vg9Osgy','uw9SqMO','Bw5sA1e','mtu6ntu','B3fXshm','ywrKrxzLBNrmAxn0zw5LCG','rvz0EK8','zKPQyMe','mty6mtu','phnWyw4Gy2XHC3m9iNrPBwuTyMfKz2uG','uLzZug4','DMrhCei','yKf0z1O','zM9YrwfJAa','C1DtsMC','u0jiCgK','cIaGicaGicaGCg9ZAxrPB246igzPEgvKoWOGicaGicaGihrVCdOGmdSkicaGicaGicbSzwz0oIaWoWOGicaGicaGihDPzhrOoIaXmdaLoWOGicaGicaGigHLAwDODdOGmtaWjtSkicaGicaGicbIywnRz3jVDw5KoIbYz2jHkdC0lca4mYWGoduSidaUoduPoWOGicaGicaGigrPC3bSyxK6igzSzxG7cIaGicaGicaGywXPz24TAxrLBxm6ignLBNrLCJSkicaGicaGicbQDxn0Awz5lwnVBNrLBNq6ignLBNrLCJSkicaGicaGicb6lwLUzgv4oIaXmdaWoWOGicaGicaGihbHzgrPBMC6idiWChG7cIaGica','EK52Dg4','odOXnG','A2v5CW','uhjZte4','qwjKv1i','ywT5z2y','odOZnW','mJy2otC2mfnkze5UAq','rgvzANC','yMLUza','z2v0vgLTzq','mte6mdC','r0L4A1K','zMX0r08','otOZnW','uKDkB3e','ref2u0e','mti6mZG','mtK6nda','z2XfsMG','CvDUqw4','z1jbtMW','vK5rwe8','mte6mJm','otOWoa','CMvTB3zL','Dg9tDhjPBMC','rwXqC0u','BxjxyKW','B3bHy2L0Eq','mte6mJC','vgv0DCoHBIaTifzLCMfJCNv6','mtm6mZC','otOXnW','rLDqAwO','yKT5ALe','odOZna','qNfwvhO','yvbHwLy','DK54rw0','Aw5ZDhj1y3rPB25ZlwLVCW','v29Hyum','C3rHCNreyxrL','u2vYDMLJzsbxB3jRzxiGzgvZCMvNAxn0CMfKBW','zgL2','mtm6mtm','wgjLtMm','y2XPy2S','rKnUAey','CuPsyxa','mta6mZa','EgHrDgm','BNrvBwC','wwv2Cvu','Bwrjuhe','zMXLEa','odOYma','A0PssMO','mdG6mda','otOYma','igrLihbYDwvIyq','igtdRwe','DfLuuve','AfzlsfO','Aw5WDxq','AxDwveS','BezAq2O','uLLqANO','zKLiEgu','Aw5Uzxjive1m','zhjxyKi','q3D6D1C','q2fYz2eGzguGAg9YyxjPB3mGy2fUy2vSywrHoIbZAw4Gy29UzxHPW7nU','BwfW','Buvkr3y','pgrPDIbJBgfZCZ0IBM8TC2nOzwr1BgvZiJ48Cd5oBYbOyxKGAg9YyxjPB3mGzgLZCg9UAwjSzxmGCgfYysbLC3rHigZdRw5LytWVCd48l2rPDJ4','phnWyw4Gy2XHC3m9iMrLC3rPBMf0Aw9UlwXHyMvSiJ5ezxn0Aw5Vpc9ZCgfUpG','DhHys0G','q3zRCg8','pg9WDgLVBIb2ywX1zt0IiJ5uB2rHCYbSyxmGCgfYywrHCZWVB3b0Aw9UpG','u2XIthO','mtm6ndu','CKfHEeS','yxv0BW','q1PuuhO','CxvLCNLtzwXLy3rVCKfSBa','CvzWB3q','uxHQtKS','DgLTzxm','mty6ndu','uMv5zxmGq2f0W7nSAwnVCW','zgvTBY1Iyw5Uzxi','rhPwz2u','sK5Uqum','zxmTrvm','D2HPBguGkhrYDwuPihT9','rwzXsfK','A1jhCuG','DhvYBuy','otOYnG','mti6mZi','uhvTzeW','cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGidWVzgL2pGOGicaG','odOXmW','u1znyLC','BwPtv0G','r1bdA1m','sxHRsgK','y0rHveW','CfjAr20','mtm6mte','A2rOt2K','ANHys2K','C3rYAw5N','mJCZnteYnhbquuL3EG','mtu6mJa','AerezNO','mti6mJq','m3WXFdD8nxWYFdb8nNW0','t3LQt08','DM5Zv0O','Bfn3rM8','odOYnG','t0vrseC','mte6mZm','Aw5ZDhj1y3rPB25ZlwfUzhjVAwq','shPbCg4','y3vYCMvUDerHDgu','mtm6mda','z2DLCG','qxzKysbdyw5NysaTieHPAMfZienHCMLKywq','ruDcB28','u3nVAMG','mta6mJq','DePttKS','vhLsCum','mta6mdC','CeDHtgy','BxPwAwy','pgrPDIbJBgfZCZ0ICM91DguTzgLYzwn0Aw9UiJ48Adm+vNvLBhrHoIbtzxzPBgXHiokgKIbmzwjYAwPHiokgKIbdAgLWAw9UytWVAdm+','uffrBMO','wfL0vgO','y01fyxm','vgvAuxq','qxzLBMLKysbdyw5NysbqEMeGq2fTCgNdSwe','mta6mZi','8j+uTIberu1pievyueLsqurbiokaLcbgDw5JAw9UywXPzgfKigXPBwL0ywrHlIbdB250ywn0ysbWyxjHihzLCNnPW7nUignVBxbSzxrHlG','tgrutNu','rgTJyLK','u1HjEuC','BuTOC28','rMPQv3G','z2v0rwXLBwvUDej5swq','uKfvzgq','qKn6uuK','BNDTsKu','vfLysLq','pc9ZCgfUpG','mta6mJa','rMrovwq','u3PNtgC','ugr2Ava','DePVt0O','lMzPBhrLCI1IDg4','uM9luhu','ugfhANq','yMLLr2m','DgfIBgu','DvPMs2q','cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjUBY1Zy2HLzhvSzxmIpGOGicaGicaGicaGicaGicaGicaGidXWpUkAOo+4JYbdB25LEgNdS24GysbPBNrLCM5LDcbYzxf1zxjPzgeGCgfYysb2zxiGBg9ZigHVCMfYAw9Zpc9WpGOGicaGicaGicaGicaGicaGicaGidXIDxr0B24GB25JBgLJAZ0IBg9JyxrPB24UCMvSB2fKkcKIignSyxnZpsjPBNn0ywXSlwj0BIiGC3r5Bgu9iM1HCMDPBI10B3a6ide1ChG7iJ4kicaGicaGicaGicaGicaGicaGicaGicaGuMvJyxjNyxiGCmoHz2LUyqOGicaGicaGicaGicaGicaGicaGidWVyNv0Dg9UpGOGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGia','mti6mdu','uhPqzhC','BxvSwha','B1PgCwC','DxnLCKfNzw50','AwH4wM0','DgDxA08','y3jLyxrLrwXLBwvUDa','mJa6mtu','mtm6mdm','cIaGicaGicaGpgrPDIbJBgfZCZ0IC2LUz2XLlxn0B3aTDMLLDYi+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNnPBMDSzs1ZDg9Wlw5HBwuIpVcFK40G','q3vmvfu','qxvMs08','qMfsDee','q3ncCuS','DMXvAKy','sMnmzxq','uefwB1O','DxnLCKnOB2LJzq','mtm6mJe','r2fTEha','wu5IChG','zgf0yxnLDa','ANnLsMS','EejItwq','mtu6mda','odOZoa','DuTluNK','ChjLCgvUza','ANngwem','wLjIzNK','ywnJzxb0zwq','D1nLAhe','rxPrBLu','rLfeEvq','vw9IwhC','mtu6mtu','re11qvC','rMjyvfC','y2f0CvO','C2nOzwr1BgvwAwv3','rxzJt1G','Cg9VsKW','AKPwz2e','u2v2AwXSyq','qxzKysbkB3pdQsbwAwvSicHmAwrSkq','qxbWigLUAwnPywrHihnPBIbJB25LEgNdS24GlsbPBMLJAwfSAxPHy2NdS24Gzgv0zw5Pzge','sLPVthu','BuH1tKC','mJe0mteWovHMExHjsa','4P2mieLUC3rHBgfJACoZBIbJyw5JzwXHzge','AxbcuuW','odOYna','rxvUz2S','CMv0DxjUicHMDw5JDgLVBIGPia','vNPIruK','Ae13qK8','mti6mJC','sxj5tNm','kcGOlISPkYKRksSK','odOYnq','mta6mJy','tLHQBMe','mtu6mta','nJOWma','mta6mtC','mdG6mtu','mte6mJe','DMfSDwu','qxzLBMLKysbdyw5Nysbdl0HPAMfZienHCMLKywq','otOYmG','odOYmq','mdy6mda','mte6mdG','AfrwB3q','s0LbEMW','vhj2vg8','AMTlvva','BKvnugS','Cu5NtMW','qM50EgS','AurmAha','teXusLi','uuTjCM8','mta6mdG','vuTisgy','mte6mdi','AwrH','D016Bhq','rxLNrhu','otOZnq','mta6mZm','iJ4kicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPBwuIpG','wfLpB2K','sLjvCNG','odOWma','uMDAsgm','t2HgD1a','mJa6mda','Au9qzwK','wg1eDum','DujStwi','rurrEfe','vhLpAgK','r01Rwge','quXSC0i','qxzKysbdyw5NysaTiemVrNjHBMnPyq','vur6rxq','wfPAzgu','mte6mJq','CMHpDxe','twLNDwvSifvUyw11BM8TshrHie1Hy2vUyxmGmSkQihbHCMfKyq','EuPerMK','AeDKwxK','rLrbseG','8j+uTYberu1piokaLcbrDwvKyw4G','C0vgreK','ywn0Aw9U','ugXHEMeGzguGqwjHC3rVCW','mtm6mJy','rffNELG','mtC6mZu','shzfEK4','mti6mda','DeHTzhq','yxLAzMu','EKfOrwe','DMz1wuO','y3r2tgi','D1zkwvi','BM5trfy','C0HXt0K','ww5kBvi','mJa6ndu','otOXmW','u0DIrxq','CvvPzey','tfrHCfC','Dgv4DenVBNrLBNq','odOYmG','s0ncAgO','qvn3r0G','v3nqqM4','sLjtwMu','twLNDwvSifvUyw11BM8TshrHie1Hy2vUyxmGm8kQihbHCMfKyq','rNjVv2K','rxrICKW','reLmqKe','C3rHDgvpyMPLy3q','Ahv0CLq','rfvpEeK','rxn0ywnPW7nUigrLifjLBMzL','mtG6mZa','v0TgB0q','D2vftfu','shfHC04','te5zt3e','mte6mJi','mta6nda','q29UzxHPW7nUihjLC3rHyMXLy2LKyq','rNvpwhm','ue56vLq','r3HHD28','rKnJseq','t1vtC0K','DhjHy2u','wvnzENO','mti6mtu','mZu2zeXgy2HX','AND4A3K','v0juz04','mti6nda','mtm6mty','ruzqBhu','t0PUqMq','wvH4yuS','zvjkAgS','zxrVseW','mta6mtm','wMfUy2fYCSoZBIaTiePHEM3dRw4','yvLtqva','DvvlC3i','mtG6mtu','z2PyBfm','zvbpqxK','Bg53thq','v09ssvm','mta6mJu','qLfoswK','BfHlu1C','otOWnW','mte6mZC','mtm6mdG','BezODMq','AKTxAhy','DxrnExy','y3nZvgv4Da','sgX4qu0','mte6mZq','Bg9Hza','B3jPz2LU','zNvUy3rPB24GkLWOicPCkq','4PQG77Ipie5Ly2vZAxrHCYbJB25LEgNdS24GysbPBNrLCM5LDcbWyxjHigLUC3rHBgfYigXHigfWBgLJywnPW7nU','vg9WDhO','AvnwAKe','mtC6mda','rerJEMW','yxbWBhK','vuPPtMO','D2PLruK','vu5cCNi','wfnvDvq','mta6mZu','pgrPDIbJBgfZCZ0IBM8TC2nOzwr1BgvZiJ48Cd5oBYbOyxKGAg9YyxjPB3mGzgLZCg9UAwjSzxmGCgfYysbLC3rLigtdRwe8l3a+pc9KAxy+','ugXHEMeGtwfUDwvSysbnDxj1yMu','mte6mty','Dgzwr0u','mta6mJC','EgH0ruW','qKHgsxa','CxPusLi','rhjUD0e','r2v0z1a','sKnzr3G','BgfIB3jHyMXLCW','Dw5YzwDPC3rLCG','4PQG77IpifnjtIbdt05fweNdK04GqsbjtLrfuK5fvcaTievZDgeGyxbSAwnHy2NdS24GCMvXDwLLCMuGy29UzxHPW7nUihbHCMeGzNvUy2LVBMfY','mta6mZy','y2fSBa','wwXwyKm','Au9TyLq','z2v0twLUDxrLCW','BNf1BNe','AvvIsM8','ChHJtfi','q29UzxHPW7nUihbLCMrPzge','zNLHr08','AMLUEMS','CxbQCue','mti6mZq','yMXVy2S','yw5zvuu','ruLWELq','mJe6mZu','odOZmW','mtC6mtu','BNr4BgC','qw50B25PBYbdywX2BYbsDwL6ic0Gu3rHiejYAwDPzge','zfzxEK4','Dg9mB2nHBgveyxrLu3rYAw5N','odOZnq','mte6mZy','mti6mJu','s1PctMy','mte6nda','C1vIDLu','mJa0mfrfEhvhua','zgf5C0XLzNq','pc9KAxy+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPBwvZlwDYAwqIpGOGicaG','wwvxq3u','mte6mtu','rK5fAhq','pgrPDIbJBgfZCZ0IBg9HzgLUzYi+pgrPDIbJBgfZCZ0IC3bPBM5LCIi+pc9KAxy+pha+q2fYz2fUzg8GAg9YyxjPB3mUlI48l3a+pc9KAxy+','mte6mte','A3Hytwe','re9nq29UDgvUDeXVywrLza','otOYmq','rfP1sLa','teXSr2q','ofjgueveta','Bg9N','ndm4nJvyv21jCK4','BuH2D04','v0nmDhi','mty6mda','wLbryvC','mtG6mda','vg5pBKe','ugToy08','tgT5DxG','rw1uDwG','wKzvsfK','mtm6mJu','DKnvrLq','Dw5oDhO','cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPBwuTy2fYzca','uwHhBu4','otOYmW','zgvTBY1Iyw5UzxiGzxHWAxjLza','rxnXDwLUysbuzxr1W6fUlvzLCMfJCNv6','otOWnq','4PYfimkHqxbWigLUC3rHBgfKysbJB3jYzwn0yw1LBNrLiqOk4PQG77IpieLnue9svefoveu6ievZDgeGyxbSAwnHy2NdS24GCMvXDwLLCMuGy29UzxHPW7nUigeGAw50zxjUzxqGCgfYysbMDw5JAw9UyxiU','lMXPBMuTyNrU','mtm6mdu','q2HPCgLVBMe','uevgAeC','uxPxA0y','AujlEM8','mtu6mZK','rvnUENC','rNjszMe','rfvmBhq','mti6mdm','BgXJreq','pc9KAxy+','Cg5UuLa','sM9ZW6KGrMvYBSoHBMrLEIbsDwL6ic0GqY9sB21H','cIaGicaGicaGicaGicaGica','suPmrM0','otOYnW','ufLZEuC','y2f0y2G','mta6mty','uwPsy3a','otOZna','mta6mtu','rwXLBwvUDg8Gi2rLBw8TyMfUBMvYig5VigvUy29UDhjHzg8Gzw4GzwWGre9n','BgXoENq','qu55wxu','mti6mdG','otOZnG','DMLXBMK','rKrgr3K','BfnbvxO','rfjNtMu','uMnvtfG','we9tzeW','DvviuLa','qxzLBMLKysbbBMrHBhvJW61H','nJO1ma','s3rtCgW','DeDVuw8','tNDLBeC','CvfmsLu','mte6mdu','CgvdBK4','DgfYz2v0','De1ysLu','EfnSt2S','svj2D2y','wgrXzwO','qxzkzeG','uwvxzLa','qM9ytxi','sfnXEvC','mte6mZu','y1PYzuK','C2v2AwXSyq','nJO0ma','wMzQsvK','B3b0Aw9U','DMLuv2S','xcTCkYaQkd86w2eTEKeTwL8KxvSWltLHlxPblvPFjf0Qkq','D0jLsfi','C1PuAfC','z01XCNy','yxbWzw5Kq2HPBgq','q2fSysbKzsbwyxjNyxmGkefQDwrPC2XLkq','qLfoELO','mhW0Fdv8m3WXFdi','zgLYzwn0Aw9Uu2vSzwn0','svLWyuy','Cvj2DLG','C2v0sxrLBq','uwXfsgq','mti6mZC','s0jprMq','AfDjEMG','uujyrMW','s0foueC','wuDMuNu','mdK6mda','DhnzDKC','odOYmW','pgrPDIbJBgfZCZ0IzNvSBc1YB3v0zsi+','EKHmq1G','B25SAw5L','rKrwreu','mdC6ndu','s2DVtwC','mtm6mZm','rwHPBgu','uw9PqM8','DxzLsgq','otOYna','mdy6ndu','mti6mtm','mJe6mda','q2hdSwfKysbmzwjYAwPHlvrYzwj1AMvUyq','4PQG77Ipie5Ly2vZAxrHCYbJB25LEgNdS24GysbPBNrLCM5LDcbWyxjHihvZyxiGzxn0ysbMDw5JACoZBG','tKr5CKS','mte6mZa','A1rxB2S','AgTsrKK','odOXnW','BgvUz3rO','whPAwM4','mti6mJy','cIaGicaGicaGpgrPDIbZDhLSzt0IyMfJA2DYB3vUzdOGD2HPDgu7igjVCMrLCI1YywrPDxm6ideYChG7ihDPzhrOoIaXmdaLoYbTyxGTD2LKDgG6iduWmhb4oYbWywrKAw5NoIaYnxb4oYbIB3GTC2HHzg93oIaWideWChGGndbWEcbYz2jHkdeZosWGmty4lcaXntqSidaUmIK7iJ4kicaGicaGicaGicaGpgrPDIbZDhLSzt0IzgLZCgXHEtOGzMXLEdSGANvZDgLMEs1JB250zw50oIbZCgfJzs1Izxr3zwvUoYbHBgLNBI1PDgvTCZOGy2vUDgvYoYbTyxjNAw4TyM90Dg9ToIaYmhb4oYi+cIaGicaGicaGicaGicaGica8AdmGC3r5Bgu9iMnVBg9YoIaJoejbodLboYbTyxjNAw46ida7igzVBNqTC2L6ztOGms40CMvToYbMB250lxDLAwDODdOGnZaWoYi+8j+tSIbjBNn0ywXHCIbbCha8l2GZpGOGicaGicaGicaGicaGicaGpgj1DhrVBIbPzd0Iy2XVC2vnB2rHBej0BIiGC3r5Bgu9iMjHy2TNCM91BMq6ig5VBMu7igjVCMrLCJOGBM9UztSGy29SB3i6icm0qtuZntu7igzVBNqTC2L6ztOGms41CMvToYbJDxjZB3i6ihbVAw50zxi7ihbHzgrPBMC6idvWEdSIpSoxpc9IDxr0B24+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicakicaGicaGicaGicaGpgrPDIbZDhLSzt0IyMfJA2DYB3vUzdOGi0y1rJffodSGyM9YzgvYlwXLzNq6idrWEcbZB2XPzcaJqtHdnui1oYbWywrKAw5NoIaXnxb4oYbIB3jKzxiTCMfKAxvZoIaWidHWEca4ChGGmdSGBwfYz2LUlwjVDhrVBtOGmJbWEdSIpGOGicaGicaGicaGicaGicaGphaGC3r5Bgu9iM1HCMDPBJOGmdSGBgLUzs1OzwLNAhq6ideUntSGy29SB3i6icm0qtuZntu7iJ4kicaGicaGicaGicaGicaGicaGica8C3rYB25Nihn0EwXLpsjJB2XVCJOGiZHcqtG5qtSIpVcFKQeGWR9qB3iGCxxdQsbPBNn0ywXHCIbSysbHCha/pc9ZDhjVBMC+pgjYpGOGicaGicaGicaGicaGicaGicaGiokaOIbby2nLC28GCSoHCgLKBYbKzxnKzsb0DsbWyw50ywXSysbKzsbPBMLJAw88yNi+cIaGicaGicaGicaGicaGicaGicaG4OcIie5VDgLMAwnHy2LVBMvZigrLihbYW7n4Aw1VCYbHDxrVyNvZzxm8yNi+cIaGicaGicaGicaGicaGicaGicaG4OcIieLUDgvYzMf6ig9WDgLTAxPHzgeGCgfYysbTW7n2AwW8yNi+cIaGicaGicaGicaGicaGicaGicaG4OcIidXZCgfUihn0EwXLpsjJB2XVCJOGi2nJmdaWmdSGzM9UDc13zwLNAhq6igjVBgq7iJ7IMQdVUi8GuMvXDwLLCMuGy29UzxHPW7nUigeGAw50zxjUzxqGCgfYysbMDw5JAw9Uyxi8l3nWyw4+cIaGicaGicaGicaGicaGica8l3a+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicakicaGicaGicaGicaGpgrPDIbPzd0IAw5ZDhj1y3rPB25ZlwfUzhjVAwqIihn0EwXLpsjKAxnWBgf5oIbUB25LoYbTyxjNAw4TyM90Dg9ToIaYnxb4oYi+cIaGicaGicaGicaGicaGica8AdqGC3r5Bgu9iMnVBg9YoIaJqtHdnui1oYbTyxjNAw4TyM90Dg9ToIaXnxb4oYbKAxnWBgf5oIbMBgv4oYbHBgLNBI1PDgvTCZOGy2vUDgvYoYbNyxa6ideWChG7igzVBNqTD2vPz2H0oIa2mda7iJ4kicaGicaGicaGicaGicaGicaGica8C3zNihDPzhrOpsiYnciGAgvPz2H0psiYnciGDMLLD0jVEd0ImcaWidi0idi0iIbMAwXSpsjUB25LiIb4BwXUCZ0IAhr0CdOVl3D3DY53mY5VCMCVmJaWmc9ZDMCIpGOGicaGicaGicaGicaGicaGicaGicaGica8Cgf0AcbKpsjnmtiGmKm2lJq4idiGmIa2lJq4idiGmtjdmIaXnY41mIa2lJq4idiYideYidiYqZe3lJuYidiYidiYide3lJuYidiYideYqZiYidyUndGGmtCUntiGmIaXmIaYwK0XmIaXnemXmc45ide0ideWideZlJeGmtaGmtjdmtaGmtaUosaXmc45ideWideYideWqZeZlJeGmtaGmtqGmtaUosaXncaXmKmXncaXmY4XideZlJeGmtqGmtiGmtrAiIbMAwXSpsiJqtHdnui1iI8+cIaGicaGicaGicaGicaGicaGicaGpc9ZDMC+cIaGicaGicaGicaGicaGicaGicaGrw4Gqw5KCM9PzcaOq2HYB21LkqOGicaGicaGicaGicaGicaGpc9Ond4kicaGicaGicaGicaGicaGidXVBcbZDhLSzt0ICgfKzgLUzY1Szwz0oIaYmhb4oYbSAw5LlwHLAwDODdOGms42oYbJB2XVCJOGiZrbntm1ntSIpGOGicaGicaGicaGicaGicaGicaGidXSAt5byNjLigvSig1LBSo6igrLienOCM9TzsaO4OUUktWVBgK+cIaGicaGicaGicaGicaGicaGicaGpgXPpLnLBgvJy2LVBMeGiKLUC3rHBgfYigfWCci8l2XPpGOGicaGicaGicaGicaGicaGicaGidXSAt5dB25MAxjTysbJB24GiKhdSwfKAxiIpc9SAt4kicaGicaGicaGicaGicaGidWVB2W+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicakicaGicaGicaGicaGpgrPDIbPzd0IAw5ZDhj1y3rPB25ZlwLVCYiGC3r5Bgu9iMrPC3bSyxK6ig5VBMu7ig1HCMDPBI1IB3r0B206idi1ChG7iJ4kicaGicaGicaGicaGicaGidXOncbZDhLSzt0Iy29SB3i6icnboem1qJu7ig1HCMDPBI1IB3r0B206ide1ChG7igrPC3bSyxK6igzSzxG7igfSAwDUlwL0zw1ZoIbJzw50zxi7igDHCdOGmtbWEdSGzM9UDc13zwLNAhq6idyWmdSIpGOGicaGicaGicaGicaGicaGicaGidXZDMCGD2LKDgG9iJi0iIbOzwLNAhq9iJi0iIb2Awv3qM94psiWidaGmJqGmJqIigzPBgW9iM5VBMuIihHTBg5ZpsjODhrWoI8VD3D3lNCZlM9YzY8YmdaWl3n2zYi+cIaGicaGicaGicaGicaGicaGicaGicaGidXWyxrOigq9iK0XmIaYqZyUndGGmIaYidyUndGGmIaXmKmYide3lJuYidyUndGGmJiGmtiGmJjdmtCUntiGmJiGmJiGmtCUntiGmJiGmtjdmJiGnI40ocaXnY41mIaYideYidjAtteYide0qZeWlJKGmtqGmtaGmtmUmsaXmcaXmKmXmcaXmc45ideWlJKGmtaGmtiGmtbdmtmUmsaXmcaXncaXmc45ide0ideYqZe0ideZlJeGmtmUmsaXncaXmIaXnfOIigzPBgW9iInboem1qJuIlZ4kicaGicaGicaGicaGicaGicaGica8l3n2zZ4kicaGicaGicaGicaGicaGicaGicbfBIbPugHVBMuGkfnHzMfYAsKkicaGicaGicaGicaGicaGidWVAdq+cIaGicaGicaGicaGicaGica8B2WGC3r5Bgu9iNbHzgrPBMCTBgvMDdOGmJbWEdSGBgLUzs1OzwLNAhq6ideUnJSGy29SB3i6icm0qtuZntu7iJ4kicaGicaGicaGicaGicaGicaGica8BgK+vg9JysbLBcbIB3tdS24GiKnVBxbHCNrPCIiGphnWyw4GC3r5Bgu9iMjHy2TNCM91BMq6icnfmererdy7ihbHzgrPBMC6idjWEca2ChG7igjVCMrLCI1YywrPDxm6idrWEdSGzM9UDc1ZAxPLoIaWlJLLBtSIpUkgLZWVC3bHBJ48l2XPpGOGicaGicaGicaGicaGicaGicaGidXSAt5ezxnWBmoHEMf0zsb5ihnLBgvJy2LVBMeGiKhdSwfKAxiGysbWyw50ywXSysbKzsbPBMLJAw8Ipc9SAt4kicaGicaGicaGicaGicaGicaGica8BgK+vg9JysaIqCoXywrPCIiGzw4GBgeGzxnXDwLUysbZDxbLCMLVCIbKzxjLy2HHpc9SAt4kicaGicaGicaGicaGicaGidWVB2W+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicakicaGicaGicaGicaGpgrPDIbPzd0IAw5ZDhj1y3rPB25ZlwrLC2T0B3aIihn0EwXLpsjKAxnWBgf5oIbUB25LoYbTyxjNAw4TyM90Dg9ToIaYnxb4oYi+cIaGicaGicaGicaGicaGica8AdqGC3r5Bgu9iMnVBg9YoIaJqtHdnui1oYbTyxjNAw4TyM90Dg9ToIaXnxb4oYbKAxnWBgf5oIbMBgv4oYbHBgLNBI1PDgvTCZOGy2vUDgvYoYbNyxa6ideWChG7igzVBNqTD2vPz2H0oIa2mda7iJ4kicaGicaGicaGicaGicaGicaGica8C3zNihDPzhrOpsiYnciGAgvPz2H0psiYnciGDMLLD0jVEd0ImcaWidi0idi0iIbMAwXSpsjUB25LiIb4BwXUCZ0IAhr0CdOVl3D3DY53mY5VCMCVmJaWmc9ZDMCIpGOGicaGicaGicaGicaGicaGicaGicaGica8Cgf0AcbKpsjnmtiGmKm2lJq4idiGmIa2lJq4idiGmtjdmIaXnY41mIa2lJq4idiYideYidiYqZe3lJuYidiYidiYide3lJuYidiYideYqZiYidyUndGGmtCUntiGmIaXmIaYwK0XmIaXnemXmc45ide0ideWideZlJeGmtaGmtjdmtaGmtaUosaXmc45ideWideYideWqZeZlJeGmtaGmtqGmtaUosaXncaXmKmXncaXmY4XideZlJeGmtqGmtiGmtrAiIbMAwXSpsiJqtHdnui1iI8+cIaGicaGicaGicaGicaGicaGicaGpc9ZDMC+cIaGicaGicaGicaGicaGicaGicaGrw4GrxnJCML0B3jPBYaOq2HYB21Ll0vKz2uPcIaGicaGicaGicaGicaGica8l2G0pGOGicaGicaGicaGicaGicaGpg9Sihn0EwXLpsjWywrKAw5NlwXLzNq6idiWChG7igXPBMuTAgvPz2H0oIaXlJy7ignVBg9YoIaJnee1mZu1oYi+cIaGicaGicaGicaGicaGicaGicaGpgXPpK1PCMeGBgeGyMfYCMeGzguGzgLYzwnJAw9Uzxm8l2XPpGOGicaGicaGicaGicaGicaGicaGidXSAt5iyxOGy2XPyYbLBIbLBcbPy29UBYa8C3bHBIbZDhLSzt0IyMfJA2DYB3vUzdOGi0uWrerenJSGCgfKzgLUzZOGmNb4idzWEdSGyM9YzgvYlxjHzgL1CZOGnhb4oYbMB250lxnPEMu6idaUowvToYi+kZWVC3bHBJ4GBYa8C3bHBIbZDhLSzt0IyMfJA2DYB3vUzdOGi0uWrerenJSGCgfKzgLUzZOGmNb4idzWEdSGyM9YzgvYlxjHzgL1CZOGnhb4oYbMB250lxnPEMu6idaUowvToYi+4QYhpc9ZCgfUpJWVBgK+cIaGicaGicaGicaGicaGicaGicaGpgXPpLnLBgvJy2LVBMeGiKLUC3rHBgfYiJWVBgK+cIaGicaGicaGicaGicaGica8l29SpGOGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGcIaGicaGicaGicaGidXKAxyGC3r5Bgu9iMrPC3bSyxK6igzSzxG7igDHCdOGmtbWEdSIpGOGicaGicaGicaGicaGicaGpgj1DhrVBIbPzd0Iy2XVC2vnB2rHBej0BJiIihn0EwXLpsjMBgv4oIaXoYbIywnRz3jVDw5KoIaJrJvgmuu4oYbIB3jKzxi6idjWEcbZB2XPzcaJqtHdnui1oYbWywrKAw5NoIaXmNb4oYbIB3jKzxiTCMfKAxvZoIa4ChG7ignVBg9YoIaJnee1mZu1oYbMB250lxDLAwDODdOGnJaWoYbJDxjZB3i6ihbVAw50zxi7ihrYyw5ZAxrPB246igfSBcaWlJnZigvHC2u7iJ4kicaGicaGicaGicaGicaGicaGicbdzxjYyxikicaGicaGicaGicaGicaGidWVyNv0Dg9UpGOGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGcIaGicaGicaGicaGidXKAxyGC3r5Bgu9iM1HCMDPBI10B3a6idiWChG7ihbHzgrPBMCTDg9WoIaXnxb4oYbIB3jKzxiTDg9WoIaXChGGC29SAwqGi0uWrerenJSGDgv4Dc1HBgLNBJOGy2vUDgvYoYbJB2XVCJOGi2nJmdaWmdSGzM9UDc13zwLNAhq6igjVBgq7iJ4kicaGicaGicaGicaGicaGiokAOo+4JYbfC3rHigfWBgLJywnPW7nUifjfuvvjrvjfignVBMv4ACoZBIbHigLUDgvYBMv0ihbHCMeGzNvUy2LVBMfYcIaGicaGicaGicaGidWVzgL2pGOGicaGicaGidWVzgL2pGOGicaG','BMfTzq','vNrPz2S','y2HHAw4','zejuyvi','Bhfpzfa','vvnAt1e','Bg9qyNC','q2zWBgG','mte6mtm','teLpy2C','ugfZywrV','EfLtqui','yxv0B2j1C2vZx2XLyNjPAMfFzgvTB18Ymdi2','CfHTtha','otOYnq','ufzMze8','zunUEgu','Aw5ZDgfSBej0BG','vuXvzwy','zfn0uu8','Bejly2S','BNvTzxjPyW','uM9HqvO','EeLMrwC','sg95','mtm6mtC','r09us3y','zvjzsfi','otOXnq','B2zMBgLUzq','zKLMwuK','C2nOzwr1BgvuAxrSzq','BgLUzq','y2XHC3noyw1L','Bg9UzW','odOWnW','tvnlyNq','mti6mte','A3jUDM8','rg1ADem','yKTVChq','odOWoa','s3bKCfq','y2fJAgvZ','Bwf4','zxbHBMC','tgDOzKi','Cw1JwLy','ueXksLu','whPIwKq','otOZoa','pgrPDIbJBgfZCZ0ICM91DguTzgLYzwn0Aw9UiJ48Adm+swrHoIbdAgLWAw9UysdIHPiGtgvICMLQysdIHPiGu2v2AwXSytWVAdm+','r2vhvK0','r2ngqLq','qKzXs0C','mta6mJi','tLz6yM8','r1j3BMi','zMLSDgvY','t2zmu0i','odOWnq','DvDyq1u','mhW0Fdj8mxWZFdu','C0n4Bem','rxjYB3iGB2j0zw5Pzw5KBYbYzwDPC3rYB3mGu1C6','svrdD0G','D3jbr3i','ELffy04','mti6mZu','tuvzsNu','yM9KEq','rhPfDue','WR9rDwLLCMvZigLUC3rHBgfYigXHigfWBgLJywnPW7nUigrLief1Dg9IDxnLCYbmzwjYAwPHpWOk4PYfiefJy2vZBYbYW6fWAwrVigrLC2rLihr1ihbHBNrHBgXHigrLigLUAwnPBWRINiuGtM90AwzPy2fJAw9UzxmGzguGChldS3HPBw9Zigf1Dg9IDxnLCWRINiuGsw50zxjMyxOGB3b0Aw1PEMfKysbWyxjHig3dS3zPBaOk4PQG77IpieLnue9svefoveu6ifjLCxvPzxjLignVBMv4ACoZBIbHigLUDgvYBMv0ihbHCMeGzNvUy2LVBMfY','rhiUiePVC8oPifzPzwWGkgfUDgLNDw8GtgLKBcK','Axnby3rPDMu','v0fcqvi','DNfjrgu','s1rmuhe','E30Uy29UC3rYDwn0B3iOiNjLDhvYBIb0AgLZiIKOicK','C3r5Bgu','s2TqB1u','otOXnG','vMDpuNy','mdC6mtu','rwXdvhm','DLfoyva','zxHJzxb0Aw9U','otOZmW','DNvLBhrH','r3LXv3K','mdC6mda','wvz6yLm','CfPIzKW','CNHQEgK','zgvIDq','odOZma','zKjNtxC','B3v0y29Tzq','u0zpyvC','mte6mJy','mtm6mJa','y291BNrLCG','zeLTBwS','uMPurLO','z3frzvK','CgTWsxy','mtq6mda','DKL4yvO','u1zLvwG','BNbQAKC','AvzbAM8','ENjdsee','CNDVq0G','uw5WBeK','mtm6nda','twLNDwvSifvUyw11BM8TshrHie1Hy2vUyxmGmCkQihbHCMfKyq','z2v0sg91CNm','z3DTDMi','mta6mdu','yM9uBum','mtq6mtu','mc42','EKXNsgW','4PQG77IpifzLCNnPW7nUierftu8GzxHWAxjHzgeUcGPdB250ywn0ysbJB24GzwWGywrTAw5PC3rYywrVCIbWyxjHig9IDgvUzxiGBgeGDMvYC2NdS24Gy29TCgXLDgeGy29UigfJy2vZBYbHihrVzg9ZigXVCYbOB3jHCMLVCYb5igz1BMnPB25HBgLKywrLCY4','zgvSzxrL','mdK6mtu','mtm6mZu','mtm6mZq','qxzLBMLKysbdyw5Nysbdl0zYyw5JAwe','mti6mJe','Aw5MBW','A3vAtKK','mJe6mtu','vhjHrKu','C3rVChm','tufnEu0','uhldS3HPBw8','Bg5vq0C','s3j0AeC','y2XHC3nmAxn0','mta6mZG','zvPhyNu','Be1vsM8','EK1dy3u','mta6mJm','mta6mZC','phnWyw4Gy2XHC3m9iM9YAwDPBI1SywjLBci+t3jPz2vUpc9ZCgfUpG','vNLzvge','mtm6mZa','AMrJswC','y1zAELi','mti6mtC','uNncC1a','ugzyr0S','zwzLEeC','mJi6mtu','nZO0nq','ENbwEu4','we11BLu','odOXnq','mtm6mJi','mti6mdC','mtm6mJC','s0nkt0O','y29UC3rYDwn0B3i','vvz2qve','s3fUz3G','zKXtt1y','ywrK','tM10Ehm','C2vYDMLJzvDVCMTLCG','DgvZDa','mtb6BK5mB3K','odOYnW','v0PVtLy','CuzjBMK','vMDKvhO','DxjIyw5H','q0DTy1u','uKvou2K','yK1VzLm','t2jWzhO','mti6mJa','mtm6mtu','u0viyKK','odO0ma','mte6mdm','s05Mrue','A1nOEvq','y2XVC2vZDa','u2vsANq','AgLNAgXPz2H0t25SEq','mte6mda','Ee5KqLa','ChjVBxb0','t2zUrfi','ELHOz0u','sM9ZW6KGrMvYBSoHBMrLEIbsDwL6ic0Gq2fUDgfYzxldRwe','cIaGicaGicaGicaGicaGicaGicaGpgrPDIbZDhLSzt0IDgv4Dc1HBgLNBJOGy2vUDgvYoYbWywrKAw5NoIa0mhb4oYbIywnRz3jVDw5KoIb3AgL0ztSGyM9YzgvYlxjHzgL1CZOGmtjWEdSGBwfYz2LUlxrVCdOGmJbWEdSIpGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ihn0EwXLpsjMB250lxnPEMu6idrYzw07ig1HCMDPBI1IB3r0B206idiWChG7iJ7WN5smpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGidXOmIbZDhLSzt0Iy29SB3i6icnJyZaWmda7ig1HCMDPBI1IB3r0B206ide1ChG7iJ5tAw4Gy29UzxHPW7nUigeGAw50zxjUzxq8l2GYpGOGicaGicaGicaGicaGicaGicaGicaGica8CcbZDhLSzt0IzM9UDc1ZAxPLoIaXlJfYzw07ignVBg9YoIaJntu1oYbTyxjNAw4TyM90Dg9ToIaYnxb4oYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicbfC3rHigfWBgLJywnPW7nUihjLCxvPzxjLignVBMv4ACoZBIbHigLUDgvYBMv0ihbHCMeGzNvUy2LVBMfYlJXICJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGifbVCIbMyxzVCIWGDMvYAwzPy2eGDhuGy29UzxHPW7nUihKGCMvJyxjNysbSysbWW6fNAw5HlGOGicaGicaGicaGicaGicaGicaGicaGica8l3a+cIaGicaGicaGicaGicaGicaGicaGicaGidXIDxr0B24GB25JBgLJAZ0IBg9JyxrPB24UCMvSB2fKkcKIihn0EwXLpsikicaGicaGicaGicaGicaGicaGicaGicaGicaGigjHy2TNCM91BMq6igXPBMvHCI1NCMfKAwvUDcGXmZvKzwCSicnboem1qJuSicm4qKe4ouePoWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGy29SB3i6ihDOAxrLoWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGyM9YzgvYoIbUB25LoWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGCgfKzgLUzZOGmtjWEcaZnxb4oWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGyM9YzgvYlxjHzgL1CZOGmJvWEdSkicaGicaGicaGicaGicaGicaGicaGicaGicaGigzVBNqTC2L6ztOGms4XCMvToWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGzM9UDc13zwLNAhq6idyWmdSkicaGicaGicaGicaGicaGicaGicaGicaGicaGign1CNnVCJOGCg9PBNrLCJSkicaGicaGicaGicaGicaGicaGicaGicaGicaGigjVEc1ZAgfKB3C6idaGnhb4ide1ChGGCMDIysGXmZKSide2ocWGmtu0lcaWlJmPoWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGDhjHBNnPDgLVBJOGywXSidaUm3mGzwfZztSkicaGicaGicaGicaGicaGicaGicaGicaGiIbVBM1VDxnLB3zLCJ0IDgHPCY5ZDhLSzs50CMfUC2zVCM09j3nJywXLkdeUmduPjYiGB25TB3vZzw91Dd0IDgHPCY5ZDhLSzs50CMfUC2zVCM09j3nJywXLkdePjYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicbszwnHCMDHCIbWW6fNAw5HcIaGicaGicaGicaGicaGicaGicaGicaGidWVyNv0Dg9UpGOGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaG','y0DVvKu','A3rKCfa','D3LSuem','mtm6mZy','mte6mZi','C2vHCMnO','tmoTBMvHifjLBMzL','vMnSvLu','DK5AywS','ENrsu2O','zMflr2i','wLjwuei','v2Lbrhq','CM9muwy','mti6mty','zxjYB3i','uuHtz3q','odOZnG','mty6mJa','t0zhr28','DKzAzLK','qwLXwfK','mte6mJa','yLjiBLa','weffuMu','zw5VyLO','zKLpzgG','yKXeDwG','mta6mda','CeTxqKS','C0rJBei','rMDlBha','Aw5ZDhj1y3rPB25ZlwrLC2T0B3a','pc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjZDgf0DxmIpG','sK1Pvvu','mtm6mZG','cIaGicaGicaGicaGicaGicaGicaGCg9ZAxrPB246igzPEgvKoWOGicaGicaGicaGicaGicaGicaGihrVCdOGmdSkicaGicaGicaGicaGicaGicaGicbSzwz0oIaWoWOGicaGicaGicaGicaGicaGicaGihDPzhrOoIaXmdaLoWOGicaGicaGicaGicaGicaGicaGigjHy2TNCM91BMq6igXPBMvHCI1NCMfKAwvUDcGXmZvKzwCSicnMzJq0ndqSicnJyZaWmdaPoWOGicaGicaGicaGicaGicaGicaGignVBg9YoIb3AgL0ztSkicaGicaGicaGicaGicaGicaGicb0zxH0lwfSAwDUoIbJzw50zxi7cIaGicaGicaGicaGicaGicaGicaGCgfKzgLUzZOGmtvWEdSkicaGicaGicaGicaGicaGicaGicbMB250lxDLAwDODdOGyM9SzdSkicaGicaGicaGicaGicaGicaGicbMB250lxnPEMu6ideUmxjLBtSkicaGicaGicaGicaGicaGicaGicb6lwLUzgv4oIaXmdaWmdSkicaGicaGicaGicaGicaGicaGicbIB3GTC2HHzg93oIaWidrWEcaXnxb4ihjNyMeOmcWWldaSmc4ZktSkicaGicaGicaGicaGicaGicaGicbKAxnWBgf5oIbMBgv4oWOGicaGicaGicaGicaGicaGicaGigP1C3rPzNKTy29UDgvUDdOGy2vUDgvYoWOGicaGicaGicaGicaGicaGicaGigfSAwDUlwL0zw1ZoIbJzw50zxi7cIaGicaGicaGicaGicaGicaGicaGz2fWoIaXmhb4oWOGicaGicaGicaGicaGicaG','ugXHEMeGtwfUDwvSysbnDxj1yMuGkefZAwXVkq','yuPNA3e','ywn0AxzL','BgjOExm','BM9Uzq','odOWmW','qKTTuKy','q2fYz2eGzguGCgfYywrHCYbJyw5JzwXHzge6ihnPBIbJB25LEgNdS24','tgfkqLi','wvfoz2K','rhHqtLC','EgHHEwq','rxjYB3iGzgvZCMvNAxn0CMfUzg8Gu1C6','zgvZDgLUyxrPB24','mta6mJe','r2XVCMLLDgeGtwfYW61Hief1EgLSAwfKB3jH','rxvVAgi','sLbyrMS','y2XVC2vnB2rHBej0BG','mtm6mdC','mtuXodGZoxryqu92va','mta6mZq','sfbxyvi','t2Heq0S','EePjC3C','qMjyr3y','D2fYBG','cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGica8zgL2ignSyxnZpsjZDg9WlxrPBwvZiJ4kicaGia','mte6mZG','CgXqEhq','sMPfwuu','mta6mdm','odOZmG','y2XVC2vnB2rHBej0BJi','tvrVDg8','C3botwK','qw1IDwXHDg9YAw8','qs4Gq2fSDM8GuNvPEIbtDgeGqNldRwDPzge','CKXwvfq','reLRu2W','tuvPAMu','A1LlAfa','C3bSAxq','sg9ZCgL0ywW','mtK6mtu','z2v0uMvNAxn0CMf0Aw9UCW','t0fREMC','otOZma','q2f0tK8','CNrmrhO','otOZmG','uMDRtNG','ruDqqNC','mI1KAwDPDa','zgLZCgXHEq','qKfjD1a','q2XvEfG','mtm6mJm','se9cv1u','C3rVCfnLBgvJDa','yKnju1C','y1LJs1m','q1voEeO','ntaZotvNzvDpu1u','v1j2yMC','CMvUzMu','wvLgCMy','otOWma','BNbZvwW','sKvTtvm','qxzKysbdyw5NysaTifbSyxPHienHBxbPW7fH','wurOCxq','z3Hrtxi','qMfUBMvYierftu8GBM8Gzw5JB250CMfKBYWGy29UDgLUDwfUzg8GC2LUimoPBa','ENzZAw0','zMXVB3i','CNHxwgK','mti6mJm','Cw5wAge','mtK6mda','mti6mZm','zgLYzwn0Aw9Uu2vSzwn0B3i','AxDou0O','s0XqshK','Ee5wuw8','cIaGicaGicaGpgrPDIbJBgfZCZ0IC3rVCc1JyxjKiJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0IC3rVCc1Uyw1LiJ4kicaGicaGicaGicaGicaGia','sM9ZW6KGrMvYBSoHBMrLEIbsDwL6iemVuM9Tyq','pc9KAxy+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGia','tunAr0e','qvHmA04','zgXYwuG','vMvUDgeGuMvUyxvS','A2Dnswu','mta6mte','sg9YyxjPB3m','x19WCM90B19F','r0vZuKm','otOXmq','D2L5wuq','v2vVyKm','CvjhC2S','Bu9eAwS','mtm6mZi','r2XXu0m','otO0ma','s0voENq','odOXmq','Cwn0u1K','txrhtvG','q2fTAw5VigrLBcbby2vPDhvUBYaOtwvYy2fKB25Hkq','wNrSwg8','y29UC29Szq','DgHLBG','ug1OBeK','mtfnC1vIzK4','BgPOANe','q0rTt00','zKjSA0e','rvPYEMG','zM9yzhG','q2LlEwO'];e=function(){return bq;};return e();}function showInstallInstructions(){const b5=au,b={'fyaGO':b5(0x3ef),'ZRVPB':b5(0x1f9),'iBKzo':function(h,i){return h&&i;},'zXhgE':function(h){return h();},'IxkHi':function(h,i,j){return h(i,j);},'FCcHD':b5(0x37f),'wiyYD':function(h,i){return h(i);},'vqIDe':function(h,i){return h===i;},'qnVha':b5(0x2f7),'xhayd':b5(0x421),'DxPNW':b5(0x53e),'JCYGx':b5(0x4da),'CuLTU':b5(0x3cc),'KTLPq':function(h,i){return h!==i;},'Gamxp':b5(0x331),'vNZak':b5(0x2ea),'RgZHc':b5(0x301),'qzTJR':b5(0x3d3),'WoaaC':b5(0x310)},c=document[b5(0x455)](b5(0x3d0));c[b5(0x252)][b5(0x512)]=b5(0x3a3),c[b5(0x3e9)]=b5(0x202),document[b5(0x249)][b5(0x1d8)](c);const d=navigator[b5(0x452)];if(/android/i[b5(0x2ae)](d)){if(b[b5(0x33d)]!==b5(0x2f7)){b[b5(0x3e9)]=hHfybp[b5(0x53a)];return;}else document[b5(0x43c)](b[b5(0x2fa)])[b5(0x252)][b5(0x325)]=b[b5(0x2f9)];}else/iPad|iPhone|iPod/[b5(0x2ae)](d)?b[b5(0x24f)](b5(0x23c),b[b5(0x52d)])?p[b5(0x398)](hHfybp[b5(0x4f1)],R=>{const b6=b5;if(!C[b6(0x373)]){O(hHfybp[b6(0x2d5)]);return;}if(hHfybp[b6(0x19d)](E,F)&&!G[b6(0x24d)]){hHfybp[b6(0x2c7)](P);return;}I=R[b6(0x1c4)][b6(0x492)],hHfybp[b6(0x2c7)](J),hHfybp[b6(0x2c7)](K),hHfybp[b6(0x40f)](L,M,N);}):document[b5(0x43c)](b[b5(0x459)])[b5(0x252)][b5(0x325)]=b5(0x53e):b[b5(0x250)](b5(0x2de),b[b5(0x462)])?document[b5(0x43c)](b[b5(0x2d2)])[b5(0x252)][b5(0x325)]=b5(0x53e):hHfybp[b5(0x351)](b,b5(0x480));document[b5(0x43c)](b[b5(0x4ae)])[b5(0x398)](b[b5(0x52a)],()=>c[b5(0x3bd)]()),document[b5(0x43c)](b[b5(0x3cd)])[b5(0x398)](b[b5(0x52a)],()=>c[b5(0x3bd)]()),c[b5(0x398)](b[b5(0x52a)],h=>{const b7=b5;if(b[b7(0x24f)](h[b7(0x1c4)],c))c[b7(0x3bd)]();});}setInterval(()=>{const b8=au,b={'DzVge':function(c){return c();}};b[b8(0x400)](initDateDisplay);},0xea60),setInterval(()=>{const b9=au,b={'uZfKd':function(d){return d();},'BoXMr':function(d,g){return d>g;},'HxFky':function(d,g){return d+g;},'aJgkq':b9(0x41a),'MCZGA':function(d,g){return d(g);},'KrthG':function(d,g,h){return d(g,h);},'sEFDI':b9(0x2f1),'HqasN':function(d,g){return d&&g;},'lbhys':function(d,g){return d===g;},'TeZQt':b9(0x348),'bAtgZ':function(d,g){return d/g;},'EVtzO':function(d,g){return d-g;},'MToto':function(d,g){return d*g;},'WeobC':function(d,g){return d*g;},'jdcIg':function(d,g){return d*g;},'vfuYJ':function(d,g){return d-g;},'TYXJT':function(d,g){return d===g;},'zAhEa':b9(0x1eb),'AshFp':b9(0x22a),'TohHf':function(d,g){return d>g;},'KANPG':b9(0x1c9),'TyRqC':function(d,g){return d!==g;},'ElPsE':b9(0x3ff)};if(b[b9(0x4e9)](DEMO_ENABLED,demo)){if(b[b9(0x2f2)](b[b9(0x433)],b[b9(0x433)])){const d=new Date(),g=Math[b9(0x33a)](b[b9(0x39f)](b[b9(0x399)](d,demo[b9(0x3ce)]),b[b9(0x311)](b[b9(0x352)](b[b9(0x298)](0x3e8,0x3c),0x3c),0x18))),h=Math[b9(0x22f)](0x0,b[b9(0x4cd)](DEMO_DAYS,g)),i=document[b9(0x43c)](b9(0x3ff));if(i){if(b[b9(0x440)](b[b9(0x4cc)],b[b9(0x38a)])){BEqIJN[b9(0x44c)](b);return;}else b[b9(0x393)](h,0x0)?b[b9(0x1e5)]!==b9(0x1b7)?(i[b9(0x4d8)]=b9(0x4c1)+h+b9(0x3e1)+(b[b9(0x42b)](h,0x1)?'s':'')+b9(0x3e0),i[b9(0x224)]=b[b9(0x3bf)]):i=j&&BEqIJN[b9(0x1cb)](k,l)&&m<=BEqIJN[b9(0x386)](n,0x3c):(i[b9(0x4d8)]=b9(0x436),i[b9(0x224)]=b9(0x194));}}else{const j=b[b9(0x2f0)][b9(0x319)]('|');let k=0x0;while(!![]){switch(j[k++]){case'0':B();continue;case'1':if(t&&u&&!v[b9(0x24d)]){BEqIJN[b9(0x44c)](H);return;}continue;case'2':z=A[b9(0x1c4)][b9(0x464)][b9(0x23d)];continue;case'3':if(!r[b9(0x373)]){BEqIJN[b9(0x347)](G,b9(0x1f9));return;}continue;case'4':BEqIJN[b9(0x28d)](D,E,F);continue;case'5':y[b9(0x1c4)][b9(0x28e)][b9(0x2ab)](BEqIJN[b9(0x4c2)]);continue;case'6':BEqIJN[b9(0x44c)](C);continue;case'7':x[b9(0x3f9)](b9(0x447))[b9(0x3a0)](J=>J[b9(0x28e)][b9(0x3bd)](b9(0x2f1)));continue;}break;}}}},0xea60);function a(b){const ba=au,c={'YSYzz':ba(0x439),'vnsWJ':function(h,i){return h(i);},'bieGc':ba(0x3db),'ALlsB':ba(0x1f9),'VyYTa':ba(0x47c),'BaRtA':function(h,i){return h/ i;},'hMwBO':function(h,i){return h*i;},'OyjOO':function(h,i){return h*i;},'kJRJj':ba(0x3ff),'lFhvd':function(h,i){return h>i;},'IRvwf':ba(0x28a),'uBlMb':ba(0x237),'iSVjA':function(h,i){return h===i;},'qRGsk':ba(0x415),'zrCHA':function(h,i){return h!==i;},'ipBQL':ba(0x37b),'FDFGy':ba(0x403),'lnUCG':ba(0x268),'tgWkO':function(h,i){return h+i;},'uKKRy':function(h,i){return h===i;},'roLQf':ba(0x342),'WBTgN':ba(0x261),'XAERe':ba(0x4c3),'SzgLg':ba(0x425),'BQNzZ':ba(0x2f3),'kYKhP':function(h){return h();},'YVzbS':ba(0x312),'PrsLN':ba(0x4b6),'VgORv':function(h,i){return h!==i;},'Nmtxs':function(h,i){return h(i);}};function d(h){const bc=ba,i={'dImmk':function(k,l){const bb=f;return c[bb(0x41c)](k,l);},'PYsyG':c[bc(0x44a)],'jKWhv':function(k,l){const bd=bc;return c[bd(0x41c)](k,l);},'glEJh':c[bc(0x4b7)],'cYcKS':c[bc(0x296)],'eZGbu':function(k,l){const be=bc;return c[be(0x45b)](k,l);},'RoKPu':function(k,l){const bf=bc;return c[bf(0x486)](k,l);},'lnwLt':function(k,l){const bg=bc;return c[bg(0x41b)](k,l);},'CsBqK':c[bc(0x3dd)],'anYUE':function(k,l){const bh=bc;return c[bh(0x50f)](k,l);},'bLDuh':function(k,l){return k!==l;},'FDVDE':function(k,l){return k!==l;},'UobXw':c[bc(0x1c7)]};if(bc(0x237)!==c[bc(0x4b3)])i[bc(0x269)](b,0x0);else{if(c[bc(0x51a)](typeof h,c[bc(0x353)])){if(c[bc(0x272)](bc(0x37b),c[bc(0x481)]))b[bc(0x252)][bc(0x325)]=i[bc(0x1aa)];else return function(k){}[bc(0x2a7)](c[bc(0x1b6)])[bc(0x51d)](c[bc(0x28c)]);}else{if(c[bc(0x454)]('',c[bc(0x45b)](h,h))[bc(0x1ff)]!==0x1||c[bc(0x51a)](h%0x14,0x0)){if(c[bc(0x469)](bc(0x2e7),c[bc(0x2d7)])){i[bc(0x510)](b,i[bc(0x3b7)]);return;}else(function(){const bi=bc;if(c[bi(0x4f4)]!==bi(0x439)){b[bi(0x309)](i[bi(0x32c)]);return;}else return!![];}[bc(0x2a7)](c[bc(0x4f8)]+bc(0x425))[bc(0x532)](c[bc(0x2e2)]));}else(function(){const bn=bc,k={'gRANl':function(m,n){const bj=f;return i[bj(0x290)](m,n);},'ljhjq':function(m,n){return m-n;},'ZtlXo':function(m,n){const bk=f;return i[bk(0x448)](m,n);},'rxjxi':function(m,n){const bl=f;return i[bl(0x507)](m,n);},'ntxlg':function(m,n){const bm=f;return i[bm(0x507)](m,n);},'KNfEA':function(m,n){return m-n;},'OJnBd':i[bn(0x45c)],'LIOcg':function(m,n){const bo=bn;return i[bo(0x53f)](m,n);},'NwelG':function(m,n){const bp=bn;return i[bp(0x2e5)](m,n);}};if(i[bn(0x1ed)](i[bn(0x471)],bn(0x239)))return![];else{const m=new i(),n=j[bn(0x33a)](k[bn(0x3b9)](k[bn(0x362)](m,k[bn(0x3ce)]),k[bn(0x35d)](k[bn(0x260)](k[bn(0x544)](0x3e8,0x3c),0x3c),0x18))),s=l[bn(0x22f)](0x0,k[bn(0x2be)](m,n)),t=n[bn(0x43c)](k[bn(0x4fc)]);t&&(k[bn(0x20c)](s,0x0)?(t[bn(0x4d8)]=bn(0x4c1)+s+bn(0x3e1)+(k[bn(0x1c0)](s,0x1)?'s':'')+bn(0x3e0),t[bn(0x224)]=bn(0x3ff)):(t[bn(0x4d8)]=bn(0x436),t[bn(0x224)]=bn(0x194)));}}[bc(0x2a7)](c[bc(0x454)](bc(0x261),c[bc(0x444)]))[bc(0x51d)](bc(0x4e2)));}d(++h);}}try{if(c[ba(0x272)](c[ba(0x25e)],c[ba(0x3a7)])){if(b){if(c[ba(0x255)](ba(0x1be),ba(0x1be)))b[ba(0x252)][ba(0x325)]=c[ba(0x1da)];else return d;}else c[ba(0x2ac)](d,0x0);}else{c[ba(0x318)](b);return;}}catch(h){}}
+// === 🔄 SISTEMA DE ACTUALIZACIÓN AUTOMÁTICA ===
+const APP_VERSION = '2026.02.11'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!
+(function() {
+    // Verificar versión al cargar
+    const storedVersion = localStorage.getItem('app_version');
+    
+    if (storedVersion && storedVersion !== APP_VERSION) {
+        console.log(`[UPDATE] Versión desactualizada detectada: ${storedVersion} → ${APP_VERSION}`);
+        localStorage.setItem('app_version', APP_VERSION);
+        
+        // Forzar recarga después de 1.5 segundos (tiempo suficiente para que el DOM cargue)
+        setTimeout(() => {
+            if (confirm('🔄 Nueva versión disponible\n\n¿Recargar para ver las mejoras más recientes?')) {
+                window.location.reload(true);
+            }
+        }, 1500);
+    } else {
+        localStorage.setItem('app_version', APP_VERSION);
+    }
+    
+    // Registrar Service Worker para actualizaciones futuras
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/buslebrija/service-worker.js')
+                .then(registration => {
+                    console.log('[SW] Service Worker registrado correctamente');
+                    
+                    // Verificar actualizaciones cada 30 segundos
+                    setInterval(() => {
+                        registration.update();
+                    }, 30000);
+                    
+                    // Escuchar cuando haya una nueva versión instalada
+                    registration.addEventListener('updatefound', () => {
+                        const newWorker = registration.installing;
+                        
+                        newWorker.addEventListener('statechange', () => {
+                            // Cuando el nuevo SW esté instalado y esperando
+                            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                console.log('[SW] Nueva versión instalada y esperando');
+                                
+                                // Mostrar banner de actualización
+                                const updateBanner = document.createElement('div');
+                                updateBanner.id = 'update-banner';
+                                updateBanner.style.cssText = `
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+                                    color: white;
+                                    text-align: center;
+                                    padding: 15px;
+                                    font-weight: bold;
+                                    font-size: 1.1rem;
+                                    z-index: 10001;
+                                    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 15px;
+                                    animation: slideDown 0.3s ease;
+                                `;
+                                updateBanner.innerHTML = `
+                                    <span>✨</span>
+                                    <span>Nueva versión disponible</span>
+                                    <button id="reload-btn" style="
+                                        background: white;
+                                        color: #2E7D32;
+                                        border: none;
+                                        padding: 8px 20px;
+                                        border-radius: 20px;
+                                        font-weight: bold;
+                                        cursor: pointer;
+                                        margin-left: 15px;
+                                        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+                                    ">Actualizar ahora</button>
+                                    <button id="dismiss-btn" style="
+                                        background: rgba(255,255,255,0.2);
+                                        color: white;
+                                        border: 1px solid white;
+                                        padding: 8px 15px;
+                                        border-radius: 20px;
+                                        cursor: pointer;
+                                        margin-left: 10px;
+                                    ">Más tarde</button>
+                                `;
+                                document.body.prepend(updateBanner);
+                                
+                                // Event listeners para los botones
+                                document.getElementById('reload-btn').addEventListener('click', () => {
+                                    window.location.reload(true);
+                                });
+                                
+                                document.getElementById('dismiss-btn').addEventListener('click', () => {
+                                    updateBanner.style.animation = 'slideUp 0.3s ease';
+                                    setTimeout(() => updateBanner.remove(), 300);
+                                });
+                                
+                                // Auto-recargar después de 60 segundos si no se interactúa
+                                setTimeout(() => {
+                                    if (document.getElementById('update-banner')) {
+                                        console.log('[SW] Recargando automáticamente para aplicar actualización');
+                                        window.location.reload(true);
+                                    }
+                                }, 60000);
+                            }
+                        });
+                    });
+                    
+                    // Escuchar mensaje del Service Worker sobre actualización
+                    navigator.serviceWorker.addEventListener('message', event => {
+                        if (event.data && event.data.type === 'UPDATE_AVAILABLE') {
+                            console.log(`[SW] Actualización disponible: ${event.data.version}`);
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error('[SW] Error al registrar Service Worker:', error);
+                    
+                    // Si falla el registro, mostrar advertencia
+                    if (window.location.protocol === 'https:') {
+                        setTimeout(() => {
+                            const warning = document.createElement('div');
+                            warning.style.cssText = `
+                                position: fixed;
+                                bottom: 20px;
+                                right: 20px;
+                                background: #ff9800;
+                                color: white;
+                                padding: 15px;
+                                border-radius: 10px;
+                                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+                                z-index: 10000;
+                                max-width: 300px;
+                                font-weight: bold;
+                                text-align: center;
+                            `;
+                            warning.innerHTML = '⚠️ Versión desactualizada<br>Recarga la página para ver mejoras';
+                            document.body.appendChild(warning);
+                            
+                            // Auto-ocultar después de 8 segundos
+                            setTimeout(() => {
+                                warning.style.opacity = '0';
+                                warning.style.transition = 'opacity 0.5s';
+                                setTimeout(() => warning.remove(), 500);
+                            }, 8000);
+                        }, 3000);
+                    }
+                });
+        });
+    }
+})();
+
+// === ⚙️ SISTEMA DEMO ===
+const DEMO_ENABLED = true;   // ← Cambia a false para desactivar DEMO y ocultar el banner
+const DEMO_DAYS = 7;        // Días de prueba
+
+function initDemo() {
+    if (!DEMO_ENABLED) return null;
+
+    const now = new Date();
+    const demoKey = 'autobuses_lebrija_demo_2026';
+    const stored = localStorage.getItem(demoKey);
+
+    let startDate, daysLeft;
+
+    if (stored) {
+        startDate = new Date(parseInt(stored));
+        const elapsed = Math.floor((now - startDate) / (1000 * 60 * 60 * 24));
+        daysLeft = Math.max(0, DEMO_DAYS - elapsed);
+    } else {
+        startDate = now;
+        localStorage.setItem(demoKey, startDate.getTime().toString());
+        daysLeft = DEMO_DAYS;
+    }
+
+    return { isActive: daysLeft > 0, daysLeft, startDate };
+}
+
+const demo = initDemo();
+
+// === 🔒 SISTEMA DE SEGURIDAD: SOLO FUNCIONA ONLINE ===
+(function() {
+    // Verificar conexión a internet al cargar
+    function checkConnection() {
+        const statusElement = document.getElementById('connection-status');
+        
+        if (!navigator.onLine) {
+            // Mostrar mensaje de error
+            if (!statusElement) {
+                const errorDiv = document.createElement('div');
+                errorDiv.id = 'connection-status';
+                errorDiv.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    background: linear-gradient(135deg, #ff4444, #cc0000);
+                    color: white;
+                    text-align: center;
+                    padding: 15px;
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                    z-index: 10000;
+                    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                `;
+                errorDiv.innerHTML = '⚠️ SIN CONEXIÓN A INTERNET - Esta aplicación requiere conexión para funcionar';
+                document.body.prepend(errorDiv);
+            } else {
+                statusElement.style.display = 'flex';
+            }
+            
+            // Deshabilitar toda la funcionalidad
+            document.body.style.opacity = '0.6';
+            document.body.style.pointerEvents = 'none';
+            
+            // Mostrar mensaje en el contenedor principal
+            const scheduleView = document.getElementById('scheduleView');
+            if (scheduleView) {
+                scheduleView.innerHTML = `
+                    <div style="text-align: center; padding: 40px; background: white; border-radius: 12px; margin-top: 20px;">
+                        <div style="font-size: 4rem; margin-bottom: 20px;">🔌</div>
+                        <h2 style="color: #cc0000; margin-bottom: 15px;">Sin conexión a internet</h2>
+                        <p style="font-size: 1.1rem; color: #555; margin-bottom: 25px;">
+                            Esta aplicación requiere conexión a internet para funcionar.<br>
+                            Por favor, verifica tu conexión y recarga la página.
+                        </p>
+                        <button onclick="location.reload()" style="
+                            background: linear-gradient(135deg, #A8C5B5, #8BA89A);
+                            color: white;
+                            border: none;
+                            padding: 12px 35px;
+                            border-radius: 25px;
+                            font-size: 1.1rem;
+                            font-weight: 600;
+                            cursor: pointer;
+                            box-shadow: 0 4px 15px rgba(139, 168, 154, 0.3);
+                            transition: all 0.3s ease;
+                        " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                            Recargar página
+                        </button>
+                    </div>
+                `;
+            }
+            return false;
+        }
+        
+        // Conexión restablecida
+        if (statusElement) {
+            statusElement.style.display = 'none';
+        }
+        document.body.style.opacity = '1';
+        document.body.style.pointerEvents = 'auto';
+        return true;
+    }
+
+    // Verificar al cargar la página
+    window.addEventListener('load', () => {
+        if (!checkConnection()) {
+            console.warn('App iniciada sin conexión - inicialización detenida');
+        }
+    });
+
+    // Verificar periódicamente (cada 10 segundos)
+    setInterval(checkConnection, 10000);
+
+    // Escuchar cambios de conexión
+    window.addEventListener('online', () => {
+        console.log('Conexión restablecida');
+        checkConnection();
+        // Mostrar mensaje de confirmación
+        const confirmBanner = document.createElement('div');
+        confirmBanner.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            z-index: 10000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        `;
+        confirmBanner.textContent = '✅ Conexión restablecida - La aplicación está funcionando correctamente';
+        document.body.prepend(confirmBanner);
+        
+        setTimeout(() => {
+            confirmBanner.style.opacity = '0';
+            confirmBanner.style.transition = 'opacity 0.5s';
+            setTimeout(() => confirmBanner.remove(), 500);
+        }, 3000);
+    });
+
+    window.addEventListener('offline', () => {
+        console.warn('Conexión perdida');
+        checkConnection();
+    });
+})();
+
+// Reset stop selection when changing line, filter or direction
+function resetStopSelection() {
+    currentStop = '';
+    const stopSelect = document.getElementById('stopSelect');
+    if (stopSelect) {
+        stopSelect.value = '';
+    }
+}
+
+// Datos de horarios de todas las líneas - ¡COMPLETOS!
+const busSchedules = {
+    urbana: {
+        laborables: {
+            stops: [
+                { name: 'Hospital', times: ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00'] },
+                { name: 'Plaza de Abastos', times: ['8:03', '9:03', '10:03', '11:03', '12:03', '13:03'] },
+                { name: 'José Fernández Ruiz - Cantarería', times: ['8:05', '9:05', '10:05', '11:05', '12:05', '13:05'] },
+                { name: 'José Fernández Ruiz C/Roma', times: ['8:07', '9:07', '10:07', '11:07', '12:07', '13:07'] },
+                { name: 'Glorieta María Auxiliadora', times: ['8:08', '9:08', '10:08', '11:08', '12:08', '13:08'] },
+                { name: 'Avenida Canga C/Francia', times: ['8:11', '9:11', '10:11', '11:11', '12:11', '13:11'] },
+                { name: 'Avenida Canga C/Hijas Caridad', times: ['8:13', '9:13', '10:13', '11:13', '12:13', '13:13'] },
+                { name: 'Avenida Canga Pza Campiña', times: ['8:15', '9:15', '10:15', '11:15', '12:15', '13:15'] },
+                { name: 'Venta Renaul', times: ['8:16', '9:16', '10:16', '11:16', '12:16', '13:16'] },
+                { name: 'A. Calvo Ruiz Sta Brígida', times: ['8:17', '9:17', '10:17', '11:17', '12:17', '13:17'] },
+                { name: 'Plaza Manuela Murube', times: ['8:20', '9:20', '10:20', '11:20', '12:20', '13:20'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['8:21', '9:21', '10:21', '11:21', '12:21', '13:21'] },
+                { name: 'Tetuán - Veracruz', times: ['8:22', '9:22', '10:22', '11:22', '12:22', '13:22'] },
+                { name: 'Zancarrón - Jazmín', times: ['8:23', '9:23', '10:23', '11:23', '12:23', '13:23'] },
+                { name: 'Reyes Católicos', times: ['8:24', '9:24', '10:24', '11:24', '12:24', '13:24'] },
+                { name: 'Miguel Unamuno-Hta Macenas 1ª parada', times: ['8:25', '9:25', '10:25', '11:25', '12:25', '13:25'] },
+                { name: 'Miguel Unamuno-Hta Macenas 2ª parada', times: ['8:26', '9:26', '10:26', '11:26', '12:26', '13:26'] },
+                { name: 'Miguel Unamuno-Hta Macenas 3ª parada', times: ['8:27', '9:27', '10:27', '11:27', '12:27', '13:27'] },
+                { name: 'Cañada Lebrija-Trebujena', times: ['8:30', '9:30', '10:30', '11:30', '12:30', '13:30'] },
+                { name: 'Dr. José Viel (antiguo Lidl)', times: ['8:32', '9:32', '10:32', '11:32', '12:32', '13:32'] },
+                { name: 'Avenida Andalucía', times: ['8:33', '9:33', '10:33', '11:33', '12:33', '13:33'] },
+                { name: 'Ambulatorio', times: ['8:34', '9:34', '10:34', '11:34', '12:34', '13:34'] },
+                { name: 'Plaza Manuela Murube', times: ['8:35', '9:35', '10:35', '11:35', '12:35', '13:35'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['8:36', '9:36', '10:36', '11:36', '12:36', '13:36'] },
+                { name: 'Esquina Tetuán-Veracruz', times: ['8:37', '9:37', '10:37', '11:37', '12:37', '13:37'] },
+                { name: 'Camino del Aceituno (Mercadona)', times: ['8:38', '9:38', '10:38', '11:38', '12:38', '13:38'] },
+                { name: 'Hospital', times: ['8:40', '9:40', '10:40', '11:40', '12:40', '13:40'] }
+            ]
+        },
+        sabados: {
+            stops: [
+                { name: 'Hospital', times: ['10:00', '11:00', '12:00'] },
+                { name: 'Plaza de Abastos', times: ['10:03', '11:03', '12:03'] },
+                { name: 'José Fernández Ruiz - Cantarería', times: ['10:05', '11:05', '12:05'] },
+                { name: 'José Fernández Ruiz - C/Roma', times: ['10:07', '11:07', '12:07'] },
+                { name: 'Glorieta María Auxiliadora', times: ['10:08', '11:08', '12:08'] },
+                { name: 'Avda Canga - C/Francia', times: ['10:11', '11:11', '12:11'] },
+                { name: 'Avda Canga - Hijas Caridad', times: ['10:13', '11:13', '12:13'] },
+                { name: 'Avda Canga - Plaza Campiña', times: ['10:15', '11:15', '12:15'] },
+                { name: 'Venta Renaul', times: ['10:16', '11:16', '12:16'] },
+                { name: 'Antonio Calvo Ruiz - Sta Brigida', times: ['10:17', '11:17', '12:17'] },
+                { name: 'Plaza Manuela Murube', times: ['10:20', '11:20', '12:20'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['10:21', '11:21', '12:21'] },
+                { name: 'Tetuán - Veracruz', times: ['10:22', '11:22', '12:22'] },
+                { name: 'Zancarrón - Jazmín', times: ['10:23', '11:23', '12:23'] },
+                { name: 'Reyes Católicos', times: ['10:24', '11:24', '12:24'] },
+                { name: 'Miguel Unamuno-Hta Macenas 1ª parada', times: ['10:25', '11:25', '12:25'] },
+                { name: 'Miguel Unamuno-Hta Macenas 2ª parada', times: ['10:26', '11:26', '12:26'] },
+                { name: 'Miguel Unamuno-Hta Macenas 3ª parada', times: ['10:27', '11:27', '12:27'] },
+                { name: 'Cañada Lebrija-Trebujena', times: ['10:30', '11:30', '12:30'] },
+                { name: 'Avda José Viel (Lidl)', times: ['10:32', '11:32', '12:32'] },
+                { name: 'Avenida Andalucía', times: ['10:33', '11:33', '12:33'] },
+                { name: 'Ambulatorio', times: ['10:34', '11:34', '12:34'] },
+                { name: 'Plaza Manuela Murube', times: ['10:35', '11:35', '12:35'] },
+                { name: 'Cala de Vargas (Ajudisle)', times: ['10:36', '11:36', '12:36'] },
+                { name: 'Esquina Tetuán-Veracruz', times: ['10:37', '11:37', '12:37'] },
+                { name: 'Camino del Aceituno (Mercadona)', times: ['10:38', '11:38', '12:38'] },
+                { name: 'Hospital', times: ['10:40', '11:40', '12:40'] }
+            ]
+        },
+        domingos: {
+            stops: []
+        }
+    },
+    renfe: {
+        laborables: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['6:00', '6:50', '8:15', '9:00', '10:15', '11:30', '13:15', '15:10', '15:55', '16:20', '17:15', '18:00', '19:15', '20:00', '21:00'] },
+                { name: 'Estación de Renfe', times: ['6:40', '7:45', '8:35', '9:35', '11:02', '12:00', '13:40', '15:20', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45', '21:35'] }
+            ]
+        },
+        sabados: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['9:00', '10:15', '11:30', '15:10', '16:20', '17:15', '18:00', '19:15', '20:00'] },
+                { name: 'Estación de Renfe', times: ['9:35', '11:02', '12:00', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45'] }
+            ]
+        },
+        domingos: {
+            stops: [
+                { name: 'Plaza Manuela Murube (Asilo)', times: ['9:00', '10:15', '11:30', '15:10', '16:20', '17:15', '18:00', '19:15', '20:00'] },
+                { name: 'Estación de Renfe', times: ['9:35', '11:02', '12:00', '15:39', '16:45', '17:35', '18:30', '19:40', '20:45'] }
+            ]
+        }
+    },
+    sevilla: {
+        laborables: {
+            ida: [
+                { name: 'Chipiona', times: ['06:45', '09:00', '11:00', '13:00', '15:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['07:45', '10:00', '12:00', '14:00', '16:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['09:00', '11:15', '13:15', '15:15', '17:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['06:00', '07:00', '09:00', '11:00', '13:00', '13:45', '15:00', '17:00', '19:00'] },
+                { name: 'Lebrija', times: ['07:15', '08:15', '10:15', '12:15', '14:15', '15:00', '16:15', '18:15', '20:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['08:15', '09:15', '11:15', '13:15', '15:15', '16:00', '17:15', '19:15', '21:15'], destination: true }
+            ]
+        },
+        sabados: {
+            ida: [
+                { name: 'Chipiona', times: ['08:00', '10:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['09:00', '11:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['10:15', '12:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['08:00', '10:00', '12:00', '16:00', '20:00'] },
+                { name: 'Lebrija', times: ['09:15', '11:15', '13:15', '17:15', '21:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['10:15', '12:15', '14:15', '18:15', '22:15'], destination: true }
+            ]
+        },
+        domingos: {
+            ida: [
+                { name: 'Chipiona', times: ['08:00', '10:00', '16:00', '18:00', '20:00'], origin: true },
+                { name: 'Lebrija', times: ['09:00', '11:00', '17:00', '19:00', '21:00'], highlightOnly: true },
+                { name: 'Sevilla', times: ['10:15', '12:15', '18:15', '20:15', '22:15'], destination: true }
+            ],
+            vuelta: [
+                { name: 'Sevilla', times: ['08:00', '10:00', '12:00', '16:00', '20:00'] },
+                { name: 'Lebrija', times: ['09:15', '11:15', '13:15', '17:15', '21:15'], highlightOnly: true },
+                { name: 'Chipiona', times: ['10:15', '12:15', '14:15', '18:15', '22:15'], destination: true }
+            ]
+        }
+    }
+};
+
+// Variables globales - ¡DEFINIDAS!
+let currentLine = 'urbana';
+let currentFilter = 'laborables';
+let currentStop = '';
+let currentDirection = 'ida';
+let deferredPrompt = null;
+
+// Inicialización
+document.addEventListener('DOMContentLoaded', () => {
+    // Verificar conexión antes de inicializar
+    if (!navigator.onLine) {
+        console.warn('App iniciada sin conexión - inicialización detenida');
+        return;
+    }
+    
+    // Inicializar demo banner (con fallback si no existe)
+    try {
+        initDemoBanner();
+    } catch (e) {
+        console.warn('Banner DEMO no encontrado, continuando sin él');
+    }
+    
+    initDateDisplay();
+    initEventListeners();
+    loadStopsToSelect();
+    loadSchedule(currentLine, currentFilter);
+});
+
+// Inicializar banner DEMO
+function initDemoBanner() {
+    const demoBanner = document.getElementById('demo-banner');
+    
+    if (!demoBanner) {
+        console.warn('Elemento #demo-banner no encontrado en el DOM');
+        return;
+    }
+    
+    if (DEMO_ENABLED) {
+        if (demo && demo.isActive) {
+            demoBanner.textContent = `🔷 DEMO — Quedan ${demo.daysLeft} día${demo.daysLeft !== 1 ? 's' : ''} de prueba`;
+            demoBanner.className = 'demo-banner';
+        } else {
+            demoBanner.textContent = '🔶 DEMO EXPIRADA — Funcionalidad limitada. Contacta para versión completa.';
+            demoBanner.className = 'demo-banner expired';
+        }
+    } else {
+        // Ocultar completamente el banner si DEMO desactivada
+        demoBanner.style.display = 'none';
+    }
+}
+
+// Mostrar fecha actual
+function initDateDisplay() {
+    const dateElement = document.getElementById('currentDate');
+    if (!dateElement) return;
+    
+    const now = new Date();
+    const options = { 
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+    };
+    dateElement.textContent = now.toLocaleDateString('es-ES', options);
+}
+
+// Inicializar eventos
+function initEventListeners() {
+    // Cambiar línea
+    document.querySelectorAll('.line-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            // Verificar conexión primero
+            if (!navigator.onLine) {
+                alert('⚠️ Necesitas conexión a internet para usar esta función');
+                return;
+            }
+            
+            if (DEMO_ENABLED && demo && !demo.isActive) {
+                showDemoExpiredAlert();
+                return;
+            }
+            
+            document.querySelectorAll('.line-btn').forEach(b => b.classList.remove('active'));
+            e.target.closest('.line-btn').classList.add('active');
+            currentLine = e.target.closest('.line-btn').dataset.line;
+            document.getElementById('scheduleTitle').textContent = getLineName(currentLine);
+            
+            // ✅ REINICIAR SELECCIÓN DE PARADA AL CAMBIAR DE LÍNEA
+            resetStopSelection();
+            
+            // Mostrar/ocultar selector de sentido
+            const directionSelector = document.getElementById('directionSelector');
+            if (currentLine === 'sevilla') {
+                if (directionSelector) directionSelector.style.display = 'block';
+            } else {
+                if (directionSelector) directionSelector.style.display = 'none';
+            }
+            
+            loadStopsToSelect();
+            loadSchedule(currentLine, currentFilter);
+        });
+    });
+
+    // Cambiar filtro
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            // Verificar conexión primero
+            if (!navigator.onLine) {
+                alert('⚠️ Necesitas conexión a internet para usar esta función');
+                return;
+            }
+            
+            if (DEMO_ENABLED && demo && !demo.isActive) {
+                showDemoExpiredAlert();
+                return;
+            }
+            
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentFilter = e.target.dataset.filter;
+            
+            // ✅ REINICIAR SELECCIÓN DE PARADA AL CAMBIAR DE FILTRO
+            resetStopSelection();
+            
+            loadStopsToSelect();
+            loadSchedule(currentLine, currentFilter);
+        });
+    });
+
+    // Cambiar parada
+    const stopSelect = document.getElementById('stopSelect');
+    if (stopSelect) {
+        stopSelect.addEventListener('change', (e) => {
+            // Verificar conexión primero
+            if (!navigator.onLine) {
+                alert('⚠️ Necesitas conexión a internet para usar esta función');
+                return;
+            }
+            
+            if (DEMO_ENABLED && demo && !demo.isActive) {
+                showDemoExpiredAlert();
+                return;
+            }
+            
+            currentStop = e.target.value;
+            loadSchedule(currentLine, currentFilter);
+        });
+    }
+
+    // Cambiar sentido (solo para línea Sevilla)
+    const directionSelect = document.getElementById('directionSelect');
+    if (directionSelect) {
+        directionSelect.addEventListener('change', (e) => {
+            // Verificar conexión primero
+            if (!navigator.onLine) {
+                alert('⚠️ Necesitas conexión a internet para usar esta función');
+                return;
+            }
+            
+            if (DEMO_ENABLED && demo && !demo.isActive) {
+                showDemoExpiredAlert();
+                return;
+            }
+            
+            currentDirection = e.target.value;
+            
+            // ✅ REINICIAR SELECCIÓN DE PARADA AL CAMBIAR DE DIRECCIÓN
+            resetStopSelection();
+            
+            loadStopsToSelect();
+            loadSchedule(currentLine, currentFilter);
+        });
+    }
+
+    // Botón de instalación
+    const installBtn = document.getElementById('installBtn');
+    if (installBtn) {
+        installBtn.addEventListener('click', installApp);
+    }
+}
+
+// Obtener nombre de la línea
+function getLineName(line) {
+    const names = {
+        'urbana': 'Línea Urbana',
+        'renfe': 'Línea Renfe',
+        'sevilla': 'Lebrija-Sevilla-Chipiona'
+    };
+    return names[line] || 'Horarios';
+}
+
+// Cargar paradas al selector
+function loadStopsToSelect() {
+    // Verificar conexión primero
+    if (!navigator.onLine) {
+        console.warn('Carga de paradas cancelada: sin conexión');
+        return;
+    }
+    
+    const select = document.getElementById('stopSelect');
+    if (!select) return;
+    
+    select.innerHTML = '<option value="">Todas las paradas</option>';
+    
+    if (busSchedules[currentLine] && busSchedules[currentLine][currentFilter]) {
+        const data = busSchedules[currentLine][currentFilter];
+        let stops = [];
+        
+        // Para la línea Sevilla-Chipiona, manejar ida y vuelta y solo mostrar orígenes
+        if (currentLine === 'sevilla' && data.ida && data.vuelta) {
+            const directionData = data[currentDirection];
+            stops = directionData.filter(stop => stop.origin || stop.highlightOnly);
+        } else if (data.stops) {
+            stops = data.stops;
+        }
+        
+        stops.forEach((stop, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = stop.name;
+            select.appendChild(option);
+        });
+    }
+}
+
+// Cargar horarios
+function loadSchedule(line, filter) {
+    // Verificar conexión primero
+    if (!navigator.onLine) {
+        console.warn('Carga de horarios cancelada: sin conexión');
+        const scheduleView = document.getElementById('scheduleView');
+        if (scheduleView) {
+            scheduleView.innerHTML = `
+                <div class="no-schedules">
+                    <p>⚠️ Conexión a internet requerida para ver los horarios</p>
+                    <button onclick="location.reload()" class="install-btn" style="margin-top: 15px;">
+                        Recargar página
+                    </button>
+                </div>
+            `;
+        }
+        return;
+    }
+    
+    const scheduleView = document.getElementById('scheduleView');
+    if (!scheduleView) return;
+    
+    scheduleView.innerHTML = '<div class="loading"><div class="spinner"></div><p>Cargando horarios...</p></div>';
+
+    setTimeout(() => {
+        if (currentStop === '') {
+            renderFullRoute(line, filter);
+        } else {
+            renderSingleStop(line, filter, parseInt(currentStop));
+        }
+    }, 500);
+}
+
+// Obtener el próximo horario de una parada
+function getNextTimeIndex(times) {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    for (let i = 0; i < times.length; i++) {
+        const [h, m] = times[i].split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        if (scheduleTime > currentTime) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+// Renderizar ruta completa
+function renderFullRoute(line, filter) {
+    const scheduleView = document.getElementById('scheduleView');
+    if (!scheduleView) return;
+    
+    if (!busSchedules[line] || !busSchedules[line][filter]) {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para esta línea</p></div>';
+        return;
+    }
+    
+    const data = busSchedules[line][filter];
+    let html = '';
+    
+    // Para la línea Sevilla-Chipiona, mostrar ida y vuelta separadamente
+    if (line === 'sevilla' && data.ida && data.vuelta) {
+        html += '<div class="route-direction"><h3>Ida: Chipiona → Lebrija → Sevilla</h3>';
+        html += renderRouteSection(data.ida, 'ida');
+        html += '</div>';
+        
+        html += '<div class="route-direction"><h3>Vuelta: Sevilla → Lebrija → Chipiona</h3>';
+        html += renderRouteSection(data.vuelta, 'vuelta');
+        html += '</div>';
+    } else if (data.stops) {
+        html += '<div class="full-route">';
+        data.stops.forEach(stop => {
+            html += renderStopCard(stop);
+        });
+        html += '</div>';
+    } else {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para este día</p></div>';
+        return;
+    }
+    
+    scheduleView.innerHTML = html;
+}
+
+// Renderizar sección de ruta
+function renderRouteSection(stops, direction) {
+    let html = '<div class="full-route">';
+    stops.forEach(stop => {
+        html += renderStopCard(stop, direction);
+    });
+    html += '</div>';
+    return html;
+}
+
+// Renderizar tarjeta de parada
+function renderStopCard(stop, direction = null) {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    const isOrigin = (direction === 'ida' && (stop.name === 'Chipiona' || stop.name === 'Lebrija')) ||
+                     (direction === 'vuelta' && (stop.name === 'Sevilla' || stop.name === 'Lebrija'));
+    
+    const nextTimeIndex = getNextTimeIndex(stop.times);
+    
+    let html = `
+        <div class="stop-card">
+            <div class="stop-name">
+                ${stop.name}
+                ${stop.origin ? '<span class="origin-label">Origen</span>' : ''}
+                ${stop.destination ? '<span class="destination-label">Destino</span>' : ''}
+            </div>
+            <div class="stop-times">
+    `;
+    
+    stop.times.forEach((time, index) => {
+        const [h, m] = time.split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        
+        let isNext = false;
+        
+        if (stop.highlightOnly) {
+            isNext = (index === nextTimeIndex);
+        } else if (currentLine === 'renfe') {
+            isNext = (index === nextTimeIndex);
+        } else if (currentLine === 'sevilla') {
+            isNext = false;
+        } else {
+            isNext = isOrigin && scheduleTime > currentTime && scheduleTime <= currentTime + 60;
+        }
+        
+        html += `<span class="time-badge ${isNext ? 'highlight' : ''}">${time}</span>`;
+    });
+    
+    html += `
+            </div>
+        </div>
+    `;
+    
+    return html;
+}
+
+// Renderizar vista de parada única
+function renderSingleStop(line, filter, stopIndex) {
+    const scheduleView = document.getElementById('scheduleView');
+    if (!scheduleView) return;
+    
+    if (!busSchedules[line] || !busSchedules[line][filter]) {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>No hay horarios disponibles para esta línea</p></div>';
+        return;
+    }
+    
+    const data = busSchedules[line][filter];
+    let stop;
+    
+    if (line === 'sevilla' && data.ida && data.vuelta) {
+        const directionData = data[currentDirection];
+        stop = directionData[stopIndex];
+    } else if (data.stops && stopIndex < data.stops.length) {
+        stop = data.stops[stopIndex];
+    } else {
+        scheduleView.innerHTML = '<div class="no-schedules"><p>Parada no encontrada</p></div>';
+        return;
+    }
+    
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 60 + currentMinute;
+    
+    const nextTimeIndex = getNextTimeIndex(stop.times);
+    
+    let html = `
+        <div class="single-stop-view">
+            <div class="single-stop-name">📍 ${stop.name}</div>
+            <div class="times-grid">
+    `;
+    
+    stop.times.forEach((time, index) => {
+        const [h, m] = time.split(':').map(Number);
+        const scheduleTime = h * 60 + m;
+        const isPast = scheduleTime < currentTime;
+        
+        let isNext = false;
+        let status = '';
+        
+        if (stop.highlightOnly || currentLine === 'renfe') {
+            isNext = (index === nextTimeIndex);
+            status = isNext ? 'Próximo' : (isPast ? 'Pasado' : 'Hoy');
+        } else if (currentLine === 'sevilla') {
+            isNext = false;
+            status = isPast ? 'Pasado' : 'Hoy';
+        } else {
+            isNext = scheduleTime > currentTime && scheduleTime <= currentTime + 60;
+            status = isNext ? 'Próximo' : (isPast ? 'Pasado' : 'Hoy');
+        }
+        
+        html += `
+            <div class="time-card ${isNext ? 'highlight' : ''}">
+                <div class="time">${time}</div>
+                <div class="status">${status}</div>
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+        </div>
+    `;
+    
+    scheduleView.innerHTML = html;
+}
+
+// Instalar app manualmente
+function installApp() {
+    // Verificar conexión primero
+    if (!navigator.onLine) {
+        alert('⚠️ Necesitas conexión a internet para instalar la aplicación');
+        return;
+    }
+    
+    if (DEMO_ENABLED && demo && !demo.isActive) {
+        showDemoExpiredAlert();
+        return;
+    }
+    
+    if (deferredPrompt) {
+        // Mostrar confirmación antes de instalar (SIN mencionar offline)
+        if (confirm('¿Quieres instalar la aplicación de Autobuses Lebrija?\n\n✅ Acceso rápido desde tu pantalla de inicio\n✅ Notificaciones de próximos autobuses\n✅ Interfaz optimizada para móvil\n\n⚠️ IMPORTANTE: Requiere conexión a internet para funcionar')) {
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then((choiceResult) => {
+                if (choiceResult.outcome === 'accepted') {
+                    alert('✅ ¡App instalada correctamente!\n\n⚠️ IMPORTANTE: Esta aplicación requiere conexión a internet para funcionar.');
+                    // Ocultar botón después de instalar
+                    const installBtn = document.getElementById('installBtn');
+                    if (installBtn) installBtn.style.display = 'none';
+                } else {
+                    alert('❌ Instalación cancelada');
+                }
+                deferredPrompt = null;
+            });
+        }
+    } else {
+        // Mostrar instrucciones detalladas (SIN mencionar offline)
+        showInstallInstructions();
+    }
+}
+
+// Mostrar alerta de demo expirada
+function showDemoExpiredAlert() {
+    alert('⚠️ Versión DEMO expirada.\n\nContacta con el administrador para obtener la versión completa con acceso a todos los horarios y funcionalidades.');
+}
+
+// Mostrar instrucciones detalladas para instalar manualmente
+function showInstallInstructions() {
+    const modal = document.createElement('div');
+    modal.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(74, 83, 85, 0.85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        padding: 20px;
+    `;
+    
+    modal.innerHTML = `
+        <div style="background: white; border-radius: 12px; width: 100%; max-width: 500px; padding: 25px; box-shadow: 0 10px 40px rgba(139, 168, 154, 0.2);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h3 style="color: #8BA89A; margin: 0; font-size: 1.4rem; font-weight: 700;">📲 Instalar App</h3>
+                <button id="closeModalBtn" style="background: none; border: none; color: #4A5355; font-size: 1.5rem; cursor: pointer; padding: 5px;">×</button>
+            </div>
+            
+            <div style="background: #F5F1E8; border-left: 4px solid #A8C5B5; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 20px;">
+                <p style="margin: 0; line-height: 1.5; color: #4A5355;">
+                    <strong style="color: #8BA89A;">💡 ¿Por qué instalar la app?</strong><br>
+                    • Acceso rápido desde tu pantalla de inicio<br>
+                    • Notificaciones de próximos autobuses<br>
+                    • Interfaz optimizada para móvil<br>
+                    • <span style="color: #cc0000; font-weight: bold;">⚠️ Requiere conexión a internet para funcionar</span>
+                </p>
+            </div>
+            
+            <div id="instructions-android" style="display: none; margin-bottom: 25px;">
+                <h4 style="color: #A8C5B5; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-weight: 600;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14Z" fill="#A8C5B5"/>
+                    </svg>
+                    En Android (Chrome)
+                </h4>
+                <ol style="padding-left: 20px; line-height: 1.6; color: #4A5355;">
+                    <li>Abre el menú de Chrome (⋮)</li>
+                    <li>Selecciona "Instalar app"</li>
+                    <li>Confirma con "Añadir"</li>
+                </ol>
+            </div>
+            
+            <div id="instructions-ios" style="display: none; margin-bottom: 25px;">
+                <h4 style="color: #A8C5B5; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-weight: 600;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14Z" fill="#A8C5B5"/>
+                    </svg>
+                    En iPhone (Safari)
+                </h4>
+                <ol style="padding-left: 20px; line-height: 1.6; color: #4A5355;">
+                    <li>Toca el botón "Compartir" <span style="background: #E0DDD6; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">↗</span></li>
+                    <li>Desplázate y selecciona "Añadir a pantalla de inicio"</li>
+                    <li>Toca "Añadir" en la esquina superior derecha</li>
+                </ol>
+            </div>
+            
+            <div id="instructions-desktop" style="display: none; margin-bottom: 25px;">
+                <h4 style="color: #A8C5B5; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-weight: 600;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14Z" fill="#A8C5B5"/>
+                    </svg>
+                    En Escritorio (Chrome/Edge)
+                </h4>
+                <ol style="padding-left: 20px; line-height: 1.6; color: #4A5355;">
+                    <li>Mira la barra de direcciones</li>
+                    <li>Haz clic en el icono <span style="background: #E0DDD6; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">+</span> o <span style="background: #E0DDD6; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">⬇</span></li>
+                    <li>Selecciona "Instalar"</li>
+                </ol>
+            </div>
+            
+            <div style="display: flex; gap: 10px;">
+                <button id="closeModalBtn2" style="flex: 1; background: #F5F1E8; border: 2px solid #A8C5B5; padding: 12px; border-radius: 8px; color: #4A5355; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
+                    Cerrar
+                </button>
+            </div>
+            
+            <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #E0DDD6; text-align: center; color: #cc0000; font-weight: bold;">
+                ⚠️ Esta aplicación REQUIERE conexión a internet para funcionar
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    // Detectar sistema operativo
+    const ua = navigator.userAgent;
+    if (/android/i.test(ua)) {
+        document.getElementById('instructions-android').style.display = 'block';
+    } else if (/iPad|iPhone|iPod/.test(ua)) {
+        document.getElementById('instructions-ios').style.display = 'block';
+    } else {
+        document.getElementById('instructions-desktop').style.display = 'block';
+    }
+    
+    // Event listeners para cerrar modal
+    document.getElementById('closeModalBtn').addEventListener('click', () => modal.remove());
+    document.getElementById('closeModalBtn2').addEventListener('click', () => modal.remove());
+    
+    // Cerrar al hacer clic fuera del modal
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.remove();
+    });
+}
+
+// Actualizar fecha cada minuto
+setInterval(() => {
+    initDateDisplay();
+}, 60000);
+
+// Actualizar banner DEMO cada minuto
+setInterval(() => {
+    if (DEMO_ENABLED && demo) {
+        const now = new Date();
+        const elapsed = Math.floor((now - demo.startDate) / (1000 * 60 * 60 * 24));
+        const daysLeft = Math.max(0, DEMO_DAYS - elapsed);
+        
+        const demoBanner = document.getElementById('demo-banner');
+        if (demoBanner) {
+            if (daysLeft > 0) {
+                demoBanner.textContent = `🔷 DEMO — Quedan ${daysLeft} día${daysLeft !== 1 ? 's' : ''} de prueba`;
+                demoBanner.className = 'demo-banner';
+            } else {
+                demoBanner.textContent = '🔶 DEMO EXPIRADA — Funcionalidad limitada. Contacta para versión completa.';
+                demoBanner.className = 'demo-banner expired';
+            }
+        }
+    }
+}, 60000);
+
+// Animaciones CSS para banners
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes slideDown {
+        from { transform: translateY(-100%); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes slideUp {
+        from { transform: translateY(0); opacity: 1; }
+        to { transform: translateY(-100%); opacity: 0; }
+    }
+`;
+document.head.appendChild(style);
