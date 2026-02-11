@@ -1,5 +1,5 @@
 // === 🔄 SISTEMA DE ACTUALIZACIÓN AUTOMÁTICA ===
-const APP_VERSION = '2026.02.12'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!
+const APP_VERSION = '2026.02.11'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!
 (function() {
     // Verificar versión al cargar
     const storedVersion = localStorage.getItem('app_version');
@@ -152,7 +152,7 @@ const APP_VERSION = '2026.02.12'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLO
 })();
 
 // === ⚙️ SISTEMA DEMO ===
-const DEMO_ENABLED = false;   // ← Cambia a false para desactivar DEMO y ocultar el banner
+const DEMO_ENABLED = true;   // ← Cambia a false para desactivar DEMO y ocultar el banner
 const DEMO_DAYS = 7;        // Días de prueba
 
 function initDemo() {
