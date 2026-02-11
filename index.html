@@ -7,28 +7,31 @@
     <meta name="description" content="Horarios de autobuses de Lebrija - Consulta rápida y actualizada">
     <title>Autobuses Lebrija</title>
     
-    <!-- Favicon OBLIGATORIO (múltiples tamaños) -->
+    <!-- Favicon OBLIGATORIO -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     
-    <!-- Apple Touch Icon (¡CRÍTICO! 180x180 con fondo SÓLIDO) -->
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    
-    <!-- Manifest (debe estar después de los favicons) -->
+    <!-- Manifest -->
     <link rel="manifest" href="manifest.json">
     
-    <!-- Meta Tags para iOS -->
+    <!-- Apple Touch Icon (¡CRÍTICO!) -->
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+ 
+    <!-- iOS Meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Autobuses Lebrija">
     
+    <!-- Manifest (debe estar después de los favicons) -->
+    <link rel="manifest" href="manifest.json">
+        
     <!-- Open Graph / Facebook (para compartir) -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tu-usuario.github.io/buslebrija/">
+    <meta property="og:url" content=https://erwoo11.github.io/buslebrija/">
     <meta property="og:title" content="Autobuses Lebrija">
     <meta property="og:description" content="Consulta rápida de horarios de autobuses de Lebrija">
-    <meta property="og:image" content="https://tu-usuario.github.io/buslebrija/icons/icon-512x512.png">
+    <meta property="og:image" content="https://erwoo11.github.io/buslebrija/logo-512.png">
     <meta property="og:image:width" content="512">
     <meta property="og:image:height" content="512">
     <meta property="og:image:type" content="image/png">
@@ -36,23 +39,22 @@
     
     <!-- Twitter Cards (para compartir) -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://tu-usuario.github.io/buslebrija/">
+    <meta name="twitter:url" content="https://erwoo11.github.io/buslebrija/">
     <meta name="twitter:title" content="Autobuses Lebrija">
     <meta name="twitter:description" content="Consulta rápida de horarios de autobuses de Lebrija">
-    <meta name="twitter:image" content="https://tu-usuario.github.io/buslebrija/icons/icon-512x512.png">
+    <meta name="twitter:image" content="https://erwoo11.github.io/buslebrija/logo-512.png">
     
     <link rel="stylesheet" href="styles.css">
-    
-    <!-- Preconexión a recursos externos -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <!-- Banner de actualización (se crea dinámicamente) -->
+    <!-- ✅ BANNER DEMO OBLIGATORIO (DEBE EXISTIR) -->
+    <div id="demo-banner" class="demo-banner"></div>
+    
+    <!-- ✅ BANNER DE ACTUALIZACIÓN (OPCIONAL PERO RECOMENDADO) -->
     <div id="update-banner-container"></div>
     
-    <!-- Banner DEMO -->
-    <div id="demo-banner" class="demo-banner"></div>
+    <!-- ✅ BANNER DE CONEXIÓN (PARA OFFLINE) -->
+    <div id="connection-status"></div>
 
     <div class="container">
         <header class="header">
@@ -122,206 +124,35 @@
         </footer>
     </div>
 
-    <!-- Service Worker Registration & Update Handler -->
-    <script>
-        // === 🔄 SISTEMA DE ACTUALIZACIÓN AUTOMÁTICA ===
-        document.addEventListener('DOMContentLoaded', () => {
-            // Verificar versión de la aplicación
-            const CURRENT_APP_VERSION = '2026.02.11'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!
-            const storedVersion = localStorage.getItem('app_version');
-            
-            if (storedVersion && storedVersion !== CURRENT_APP_VERSION) {
-                console.log(`[UPDATE] Versión desactualizada: ${storedVersion} → ${CURRENT_APP_VERSION}`);
-                localStorage.setItem('app_version', CURRENT_APP_VERSION);
-                
-                // Mostrar banner de actualización
-                setTimeout(() => {
-                    showUpdateBanner('Nueva versión disponible. Recarga para ver las mejoras.');
-                }, 1000);
-            } else {
-                localStorage.setItem('app_version', CURRENT_APP_VERSION);
-            }
-            
-            // Registrar Service Worker
-            if ('serviceWorker' in navigator) {
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('/buslebrija/service-worker.js')
-                        .then(registration => {
-                            console.log('[SW] Service Worker registrado correctamente');
-                            
-                            // Verificar actualizaciones cada 30 segundos
-                            setInterval(() => {
-                                registration.update();
-                            }, 30000);
-                            
-                            // Escuchar cuando haya una nueva versión instalada
-                            registration.addEventListener('updatefound', () => {
-                                const newWorker = registration.installing;
-                                
-                                newWorker.addEventListener('statechange', () => {
-                                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                                        console.log('[SW] Nueva versión instalada y esperando');
-                                        showUpdateBanner('✨ Nueva versión disponible. ¿Actualizar ahora?');
-                                    }
-                                });
-                            });
-                            
-                            // Escuchar cambio de controlador (nuevo SW activado)
-                            navigator.serviceWorker.addEventListener('controllerchange', () => {
-                                console.log('[SW] Nueva versión activada');
-                                showUpdateBanner('✅ Aplicación actualizada correctamente - Disfruta de las nuevas mejoras!', true);
-                                
-                                // Recargar automáticamente después de 3 segundos para aplicar cambios
-                                setTimeout(() => {
-                                    window.location.reload(true);
-                                }, 3000);
-                            });
-                        })
-                        .catch(error => {
-                            console.error('[SW] Error al registrar Service Worker:', error);
-                            
-                            // Mostrar advertencia si falla el registro en HTTPS
-                            if (window.location.protocol === 'https:') {
-                                setTimeout(() => {
-                                    showWarningBanner('⚠️ Versión desactualizada. Recarga la página para ver mejoras.');
-                                }, 3000);
-                            }
-                        });
-                });
-            }
-        });
-        
-        // Función para mostrar banner de actualización
-        function showUpdateBanner(message, isSuccess = false) {
-            // Eliminar banner anterior si existe
-            const existingBanner = document.getElementById('update-banner');
-            if (existingBanner) existingBanner.remove();
-            
-            const banner = document.createElement('div');
-            banner.id = 'update-banner';
-            banner.style.cssText = `
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                background: ${isSuccess ? 'linear-gradient(135deg, #4CAF50, #2E7D32)' : 'linear-gradient(135deg, #2196F3, #1976D2)'};
-                color: white;
-                text-align: center;
-                padding: 15px 20px;
-                font-weight: bold;
-                font-size: 1.1rem;
-                z-index: 10001;
-                box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 15px;
-                animation: slideDown 0.3s ease;
-                flex-wrap: wrap;
-            `;
-            
-            banner.innerHTML = `
-                <span>${isSuccess ? '✅' : '✨'}</span>
-                <span style="flex: 1; min-width: 200px;">${message}</span>
-                ${!isSuccess ? `
-                    <button id="reload-now-btn" style="
-                        background: white;
-                        color: #1976D2;
-                        border: none;
-                        padding: 8px 20px;
-                        border-radius: 20px;
-                        font-weight: bold;
-                        cursor: pointer;
-                        margin-left: 15px;
-                        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-                        min-width: 120px;
-                    ">Actualizar ahora</button>
-                    <button id="reload-later-btn" style="
-                        background: rgba(255,255,255,0.2);
-                        color: white;
-                        border: 1px solid white;
-                        padding: 8px 15px;
-                        border-radius: 20px;
-                        cursor: pointer;
-                        margin-left: 10px;
-                        min-width: 100px;
-                    ">Más tarde</button>
-                ` : ''}
-            `;
-            
-            document.getElementById('update-banner-container').appendChild(banner);
-            
-            // Event listeners para los botones
-            if (!isSuccess) {
-                document.getElementById('reload-now-btn').addEventListener('click', () => {
-                    window.location.reload(true);
-                });
-                
-                document.getElementById('reload-later-btn').addEventListener('click', () => {
-                    banner.style.animation = 'slideUp 0.3s ease';
-                    setTimeout(() => banner.remove(), 300);
-                });
-                
-                // Auto-recargar después de 60 segundos si no se interactúa
-                setTimeout(() => {
-                    if (document.getElementById('update-banner')) {
-                        console.log('[SW] Recargando automáticamente para aplicar actualización');
-                        window.location.reload(true);
-                    }
-                }, 60000);
-            } else {
-                // Auto-ocultar después de 5 segundos para éxito
-                setTimeout(() => {
-                    banner.style.animation = 'slideUp 0.3s ease';
-                    setTimeout(() => banner.remove(), 300);
-                }, 5000);
-            }
-        }
-        
-        // Función para mostrar advertencia
-        function showWarningBanner(message) {
-            const warning = document.createElement('div');
-            warning.style.cssText = `
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-                background: #ff9800;
-                color: white;
-                padding: 15px;
-                border-radius: 10px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-                z-index: 10000;
-                max-width: 300px;
-                font-weight: bold;
-                text-align: center;
-                animation: slideUp 0.3s ease;
-            `;
-            warning.textContent = message;
-            document.body.appendChild(warning);
-            
-            // Auto-ocultar después de 8 segundos
-            setTimeout(() => {
-                warning.style.animation = 'slideDown 0.3s ease';
-                setTimeout(() => warning.remove(), 300);
-            }, 8000);
-        }
-        
-        // Animaciones CSS
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes slideDown {
-                from { transform: translateY(-100%); opacity: 0; }
-                to { transform: translateY(0); opacity: 1; }
-            }
-            @keyframes slideUp {
-                from { transform: translateY(0); opacity: 1; }
-                to { transform: translateY(-100%); opacity: 0; }
-            }
-        `;
-        document.head.appendChild(style);
-    </script>
-    
-    <!-- Cargar script principal -->
+    <!-- ✅ SCRIPT PRINCIPAL (AL FINAL DEL BODY) -->
     <script src="script.js"></script>
+    
+    <!-- ✅ ESTILOS PARA ANIMACIONES (OPCIONAL) -->
+    <style>
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(168, 197, 181, 0.3);
+            border-top-color: #A8C5B5;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
+            gap: 15px;
+        }
+        .loading p {
+            color: #A8C5B5;
+            font-size: 1.1rem;
+        }
+    </style>
 </body>
 </html>
