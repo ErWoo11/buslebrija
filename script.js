@@ -1,5 +1,5 @@
 // === 🔄 SISTEMA DE ACTUALIZACIÓN AUTOMÁTICA ===
-const APP_VERSION = '2026.02.11'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!
+const APP_VERSION = '2026.02.12'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLOY!
 (function() {
     // Verificar versión al cargar
     const storedVersion = localStorage.getItem('app_version');
@@ -93,17 +93,16 @@ const APP_VERSION = '2026.02.11'; // ⚠️ ¡ACTUALIZA ESTA FECHA EN CADA DEPLO
                                 });
                                 
                                 document.getElementById('dismiss-btn').addEventListener('click', () => {
-                                    updateBanner.style.animation = 'slideUp 0.3s ease';
-                                    setTimeout(() => updateBanner.remove(), 300);
+                                    window.location.reload(true);
                                 });
                                 
-                                // Auto-recargar después de 60 segundos si no se interactúa
+                                // Auto-recargar después de 30 segundos si no se interactúa
                                 setTimeout(() => {
                                     if (document.getElementById('update-banner')) {
                                         console.log('[SW] Recargando automáticamente para aplicar actualización');
                                         window.location.reload(true);
                                     }
-                                }, 60000);
+                                }, 30000);
                             }
                         });
                     });
